@@ -8,7 +8,7 @@ Mindful Coffee is an iOS app that helps you track your caffeine consumption and 
 - Plan your consumption for better sleep quality  
 - Beautiful and intuitive design  
 
-## Contributing 
+## Support & Feedback 
 We welcome feature requests and bug reports! Please use the **Issues** tab to submit your feedback:  
 - **Report a Bug**: [Open an Issue](https://github.com/aloth/mindful-coffee/issues/new?template=bug_report.md)  
 - **Suggest a Feature**: [Open a Feature Request](https://github.com/aloth/mindful-coffee/issues/new?template=feature_request.md)  
