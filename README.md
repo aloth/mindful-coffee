@@ -1,4 +1,4 @@
-# Mindful Coffee ☕  
+# Mindful Coffee ☕
 
 **Smartly track your caffeine, understand its impact, and optimize your energy & sleep.**
 
@@ -6,7 +6,8 @@ Mindful Coffee is a smart iOS app designed to help you monitor your daily caffei
 
 ## ✨ Key Features
 
-*   **Effortless Logging:** Quickly record your caffeine consumption with a user-friendly interface and a customizable list of drinks.
+*   **Effortless & Detailed Logging:** Quickly record your caffeine consumption with a user-friendly interface. After logging, you're brought back to the "Today" screen for an immediate overview. Customize your beverage list with:
+    *   **Smart Sorting Options:** Sort your drink list by "Last Used" or "Most Used" for even faster logging.
 *   **Intelligent Sleep Prediction:** See a real-time estimate of when your caffeine levels will be low enough for quality sleep based on your intake and personalized settings.
 *   **"What-If" Scenarios:** Instantly preview how an additional drink might affect your predicted sleep time *before* you consume it, right from the drink selection list.
 *   **Personalized Metabolism:** Tailor caffeine decay calculations precisely to your body with adjustable:
@@ -17,11 +18,12 @@ Mindful Coffee is a smart iOS app designed to help you monitor your daily caffei
     *   **Delay Before Decay** (accounts for absorption time).
     *   Multiple **Decay Models** (e.g., Standard Half-Life, Linear).
     *   **Maximum Daily Intake** limit.
-*   **Smart Reminders (Optional):** Receive a gentle nudge only on days you haven't logged any caffeine yet.
-*   **Sleep Correlation Insights:** Analyze how different daily caffeine amounts correlate with your sleep duration imported from Apple Health.
+*   **Sleep Correlation Insights:** Analyze how different daily caffeine amounts correlate with your sleep duration imported from Apple Health. You can now also **customize the caffeine amount thresholds** that define "Little," "Some," "Plenty," etc., in this view for more meaningful personal insights.
+*   **Smart Daily Log Reminder (Optional):** Receive a gentle nudge only on days you haven't logged any caffeine yet.
 *   **HealthKit Integration:**
-    *   **Write** caffeine consumption automatically to Apple Health.
+    *   **Write** caffeine consumption and drink volume (as water) automatically to Apple Health.
     *   **Read** sleep analysis data for deeper correlations and insights.
+    *   **Optional Import:** Import previously logged 3rd party caffeine data from Apple Health.
 *   **Data Management:** **Import** and **Export** your complete consumption history via CSV files.
 *   **Customizable:** Set preferred bedtimes and choose your favorite app theme (System, Day, Night).
 
@@ -35,11 +37,11 @@ Here's a glimpse of Mindful Coffee in action:
 </p>
 <p align="center">
   <img src="screenshots/mindful-coffee-app-log-drink.png" alt="Mindful Coffee drink list with icons, caffeine content, and 'what-if' sleep time previews" width="250"/>
-  <br/><em>Quickly select a drink from your customizable list. Each option instantly shows its caffeine level and a <strong>smart preview</strong> of how it might affect your sleep if consumed now.</em>
+  <br/><em>Quickly select a drink from your customizable list, now with "Most Used" and "Last Used" sorting. Each option instantly shows its caffeine level and a <strong>smart preview</strong> of how it might affect your sleep if consumed now.</em>
 </p>
 <p align="center">
   <img src="screenshots/mindful-coffee-app-sleep-insights-dark-mode.png" alt="Mindful Coffee Caffeine & Sleep analysis screen in dark mode, showing average sleep duration based on daily caffeine intake ranges" width="250"/>
-  <br/><em>Analyze your personal trends on the Caffeine & Sleep screen. See how different levels of daily caffeine intake correlate with your average sleep duration, based on your logged data and HealthKit sleep analysis.</em>
+  <br/><em>Analyze your personal trends on the Caffeine & Sleep screen, now with customizable caffeine categories. See how different levels of daily caffeine intake correlate with your average sleep duration, based on your logged data and HealthKit sleep analysis.</em>
 </p>
 
 ## 🚀 Get the App
