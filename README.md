@@ -10,6 +10,7 @@ Mindful Coffee is a smart iOS app designed to help you monitor your daily caffei
     *   **Smart Sorting Options:** Sort your drink list by "Last Used" or "Most Used" for even faster logging.
 *   **Intelligent Sleep Prediction:** See a real-time estimate of when your caffeine levels will be low enough for quality sleep based on your intake and personalized settings.
 *   **"What-If" Scenarios:** Instantly preview how an additional drink might affect your predicted sleep time *before* you consume it, right from the drink selection list.
+*   **NEW! Personal Metabolism Assistant:** Answer a series of guided questions about your caffeine experiences. The assistant then analyzes your responses to suggest personalized values for your sensitivity, half-life, thresholds, and decay delay, helping you fine-tune the app for maximum accuracy.
 *   **Personalized Metabolism:** Tailor caffeine decay calculations precisely to your body with adjustable:
     *   **Caffeine Sensitivity** (Low, Medium, High).
     *   **Sleep Readiness Threshold** (the caffeine level where you feel ready for sleep).
