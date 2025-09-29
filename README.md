@@ -4,6 +4,8 @@
 
 Mindful Coffee is a smart iOS app designed to help you monitor your daily caffeine intake and discover its deep connection to your body's natural energy curve. Log your coffee, tea, and other caffeinated drinks to gain valuable insights into your **cortisol rhythm**, sleep patterns, and overall well-being. Empower yourself to make smarter choices for more restful nights and productive, focused days.
 
+Beautifully designed with Apple's **Liquid Glass** aesthetic in mind, Mindful Coffee looks fantastic on your latest iPhone with its modern, translucent interface elements and smooth animations that feel right at home in iOS.
+
 ## ✨ Key Features
 
 * **Effortless & Detailed Logging:** Quickly record your caffeine consumption with a user-friendly interface. After logging, you're brought back to the "Today" screen for an immediate overview. Customize your beverage list with:
