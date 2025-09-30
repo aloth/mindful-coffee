@@ -26,20 +26,91 @@ Beautifully designed with Apple's **Liquid Glass** aesthetic in mind, Mindful Co
 
 ## 📱 Screenshots
 
-Here's a glimpse of Mindful Coffee in action:
+<table>
+<tr>
+<td width="50%">
 
-<p align="center">
-  <img src="https://github.com/aloth/mindful-coffee/blob/main/screenshots/mindful-coffee-app-main-screen.png?raw=true" alt="Mindful Coffee main screen showing caffeine chart, current level, daily total, and sleep prediction" width="250"/>
-  <br/><em>The main 'Today' screen visualizes your caffeine decay and now your underlying cortisol curve, helping you make smarter decisions about your next coffee.</em>
-</p>
-<p align="center">
-  <img src="https://github.com/aloth/mindful-coffee/blob/main/screenshots/mindful-coffee-app-log-drink.png?raw=true" alt="Mindful Coffee drink list with icons, caffeine content, and 'what-if' sleep time previews" width="250"/>
-  <br/><em>Quickly select a drink from your customizable list. Each option instantly shows its caffeine level and a <strong>smart preview</strong> of how it might affect your sleep if consumed now.</em>
-</p>
-<p align="center">
-  <img src="https://github.com/aloth/mindful-coffee/blob/main/screenshots/mindful-coffee-app-sleep-insights-dark-mode.png?raw=true" alt="Mindful Coffee Caffeine & Sleep analysis screen in dark mode, showing average sleep duration based on daily caffeine intake ranges" width="250"/>
-  <br/><em>Analyze your personal trends on the Caffeine & Sleep screen. See how different levels of daily caffeine intake correlate with your average sleep duration, based on your logged data and HealthKit sleep analysis.</em>
-</p>
+### ☕ Real-Time Caffeine & Cortisol Tracking
+Visualize your caffeine decay curve alongside your body's natural cortisol rhythm. The intelligent assistant provides personalized recommendations for optimal caffeine timing to maximize energy and minimize sleep disruption.
+
+<img src="screenshots/mindful-coffee-caffeine-tracker-cortisol-rhythm-chart.png" alt="Mindful Coffee app showing real-time caffeine decay chart with cortisol rhythm curve and sleep prediction" width="400"/>
+
+</td>
+<td width="50%">
+
+### 📊 Data-Driven Sleep Insights
+Analyze how your caffeine intake affects sleep quality across different consumption levels. Track correlations between daily caffeine amounts and sleep duration with personalized thresholds for meaningful insights.
+
+<img src="screenshots/caffeine-sleep-correlation-analysis-ios-app.png" alt="Caffeine and sleep correlation analysis showing average sleep duration across different caffeine intake levels" width="400"/>
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### ⚡ Quick Logging with Smart Predictions
+Log your coffee, tea, or energy drinks instantly with an intuitive interface. See real-time predictions of how each beverage will affect your sleep readiness before you drink it.
+
+<img src="screenshots/coffee-tea-caffeine-logging-interface-smart-predictions.png" alt="Quick caffeine logging interface with beverage icons, caffeine amounts, and smart sleep impact predictions" width="400"/>
+
+</td>
+<td width="50%">
+
+### 🧬 Personal Metabolism Assistant
+Customize the app to match your unique caffeine metabolism. Adjust sensitivity, half-life, sleep thresholds, and cortisol parameters for precise tracking tailored to your body's response.
+
+<img src="screenshots/cortisol-rhythm-settings-personal-metabolism-assistant.png" alt="Personal metabolism assistant and cortisol rhythm customization settings for precise caffeine tracking" width="400"/>
+
+</td>
+</tr>
+</table>
+
+## 🚀 Get the App
+
+Download Mindful Coffee now and take control of your caffeine habits:
+👉 [**Available on the App Store**](https://apps.apple.com/us/app/mindful-coffee-tracks-caffeine/id6742878005?platform=iphone)
+
+## 🔬 Research & Collaboration
+
+The cortisol modeling feature in this app is grounded in established scientific principles from chronobiology and longevity research. For a detailed overview of the underlying science, please see the [**Research Background document**](./RESEARCH_BACKGROUND.md).
+
+I am actively interested in research collaborations. If you are a researcher or student working in a related field, please reach out to `support@alexloth.com`.
+
+### Citing the App
+
+If you use Mindful Coffee in your research, please cite it as follows:
+
+```bibtex
+@software{Loth2025MindfulCoffeeApp,
+  author       = {Loth, Alexander},
+  title        = {Mindful Coffee: Caffeine Log & Cortisol Rhythm},
+  year         = {2025},
+  version      = {4.5},
+  publisher    = {Alexander Loth},
+  url          = {https://apps.apple.com/us/app/mindful-coffee-tracks-caffeine/id6742878005}
+}
+```
+
+## 🔒 Privacy
+
+Your privacy is paramount. Your consumption data is stored securely and locally on your device using SwiftData. Any HealthKit data is accessed only with your explicit permission according to Apple's guidelines. **All** calculations, analysis, **and modeling run entirely locally on your device** and are never shared or sent to a server.
+
+Read the full [Privacy Policy](https://github.com/aloth/mindful-coffee/blob/main/privacy_policy.md).
+
+## 🌍 Localization
+
+Mindful Coffee is available in English, German, Spanish, French, Chinese, and Japanese.
+
+## 🛠️ Support & Feedback
+
+We welcome your feedback and ideas! Help us make Mindful Coffee even better:
+
+  * **Report a Bug**: [Open an Issue](https://github.com/aloth/mindful-coffee/issues/new?template=bug_report.md)
+  * **Suggest a Feature**: [Open a Feature Request](https://github.com/aloth/mindful-coffee/issues/new?template=feature_request.md)
+
+-----
+
+Start tracking smarter and feel better with Mindful Coffee!
 
 ## 🚀 Get the App
 
