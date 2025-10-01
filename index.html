@@ -28,9 +28,6 @@
     <title>Mindful Coffee - Smart Caffeine Tracker & Cortisol Rhythm App for iOS</title>
     
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
@@ -345,6 +342,11 @@
             
             <div class="footer-bottom">
                 <p class="footer-copyright">© 2025 Alexander Loth. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="https://alexloth.com/impressum/" class="footer-link" target="_blank">Imprint</a>
+                    <span class="footer-separator">•</span>
+                    <a href="https://alexloth.com/cookie-policy-eu/" class="footer-link" target="_blank">Cookie Policy</a>
+                </div>
                 <div class="footer-social">
                     <a href="https://github.com/aloth/mindful-coffee" class="social-link" target="_blank" aria-label="GitHub">
                         <svg viewBox="0 0 24 24" fill="currentColor">
@@ -355,6 +357,56 @@
             </div>
         </div>
     </footer>
+
+    <!-- Cookie Consent Banner (GDPR/TTDSG compliant) -->
+    <div id="cookie-consent-banner" class="cookie-banner" style="display: none;">
+        <div class="cookie-backdrop"></div>
+        <div class="cookie-content">
+            <div class="cookie-header">
+                <h3 class="cookie-title">🍪 Cookie-Einstellungen / Cookie Settings</h3>
+                <button class="cookie-close" onclick="closeCookieBanner()" aria-label="Close">×</button>
+            </div>
+            
+            <div class="cookie-description">
+                <p><strong>Deutsch:</strong> Wir verwenden Cookies, um Ihre Website-Erfahrung zu verbessern. Notwendige Cookies sind für die Grundfunktionen der Website erforderlich. Analytische Cookies helfen uns, die Nutzung zu verstehen und die Website zu optimieren.</p>
+                <p><strong>English:</strong> We use cookies to improve your website experience. Necessary cookies are required for basic website functionality. Analytics cookies help us understand usage and optimize the website.</p>
+            </div>
+            
+            <div class="cookie-options">
+                <div class="cookie-option">
+                    <label class="cookie-label">
+                        <input type="checkbox" id="necessary-cookies" checked disabled>
+                        <div class="cookie-option-content">
+                            <span class="cookie-option-title">Notwendige Cookies / Necessary Cookies</span>
+                            <span class="cookie-option-desc">Erforderlich für Grundfunktionen / Required for basic functionality</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="cookie-option">
+                    <label class="cookie-label">
+                        <input type="checkbox" id="analytics-cookies">
+                        <div class="cookie-option-content">
+                            <span class="cookie-option-title">Analytische Cookies / Analytics Cookies</span>
+                            <span class="cookie-option-desc">Helfen uns die Nutzung zu verstehen / Help us understand usage (Optional)</span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+            
+            <div class="cookie-buttons">
+                <button onclick="acceptAllCookies()" class="btn-primary cookie-btn">
+                    Alle akzeptieren / Accept All
+                </button>
+                <button onclick="acceptNecessaryOnly()" class="btn-secondary cookie-btn">
+                    Nur Notwendige / Necessary Only
+                </button>
+                <a href="https://alexloth.com/cookie-policy-eu/" target="_blank" class="btn-text cookie-btn">
+                    Mehr erfahren / Learn more →
+                </a>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
