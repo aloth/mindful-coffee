@@ -68,7 +68,12 @@ Customize the app to match your unique caffeine metabolism. Adjust sensitivity, 
 ## 🚀 Get the App
 
 Download Mindful Coffee now and take control of your caffeine habits:
+
 👉 [**Available on the App Store**](https://apps.apple.com/us/app/mindful-coffee-tracks-caffeine/id6742878005?platform=iphone)
+
+🌐 [**Visit the Official Website**](http://mindfulcoffee.alexloth.com) - Learn more about features, science, and updates
+
+-----
 
 ## 🔬 Research & Collaboration
 
@@ -101,6 +106,8 @@ Read the full [Privacy Policy](https://github.com/aloth/mindful-coffee/blob/main
 
 Mindful Coffee is available in English, German, Spanish, French, Chinese, and Japanese.
 
+-----
+
 ## 🛠️ Support & Feedback
 
 We welcome your feedback and ideas! Help us make Mindful Coffee even better:
@@ -110,33 +117,9 @@ We welcome your feedback and ideas! Help us make Mindful Coffee even better:
 
 -----
 
-Start tracking smarter and feel better with Mindful Coffee!
+**Start tracking smarter and feel better with Mindful Coffee!**
 
-## 🚀 Get the App
-
-Download Mindful Coffee now and take control of your caffeine habits:
-👉 [**Available on the App Store**](https://apps.apple.com/us/app/mindful-coffee-tracks-caffeine/id6742878005?platform=iphone)
-
-## 🔬 Research & Collaboration
-
-The cortisol modeling feature in this app is grounded in established scientific principles from chronobiology and longevity research. For a detailed overview of the underlying science, please see the [**Research Background document**](./RESEARCH_BACKGROUND.md).
-
-I am actively interested in research collaborations. If you are a researcher or student working in a related field, please reach out to `support@alexloth.com`.
-
-### Citing the App
-
-If you use Mindful Coffee in your research, please cite it as follows:
-
-```bibtex
-@software{Loth2025MindfulCoffeeApp,
-  author       = {Loth, Alexander},
-  title        = {Mindful Coffee: Caffeine Log & Cortisol Rhythm},
-  year         = {2025},
-  version      = {4.5},
-  publisher    = {Alexander Loth},
-  url          = {[https://apps.apple.com/us/app/mindful-coffee-tracks-caffeine/id6742878005](https://apps.apple.com/us/app/mindful-coffee-tracks-caffeine/id6742878005)}
-}
-````
+👉 [Download on the App Store](https://apps.apple.com/us/app/mindful-coffee-tracks-caffeine/id6742878005?platform=iphone) | 🌐 [Visit Website](http://mindfulcoffee.alexloth.com)
 
 ## 🔒 Privacy
 
