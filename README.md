@@ -8,9 +8,12 @@ Beautifully designed with Apple's **Liquid Glass** aesthetic in mind, Mindful Co
 
 ## ✨ Key Features
 
+* **NEW! Daily Logging Streaks:** Stay motivated and consistent with your tracking goals through visual streak counters that celebrate your logging consistency.
+* **NEW! Sleep Insights Card:** View your last night's sleep duration and caffeine intake at a glance, with comparison to your average sleep patterns.
+* **NEW! Grouped History View:** Navigate your consumption history effortlessly with the current month fully expanded and previous months neatly summarized for quick reference.
 * **Effortless & Detailed Logging:** Quickly record your caffeine consumption with a user-friendly interface. After logging, you're brought back to the "Today" screen for an immediate overview. Customize your beverage list with:
     * **Smart Sorting Options:** Sort your drink list by "Last Used" or "Most Used" for even faster logging.
-* **NEW! Cortisol Rhythm Modeling:** See your body's natural energy curve (the Cortisol Awakening Response or CAR) to optimize your caffeine timing for better focus and well-being. Understand how each drink impacts this vital rhythm.
+* **Cortisol Rhythm Modeling:** See your body's natural energy curve (the Cortisol Awakening Response or CAR) to optimize your caffeine timing for better focus and well-being. Understand how each drink impacts this vital rhythm.
 * **Intelligent Sleep Prediction:** See a real-time estimate of when your caffeine levels will be low enough for quality sleep based on your intake and personalized settings.
 * **"What-If" Scenarios:** Instantly preview how an additional drink might affect your predicted sleep time *before* you consume it, right from the drink selection list.
 * **Personal Metabolism Assistant:** Answer a series of guided questions about your caffeine experiences. The assistant then analyzes your responses to suggest personalized values for your sensitivity, half-life, and thresholds, helping you fine-tune the app for maximum accuracy.
@@ -90,7 +93,7 @@ If you use Mindful Coffee in your research, please cite it as follows:
   author       = {Loth, Alexander},
   title        = {Mindful Coffee: Caffeine Log & Cortisol Rhythm},
   year         = {2025},
-  version      = {4.5},
+  version      = {5.0},
   publisher    = {Alexander Loth},
   url          = {https://apps.apple.com/us/app/mindful-coffee-tracks-caffeine/id6742878005}
 }
