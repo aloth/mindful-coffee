@@ -105,9 +105,20 @@ Your privacy is paramount. Your consumption data is stored securely and locally 
 
 Read the full [Privacy Policy](https://github.com/aloth/mindful-coffee/blob/main/privacy_policy.md).
 
+## 📖 FAQ & Documentation
+
+Have questions about caffeine science, app features, or troubleshooting? Check out the comprehensive FAQ:
+
+👉 [**Frequently Asked Questions (FAQ)**](./FAQ.md)
+
+Also available in: [Deutsch](./FAQ_de.md) | [Español](./FAQ_es.md) | [Français](./FAQ_fr.md) | [日本語](./FAQ_ja.md) | [简体中文](./FAQ_zh-Hans.md)
+
 ## 🌍 Localization
 
 Mindful Coffee is available in English, German, Spanish, French, Chinese, and Japanese.
+
+**README in other languages:**
+[Deutsch](./README_de.md) | [Español](./README_es.md) | [Français](./README_fr.md) | [日本語](./README_ja.md) | [简体中文](./README_zh-Hans.md)
 
 -----
 
