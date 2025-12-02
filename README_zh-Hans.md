@@ -82,7 +82,7 @@ Mindful Coffee 采用 Apple **Liquid Glass** 设计美学，在最新 iPhone 上
 
 本应用的皮质醇建模功能基于时间生物学和长寿研究领域的成熟科学原理。详细的科学背景请参阅 [**Research Background 文档（英文）**](./RESEARCH_BACKGROUND.md)。
 
-我非常欢迎研究合作。如果你是相关领域的研究人员或学生，请通过 `support@alexloth.com` 与我联系。
+我非常欢迎研究合作。如果你是相关领域的研究人员或学生，请通过 `support+mindfulcoffee@alexloth.com` 与我联系。
 
 ### 引用本应用
 

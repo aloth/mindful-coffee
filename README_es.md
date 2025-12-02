@@ -82,7 +82,7 @@ Descarga Mindful Coffee ahora y toma el control de tus hábitos de cafeína:
 
 La función de modelado del cortisol de esta app se basa en principios científicos consolidados de la cronobiología y la investigación sobre longevidad. Para una descripción detallada de los fundamentos científicos, consulta el [**documento Research Background (en inglés)**](./RESEARCH_BACKGROUND.md).
 
-Estoy abierto a colaboraciones de investigación. Si eres investigador/a o estudiante en un campo relacionado, no dudes en escribirme a `support@alexloth.com`.
+Estoy abierto a colaboraciones de investigación. Si eres investigador/a o estudiante en un campo relacionado, no dudes en escribirme a `support+mindfulcoffee@alexloth.com`.
 
 ### Citar la app
 

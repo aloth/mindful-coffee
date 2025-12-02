@@ -82,7 +82,7 @@ Hol dir Mindful Coffee und übernimm die Kontrolle über deine Koffein-Gewohnhei
 
 Das Cortisol-Modell in dieser App basiert auf fundierten wissenschaftlichen Erkenntnissen aus der Chronobiologie und der Langlebigkeitsforschung. Eine ausführliche Übersicht der zugrundeliegenden Wissenschaft findest du im [**Research Background (englisch)**](./RESEARCH_BACKGROUND.md).
 
-Ich bin offen für Forschungskooperationen. Wenn du Wissenschaftler:in oder Student:in in einem verwandten Fachgebiet bist, melde dich gern unter `support@alexloth.com`.
+Ich bin offen für Forschungskooperationen. Wenn du Wissenschaftler:in oder Student:in in einem verwandten Fachgebiet bist, melde dich gern unter `support+mindfulcoffee@alexloth.com`.
 
 ### App zitieren
 

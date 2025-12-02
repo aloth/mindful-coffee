@@ -82,7 +82,7 @@ Apple の **Liquid Glass** デザインを取り入れた Mindful Coffee は、�
 
 このアプリのコルチゾールモデリング機能は、時間生物学と長寿研究における確立された科学的原則に基づいています。詳しい科学的背景については [**Research Background ドキュメント（英語）**](./RESEARCH_BACKGROUND.md) をご覧ください。
 
-研究者や学生の方とのコラボレーションを歓迎しています。関連分野で研究されている方は、`support@alexloth.com` までお気軽にご連絡ください。
+研究者や学生の方とのコラボレーションを歓迎しています。関連分野で研究されている方は、`support+mindfulcoffee@alexloth.com` までお気軽にご連絡ください。
 
 ### アプリの引用
 

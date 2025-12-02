@@ -82,7 +82,7 @@ Download Mindful Coffee now and take control of your caffeine habits:
 
 The cortisol modeling feature in this app is grounded in established scientific principles from chronobiology and longevity research. For a detailed overview of the underlying science, please see the [**Research Background document**](./RESEARCH_BACKGROUND.md).
 
-I am actively interested in research collaborations. If you are a researcher or student working in a related field, please reach out to `support@alexloth.com`.
+I am actively interested in research collaborations. If you are a researcher or student working in a related field, please reach out to `support+mindfulcoffee@alexloth.com`.
 
 ### Citing the App
 

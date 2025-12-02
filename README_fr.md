@@ -82,7 +82,7 @@ Téléchargez Mindful Coffee maintenant et prenez le contrôle de vos habitudes 
 
 La fonctionnalité de modélisation du cortisol de cette application repose sur des principes scientifiques établis issus de la chronobiologie et de la recherche sur la longévité. Pour un aperçu détaillé des fondements scientifiques, consultez le [**document Research Background (en anglais)**](./RESEARCH_BACKGROUND.md).
 
-Je suis ouvert aux collaborations de recherche. Si vous êtes chercheur·se ou étudiant·e dans un domaine connexe, n'hésitez pas à me contacter à `support@alexloth.com`.
+Je suis ouvert aux collaborations de recherche. Si vous êtes chercheur·se ou étudiant·e dans un domaine connexe, n'hésitez pas à me contacter à `support+mindfulcoffee@alexloth.com`.
 
 ### Citer l'application
 
