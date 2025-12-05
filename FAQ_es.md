@@ -159,7 +159,7 @@ Tu **hora preferida para dormir** es la hora a la que quieres **quedarte dormido
 - ni cuando empiezas tu rutina nocturna,
 - ni cuando coges el móvil para hacer scroll.
 
-Ve a **Settings → Preferred Bedtime** y elige esa hora lo más precisa posible.
+Ve a **Me → Preferred Bedtime** y elige esa hora lo más precisa posible.
 
 **Por qué la precisión importa:**  
 La app calcula tu **“Sleep‑Ready Time”**: el momento en que tu nivel de cafeína es lo bastante bajo como para permitir un sueño de calidad. Si la hora de dormir está mal, las predicciones también lo estarán.
@@ -422,13 +422,102 @@ Si tomas café justo en ese pico:
 
 **Cómo usarlo en la app:**
 
-1. Activa el Cortisol Rhythm Modeling en **Settings → Cortisol Settings**.
+1. Activa el Cortisol Rhythm Modeling en **Me → Cortisol Settings**.
 2. Indica tu hora típica de despertar.
 3. En la pantalla Today verás la curva de cortisol superpuesta.
 4. Intenta colocar tus cafés en los “valles” en vez de en los picos.
 
 **Personalización:**  
 No todo el mundo sigue el patrón estándar. Madrugadores, noctámbulos y trabajadores por turnos pueden tener ritmos distintos. Puedes ajustar la hora del pico y la forma de la curva para que se parezca más a tu realidad.
+
+### ¿Cómo funciona exactamente el modelo de cortisol? (La ciencia)
+
+Mindful Coffee utiliza un **sofisticado modelo matemático de dos fases** para simular el ritmo de cortisol de tu cuerpo a lo largo del día. No es un gráfico estático — es un cálculo dinámico que se actualiza en tiempo real según tu hora de despertar y tu consumo de cafeína.
+
+**Fase 1: La Respuesta de Despertar del Cortisol (CAR)**
+
+El modelo simula el dramático aumento matutino del cortisol utilizando una **curva inspirada en la distribución gamma**. Esto es lo que ocurre matemáticamente:
+
+Cuando despiertas, el cortisol sube desde tu nivel base nocturno (típicamente ~50 nmol/L) hasta un pico matutino (típicamente ~600 nmol/L). La fórmula usa un patrón exponencial de subida-bajada:
+
+```
+Cortisol = NivelBase + Amplitud × (t/tiempoPico) × e^(1 - t/tiempoPico)
+```
+
+Donde `t` es el tiempo desde que despertaste. Esto crea una curva natural que:
+- Sube pronunciadamente en los primeros 30–45 minutos
+- Alcanza su pico en tu hora CAR (configurable, 45 min por defecto)
+- Comienza a descender después del aumento inicial
+
+La fase CAR dura típicamente 2–3 horas, durante las cuales tu cuerpo proporciona alerta natural sin necesidad de cafeína.
+
+**Fase 2: El declive circadiano**
+
+Después de que termina la fase CAR, el cortisol sigue una **función de decaimiento basada en coseno** que modela el descenso natural de la tarde. La curva regresa gradualmente hacia tu nivel base nocturno por la noche, siguiendo tu ritmo circadiano.
+
+Este enfoque de dos fases refleja lo que los endocrinólogos observan en entornos clínicos — tu cortisol no simplemente sube y cae; sigue un patrón biológico predecible vinculado a tu reloj interno.
+
+**La interacción cafeína-cortisol**
+
+Aquí es donde Mindful Coffee se vuelve realmente sofisticado. Cada consumo de cafeína crea un **pico temporal de cortisol** que se superpone a tu ritmo natural. La app calcula:
+
+```
+Pico = (cafeína_mg × sensibilidad) × (t/tiempoPico) × e^(1 - t/tiempoPico)
+```
+
+Esto modela el fenómeno científicamente documentado de que la cafeína estimula tus glándulas suprarrenales a liberar cortisol adicional. El pico:
+- Alcanza su máximo aproximadamente 45 minutos después del consumo
+- Disminuye en las horas siguientes
+- Se suma a tu nivel natural de cortisol
+
+**Por qué esto importa:** Cuando tomas café durante tu pico CAR natural, esencialmente estás añadiendo cortisol inducido por cafeína encima de un cortisol natural ya elevado. Esto puede:
+- Contribuir a la sensación nerviosa que algunas personas experimentan con el café de la mañana
+- Entrenar a tu cuerpo a esperar estimulación artificial, desarrollando tolerancia
+- Desperdiciar el potencial de alerta de tu cafeína
+
+**Cinco parámetros configurables:**
+
+Cada cuerpo es diferente. La app te permite ajustar:
+
+| Parámetro | Por defecto | Rango | Qué controla |
+|-----------|-------------|-------|--------------|
+| **Nivel base nocturno** | 50 nmol/L | 20–100 | Tu cortisol más bajo durante el sueño profundo |
+| **Nivel de pico matutino** | 600 nmol/L | 400–800 | Qué tan alto llega tu pico natural de la mañana |
+| **Hora del pico CAR** | 0,75 horas | 0,25–1,5 | Cuándo después de despertar ocurre tu pico |
+| **Duración del ascenso matutino** | 3,0 horas | 2,0–5,0 | Cuánto dura la fase CAR elevada |
+| **Sensibilidad a la cafeína** | 2,5 | 0,5–4,0 | Cuánto la cafeína eleva tu cortisol |
+
+**¿Quién debería ajustar estos parámetros?**
+
+- **Los noctámbulos** pueden tener una CAR retrasada — aumenta la hora del pico CAR
+- **Los madrugadores** a menudo alcanzan el pico más rápido — disminuye la hora del pico CAR  
+- **Las personas con mucho estrés** pueden tener niveles base elevados — aumenta el nivel base
+- **Las personas sensibles a la cafeína** deberían aumentar la sensibilidad a la cafeína para ver efectos de pico más pronunciados
+- **Si sospechas fatiga suprarrenal**, la CAR puede estar atenuada — disminuye el nivel de pico
+
+**La leyenda de timing con colores:**
+
+Cuando está activada, el gráfico muestra tres zonas:
+- 🟢 **Óptimo** – El cortisol está en un valle natural; la cafeína será más efectiva
+- 🟡 **OK** – Cortisol moderado; la cafeína funciona pero no es óptima
+- 🔴 **Evitar** – Cortisol natural alto; beber ahora desperdicia cafeína y desarrolla tolerancia
+
+**Ventanas óptimas para el café:**
+
+Según tu hora de despertar y de acostarte, la app calcula ventanas óptimas personalizadas. Para alguien que despierta a las 7:30:
+- **Primera ventana: 9:30–11:30** – Después de que baje la CAR, antes del almuerzo
+- **Segunda ventana: 13:30–15:30** – Bajón post-almuerzo, pero suficientemente temprano para el sueño
+
+Estas ventanas se ajustan automáticamente según TU hora de despertar — no consejos genéricos.
+
+**La investigación detrás:**
+
+Este modelo se basa en investigación endocrinológica revisada por pares sobre el eje HPA (hipotálamo-hipófisis-suprarrenal). Los estudios clave incluyen:
+- La respuesta de despertar del cortisol y su papel en la alerta
+- El efecto de la cafeína en la secreción de cortisol suprarrenal
+- Las variaciones circadianas del cortisol y su interacción con estimulantes
+
+Para el contexto científico completo, toca "Leer la ciencia detrás de este modelo" en los ajustes de cortisol, que enlaza con nuestra documentación de investigación detallada.
 
 ### ¿Cómo funcionan los "Sleep Correlation Insights"?
 
@@ -646,7 +735,7 @@ Prueba a revocar y volver a otorgar los permisos de Health. A veces soluciona bl
 Las notificaciones en iOS tienen varias capas. Revisa las siguientes:
 
 **Capa 1: ajustes dentro de la app**
-- Abre Mindful Coffee → Settings → Notifications.
+- Abre Mindful Coffee → Me → Notifications.
 - Comprueba que los recordatorios estén activados y que la hora tenga sentido.
 
 **Capa 2: ajustes de iOS**

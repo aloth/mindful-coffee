@@ -143,7 +143,7 @@ Getting started takes just seconds:
 
 Your **preferred bedtime** is the time you want to actually *fall asleep*—not when you get into bed, start your wind-down routine, or begin scrolling your phone.
 
-Go to **Settings** → **Preferred Bedtime** and set it accurately.
+Go to **Me** → **Preferred Bedtime** and set it accurately.
 
 **Why accuracy matters:**
 
@@ -391,7 +391,7 @@ Here's the insight: if you drink coffee during this peak, caffeine competes with
 
 **How to use this in the app:**
 
-1. Enable cortisol modeling in Settings → Cortisol Settings
+1. Enable cortisol modeling in Me → Cortisol Settings
 2. Set your typical wake time
 3. The Today screen overlay shows your personal cortisol curve
 4. Time your coffee during the "valleys" between peaks
@@ -399,6 +399,95 @@ Here's the insight: if you drink coffee during this peak, caffeine competes with
 **Customization:** Not everyone follows the textbook cortisol pattern. Early risers, shift workers, and night owls have different rhythms. Adjust the CAR peak timing and amplitude to match your body's actual pattern.
 
 **Result:** You use less caffeine for the same alertness—and may even reduce your tolerance over time.
+
+### How does the Cortisol Model actually work? (The Science)
+
+Mindful Coffee uses a **sophisticated two-phase mathematical model** to simulate your body's cortisol rhythm throughout the day. This isn't just a static chart—it's a dynamic calculation that updates in real-time based on your wake time and caffeine intake.
+
+**Phase 1: The Cortisol Awakening Response (CAR)**
+
+The model simulates the dramatic morning cortisol surge using a **gamma-distribution-inspired curve**. Here's what happens mathematically:
+
+When you wake up, cortisol rises from your nighttime baseline (typically ~50 nmol/L) to a morning peak (typically ~600 nmol/L). The formula uses an exponential rise-and-fall pattern:
+
+```
+Cortisol = BaseLevel + Amplitude × (t/peakTime) × e^(1 - t/peakTime)
+```
+
+Where `t` is time since waking. This creates a natural curve that:
+- Rises sharply in the first 30-45 minutes
+- Peaks at your CAR peak time (configurable, default 45 min)
+- Begins declining after the initial surge
+
+The CAR phase typically lasts 2-3 hours, during which your body provides natural alertness without needing caffeine.
+
+**Phase 2: The Diurnal Decline**
+
+After the CAR phase ends, cortisol follows a **cosine-based decay function** that models the natural afternoon decline. The curve gradually returns toward your nighttime baseline level by evening, following your circadian rhythm.
+
+This two-phase approach mirrors what endocrinologists observe in clinical settings—your cortisol doesn't just spike and crash; it follows a predictable biological pattern tied to your internal clock.
+
+**The Caffeine-Cortisol Interaction**
+
+Here's where Mindful Coffee gets really sophisticated. Each caffeine consumption creates a **temporary cortisol spike** that overlays on your natural rhythm. The app calculates:
+
+```
+Spike = (caffeine_mg × sensitivity) × (t/peakTime) × e^(1 - t/peakTime)
+```
+
+This models the scientifically-documented phenomenon that caffeine stimulates your adrenal glands to release additional cortisol. The spike:
+- Peaks approximately 45 minutes after consumption
+- Decays over the following hours
+- Stacks with your natural cortisol level
+
+**Why this matters:** When you drink coffee during your natural CAR peak, you're essentially adding caffeine-induced cortisol on top of already-high natural cortisol. This can:
+- Contribute to the jittery, anxious feeling some people get from morning coffee
+- Train your body to expect artificial stimulation, building tolerance
+- Waste the alertness potential of your caffeine
+
+**Five Configurable Parameters:**
+
+Every body is different. The app lets you fine-tune:
+
+| Parameter | Default | Range | What It Controls |
+|-----------|---------|-------|------------------|
+| **Nighttime Base Level** | 50 nmol/L | 20-100 | Your lowest cortisol during deep sleep |
+| **Morning Peak Level** | 600 nmol/L | 400-800 | How high your natural morning spike reaches |
+| **CAR Peak Time** | 0.75 hours | 0.25-1.5 | When after waking your peak occurs |
+| **Morning Rise Duration** | 3.0 hours | 2.0-5.0 | How long the elevated CAR phase lasts |
+| **Caffeine Sensitivity** | 2.5 | 0.5-4.0 | How strongly caffeine spikes your cortisol |
+
+**Who should adjust these settings?**
+
+- **Night owls** may have a delayed CAR—increase CAR Peak Time
+- **Early risers** often peak faster—decrease CAR Peak Time  
+- **High-stress individuals** might have elevated baselines—increase Base Level
+- **Caffeine-sensitive people** should increase Caffeine Sensitivity to see more pronounced spike effects
+- **Those with adrenal fatigue concerns** may have blunted CAR—decrease Peak Level
+
+**The Color-Coded Timing Legend:**
+
+When enabled, the chart displays three zones:
+- 🟢 **Best** – Cortisol is in a natural dip; caffeine will be most effective
+- 🟡 **OK** – Moderate cortisol; caffeine will work but isn't optimal
+- 🔴 **Avoid** – High natural cortisol; drinking now wastes caffeine and builds tolerance
+
+**Optimal Coffee Windows:**
+
+Based on your wake time and bedtime, the app calculates personalized optimal windows. For someone waking at 7:30 AM:
+- **First window: 9:30-11:30 AM** – After CAR subsides, before lunch
+- **Second window: 1:30-3:30 PM** – Post-lunch dip, but early enough for sleep
+
+These windows shift automatically based on YOUR wake time—not generic advice.
+
+**The Research Behind It:**
+
+This model draws from peer-reviewed endocrinology research on the HPA (hypothalamic-pituitary-adrenal) axis. Key studies include work on:
+- The Cortisol Awakening Response and its role in alertness
+- Caffeine's effect on adrenal cortisol secretion
+- Circadian variation in cortisol and its interaction with stimulants
+
+For the full scientific background, tap "Read the Science Behind This Model" in the Cortisol Settings screen, which links to our detailed research documentation.
 
 ### How do Sleep Correlation Insights work?
 
@@ -611,7 +700,7 @@ Try revoking and re-granting Health permissions. Sometimes the iOS permission sy
 Notification delivery on iOS is more complex than it seems. Here's the debugging checklist:
 
 **Layer 1: App Settings**
-- Open Mindful Coffee → Settings → Notifications
+- Open Mindful Coffee → Me → Notifications
 - Reminders must be explicitly enabled
 - Check the reminder time is set correctly
 

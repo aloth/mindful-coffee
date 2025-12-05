@@ -142,7 +142,7 @@ Der Einstieg dauert nur ein paar Sekunden:
 
 Deine **bevorzugte Schlafenszeit** ist die Zeit, zu der du wirklich *einschlafen* möchtest – nicht die Zeit, zu der du dich ins Bett legst, ein Buch liest oder am Handy hängst.
 
-Stelle sie unter **Einstellungen → Bevorzugte Schlafenszeit** ein.
+Stelle sie unter **Ich → Bevorzugte Schlafenszeit** ein.
 
 **Warum das wichtig ist:**
 
@@ -379,13 +379,102 @@ Trinkst du in dieser Phase Kaffee, überlagerst du ein ohnehin hohes Wachheitsni
 
 **So setzt du das in der App um:**
 
-1. Aktiviere die Cortisol-Modellierung unter **Einstellungen → Cortisol-Einstellungen**.
+1. Aktiviere die Cortisol-Modellierung unter **Ich → Cortisol-Einstellungen**.
 2. Trage deine typische Aufstehzeit ein.
 3. Auf dem Heute-Screen siehst du nun deine persönliche Cortisol-Kurve.
 4. Platziere deine Kaffeezeiten bevorzugt in den „Tälern“ zwischen zwei Peaks.
 
 **Anpassungen:**  
 Frühaufsteher, Nachteulen und Schichtarbeiter haben andere Rhythmen. Du kannst Peak-Zeitpunkt und Stärke anpassen, bis die Kurve zu deinem tatsächlichen Erleben passt.
+
+### Wie funktioniert das Cortisol-Modell genau? (Die Wissenschaft)
+
+Mindful Coffee verwendet ein **ausgeklügeltes mathematisches Zwei-Phasen-Modell**, um den Cortisol-Rhythmus deines Körpers über den Tag hinweg zu simulieren. Das ist kein statisches Diagramm – es handelt sich um eine dynamische Berechnung, die sich in Echtzeit basierend auf deiner Aufwachzeit und deinem Koffeinkonsum aktualisiert.
+
+**Phase 1: Die Cortisol-Awakening-Response (CAR)**
+
+Das Modell simuliert den dramatischen morgendlichen Cortisolanstieg mithilfe einer **gammaverteilungsähnlichen Kurve**. Das passiert mathematisch:
+
+Wenn du aufwachst, steigt Cortisol von deinem nächtlichen Basisniveau (typischerweise ~50 nmol/L) auf einen Morgenpeak (typischerweise ~600 nmol/L). Die Formel verwendet ein exponentielles Anstiegs-Abfall-Muster:
+
+```
+Cortisol = Basisniveau + Amplitude × (t/peakTime) × e^(1 - t/peakTime)
+```
+
+Wobei `t` die Zeit seit dem Aufwachen ist. Das erzeugt eine natürliche Kurve, die:
+- In den ersten 30–45 Minuten steil ansteigt
+- Bei deiner CAR-Peak-Zeit ihren Höhepunkt erreicht (einstellbar, Standard 45 Min.)
+- Nach dem initialen Anstieg zu fallen beginnt
+
+Die CAR-Phase dauert typischerweise 2–3 Stunden, in denen dein Körper natürliche Wachheit liefert, ohne dass Koffein nötig ist.
+
+**Phase 2: Der zirkadiane Abfall**
+
+Nach Ende der CAR-Phase folgt Cortisol einer **kosinusbasierten Abklingfunktion**, die den natürlichen Nachmittagsabfall modelliert. Die Kurve kehrt bis zum Abend allmählich zu deinem nächtlichen Basisniveau zurück und folgt dabei deinem zirkadianen Rhythmus.
+
+Dieser Zwei-Phasen-Ansatz spiegelt wider, was Endokrinologen in klinischen Untersuchungen beobachten – dein Cortisol macht keinen einfachen Spike-und-Crash, sondern folgt einem vorhersagbaren biologischen Muster, das an deine innere Uhr gekoppelt ist.
+
+**Die Koffein-Cortisol-Interaktion**
+
+Hier wird Mindful Coffee richtig clever. Jeder Koffeinkonsum erzeugt einen **temporären Cortisol-Spike**, der sich über deinen natürlichen Rhythmus legt. Die App berechnet:
+
+```
+Spike = (Koffein_mg × Sensitivität) × (t/peakTime) × e^(1 - t/peakTime)
+```
+
+Das modelliert das wissenschaftlich dokumentierte Phänomen, dass Koffein deine Nebennieren zur Ausschüttung von zusätzlichem Cortisol anregt. Der Spike:
+- Erreicht etwa 45 Minuten nach dem Konsum seinen Höhepunkt
+- Klingt in den folgenden Stunden ab
+- Addiert sich zu deinem natürlichen Cortisolniveau
+
+**Warum das wichtig ist:** Wenn du während deines natürlichen CAR-Peaks Kaffee trinkst, fügst du quasi koffeininduziertes Cortisol auf ohnehin schon hohes natürliches Cortisol hinzu. Das kann:
+- Zu dem zittrigen, nervösen Gefühl beitragen, das manche beim Morgenkaffee erleben
+- Deinen Körper darauf trainieren, künstliche Stimulation zu erwarten, was Toleranz aufbaut
+- Das Wachheitspotenzial deines Koffeins verschwenden
+
+**Fünf konfigurierbare Parameter:**
+
+Jeder Körper ist anders. Die App lässt dich feinabstimmen:
+
+| Parameter | Standard | Bereich | Was er steuert |
+|-----------|----------|---------|----------------|
+| **Nächtliches Basisniveau** | 50 nmol/L | 20–100 | Dein niedrigstes Cortisol im Tiefschlaf |
+| **Morgenpeak-Niveau** | 600 nmol/L | 400–800 | Wie hoch dein natürlicher Morgen-Spike reicht |
+| **CAR-Peak-Zeit** | 0,75 Stunden | 0,25–1,5 | Wann nach dem Aufwachen dein Peak auftritt |
+| **Dauer des Morgenanstiegs** | 3,0 Stunden | 2,0–5,0 | Wie lange die erhöhte CAR-Phase anhält |
+| **Koffein-Sensitivität** | 2,5 | 0,5–4,0 | Wie stark Koffein dein Cortisol anhebt |
+
+**Wer sollte diese Einstellungen anpassen?**
+
+- **Nachteulen** haben möglicherweise eine verzögerte CAR – erhöhe die CAR-Peak-Zeit
+- **Frühaufsteher** erreichen oft schneller den Peak – verringere die CAR-Peak-Zeit  
+- **Personen mit hohem Stresslevel** haben möglicherweise erhöhte Basiswerte – erhöhe das Basisniveau
+- **Koffein-empfindliche Menschen** sollten die Koffein-Sensitivität erhöhen, um ausgeprägtere Spike-Effekte zu sehen
+- **Bei Verdacht auf Nebennierenmüdigkeit** kann die CAR abgeflacht sein – verringere das Peak-Niveau
+
+**Die farbcodierte Timing-Legende:**
+
+Wenn aktiviert, zeigt das Diagramm drei Zonen:
+- 🟢 **Optimal** – Cortisol ist in einem natürlichen Tal; Koffein wird am effektivsten sein
+- 🟡 **OK** – Moderates Cortisol; Koffein wirkt, aber nicht optimal
+- 🔴 **Vermeiden** – Hohes natürliches Cortisol; jetzt trinken verschwendet Koffein und baut Toleranz auf
+
+**Optimale Kaffeefenster:**
+
+Basierend auf deiner Aufwach- und Schlafenszeit berechnet die App personalisierte optimale Fenster. Für jemanden, der um 7:30 Uhr aufwacht:
+- **Erstes Fenster: 9:30–11:30 Uhr** – Nach Abklingen der CAR, vor dem Mittagessen
+- **Zweites Fenster: 13:30–15:30 Uhr** – Nach-Mittagstief, aber früh genug für guten Schlaf
+
+Diese Fenster verschieben sich automatisch basierend auf DEINER Aufwachzeit – keine pauschalen Ratschläge.
+
+**Die Forschung dahinter:**
+
+Dieses Modell basiert auf peer-reviewter endokrinologischer Forschung zur HPA-Achse (Hypothalamus-Hypophysen-Nebennierenrinden-Achse). Wichtige Studien umfassen:
+- Die Cortisol-Awakening-Response und ihre Rolle für die Wachheit
+- Die Wirkung von Koffein auf die adrenale Cortisolsekretion
+- Zirkadiane Cortisol-Schwankungen und ihre Interaktion mit Stimulanzien
+
+Für den vollständigen wissenschaftlichen Hintergrund tippe in den Cortisol-Einstellungen auf „Die Wissenschaft hinter diesem Modell lesen", um zu unserer ausführlichen Forschungsdokumentation zu gelangen.
 
 ### Wie funktionieren die Sleep-Correlation-Insights?
 
@@ -549,7 +638,7 @@ Wenn trotzdem nichts angezeigt wird, hilft es oft, die Health-Berechtigungen ein
 Benachrichtigungen unter iOS sind mehrstufig geregelt. Gehe die Ebenen nacheinander durch:
 
 **1. In-App-Einstellungen**
-- In Mindful Coffee unter Einstellungen → „Benachrichtigungen“ prüfen.
+- In Mindful Coffee unter Ich → „Benachrichtigungen" prüfen.
 - Ist die tägliche Erinnerung aktiviert?
 - Ist die Uhrzeit sinnvoll gewählt?
 

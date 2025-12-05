@@ -155,13 +155,13 @@ Les premiers pas sont très rapides :
 ### Que dois‑je mettre comme heure de coucher ?
 
 Votre **heure de coucher préférée** est l’heure à laquelle vous voulez réellement **vous endormir** :
-- Ce n’est pas l’heure à laquelle vous allez au lit.
+- Ce n'est pas l'heure à laquelle vous allez au lit.
 - Ni le début de votre routine du soir.
 - Ni le moment où vous commencez à faire défiler votre téléphone.
 
-Allez dans **Réglages → Heure de coucher préférée** et indiquez cette heure le plus précisément possible.
+Allez dans **Moi → Heure de coucher préférée** et indiquez cette heure le plus précisément possible.
 
-**Pourquoi la précision est importante :**  
+**Pourquoi la précision est importante :**
 L’app calcule votre **“Sleep‑Ready Time”** — le moment où votre niveau de caféine est suffisamment bas pour permettre un sommeil de qualité. Si votre heure de coucher est fausse, toutes les prédictions seront faussées.
 
 **Exemple :**  
@@ -420,15 +420,104 @@ Si vous buvez du café pendant ce pic :
 | 13 h 30 – 17 h | Déclin | Fenêtre acceptable (attention au sommeil) |
 | Soir | Bas | Généralement, éviter la caféine |
 
-**Comment l’utiliser dans l’app :**
+**Comment l'utiliser dans l'app :**
 
-1. Activez le Cortisol Rhythm Modeling dans **Réglages → Cortisol**.
+1. Activez le Cortisol Rhythm Modeling dans **Moi → Cortisol**.
 2. Indiquez votre heure de réveil typique.
-3. L’overlay de l’écran Today vous affichera votre courbe de cortisol.
+3. L'overlay de l'écran Today vous affichera votre courbe de cortisol.
 4. Essayez de caler vos cafés dans les “vallées” plutôt que les pics.
 
 **Personnalisation :**  
-Tout le monde n’a pas un rythme “de manuel scolaire”. Les lève‑tôt, couche‑tard et travailleurs de nuit ont des courbes différentes. Vous pouvez donc ajuster le timing et l’amplitude des pics pour coller à votre réalité.
+Tout le monde n'a pas un rythme "de manuel scolaire". Les lève‑tôt, couche‑tard et travailleurs de nuit ont des courbes différentes. Vous pouvez donc ajuster le timing et l'amplitude des pics pour coller à votre réalité.
+
+### Comment fonctionne exactement le modèle de cortisol ? (La science)
+
+Mindful Coffee utilise un **modèle mathématique sophistiqué en deux phases** pour simuler le rythme de cortisol de votre corps tout au long de la journée. Ce n'est pas un graphique statique — c'est un calcul dynamique qui se met à jour en temps réel selon votre heure de réveil et votre consommation de caféine.
+
+**Phase 1 : La Réponse d'Éveil au Cortisol (CAR)**
+
+Le modèle simule la montée spectaculaire du cortisol matinal en utilisant une **courbe inspirée de la distribution gamma**. Voici ce qui se passe mathématiquement :
+
+Lorsque vous vous réveillez, le cortisol monte de votre niveau de base nocturne (typiquement ~50 nmol/L) jusqu'à un pic matinal (typiquement ~600 nmol/L). La formule utilise un schéma exponentiel de montée-descente :
+
+```
+Cortisol = NiveauBase + Amplitude × (t/tempsPointe) × e^(1 - t/tempsPointe)
+```
+
+Où `t` est le temps écoulé depuis le réveil. Cela crée une courbe naturelle qui :
+- Monte en flèche dans les 30–45 premières minutes
+- Atteint son pic au moment de la CAR (configurable, 45 min par défaut)
+- Commence à descendre après la montée initiale
+
+La phase CAR dure typiquement 2–3 heures, pendant lesquelles votre corps fournit une vigilance naturelle sans avoir besoin de caféine.
+
+**Phase 2 : Le déclin circadien**
+
+Une fois la phase CAR terminée, le cortisol suit une **fonction de décroissance basée sur le cosinus** qui modélise le déclin naturel de l'après-midi. La courbe revient progressivement vers votre niveau de base nocturne en soirée, suivant votre rythme circadien.
+
+Cette approche en deux phases reflète ce que les endocrinologues observent en milieu clinique — votre cortisol ne fait pas simplement un pic puis un crash ; il suit un schéma biologique prévisible lié à votre horloge interne.
+
+**L'interaction caféine-cortisol**
+
+C'est là que Mindful Coffee devient vraiment intelligent. Chaque consommation de caféine crée un **pic de cortisol temporaire** qui se superpose à votre rythme naturel. L'application calcule :
+
+```
+Pic = (caféine_mg × sensibilité) × (t/tempsPointe) × e^(1 - t/tempsPointe)
+```
+
+Cela modélise le phénomène scientifiquement documenté selon lequel la caféine stimule vos glandes surrénales à libérer du cortisol supplémentaire. Le pic :
+- Atteint son maximum environ 45 minutes après la consommation
+- S'atténue au cours des heures suivantes
+- S'ajoute à votre niveau de cortisol naturel
+
+**Pourquoi c'est important :** Lorsque vous buvez du café pendant votre pic CAR naturel, vous ajoutez essentiellement du cortisol induit par la caféine au-dessus d'un cortisol naturel déjà élevé. Cela peut :
+- Contribuer à la sensation de nervosité que certaines personnes ressentent avec le café du matin
+- Entraîner votre corps à attendre une stimulation artificielle, développant la tolérance
+- Gâcher le potentiel de vigilance de votre caféine
+
+**Cinq paramètres configurables :**
+
+Chaque corps est différent. L'application vous permet d'affiner :
+
+| Paramètre | Défaut | Plage | Ce qu'il contrôle |
+|-----------|--------|-------|-------------------|
+| **Niveau de base nocturne** | 50 nmol/L | 20–100 | Votre cortisol le plus bas pendant le sommeil profond |
+| **Niveau de pic matinal** | 600 nmol/L | 400–800 | À quelle hauteur monte votre pic naturel du matin |
+| **Heure du pic CAR** | 0,75 heures | 0,25–1,5 | Quand après le réveil votre pic se produit |
+| **Durée de la montée matinale** | 3,0 heures | 2,0–5,0 | Combien de temps dure la phase CAR élevée |
+| **Sensibilité à la caféine** | 2,5 | 0,5–4,0 | À quel point la caféine fait monter votre cortisol |
+
+**Qui devrait ajuster ces paramètres ?**
+
+- **Les couche-tard** peuvent avoir une CAR retardée — augmentez l'heure du pic CAR
+- **Les lève-tôt** atteignent souvent leur pic plus rapidement — diminuez l'heure du pic CAR  
+- **Les personnes très stressées** peuvent avoir des niveaux de base élevés — augmentez le niveau de base
+- **Les personnes sensibles à la caféine** devraient augmenter la sensibilité à la caféine pour voir des effets de pic plus prononcés
+- **En cas de fatigue surrénalienne suspectée**, la CAR peut être atténuée — diminuez le niveau de pic
+
+**La légende de timing colorée :**
+
+Lorsqu'elle est activée, le graphique affiche trois zones :
+- 🟢 **Optimal** – Le cortisol est dans un creux naturel ; la caféine sera la plus efficace
+- 🟡 **OK** – Cortisol modéré ; la caféine fonctionne mais n'est pas optimale
+- 🔴 **À éviter** – Cortisol naturel élevé ; boire maintenant gâche la caféine et développe la tolérance
+
+**Fenêtres café optimales :**
+
+Selon votre heure de réveil et de coucher, l'application calcule des fenêtres optimales personnalisées. Pour quelqu'un qui se réveille à 7h30 :
+- **Première fenêtre : 9h30–11h30** – Après la fin de la CAR, avant le déjeuner
+- **Deuxième fenêtre : 13h30–15h30** – Creux post-déjeuner, mais assez tôt pour le sommeil
+
+Ces fenêtres se décalent automatiquement selon VOTRE heure de réveil — pas des conseils génériques.
+
+**La recherche derrière tout ça :**
+
+Ce modèle s'appuie sur la recherche endocrinologique revue par des pairs concernant l'axe HPA (hypothalamo-hypophyso-surrénalien). Les études clés comprennent :
+- La réponse d'éveil au cortisol et son rôle dans la vigilance
+- L'effet de la caféine sur la sécrétion de cortisol surrénalien
+- Les variations circadiennes du cortisol et leur interaction avec les stimulants
+
+Pour le contexte scientifique complet, appuyez sur « Lire la science derrière ce modèle » dans les paramètres cortisol, qui renvoie vers notre documentation de recherche détaillée.
 
 ### Comment fonctionnent les "Sleep Correlation Insights" ?
 
@@ -643,11 +732,11 @@ Essayez de révoquer puis de réaccorder les autorisations Health. Parfois, cela
 
 ### L’app n’envoie pas de rappels
 
-Les notifications iOS sont plus complexes qu’il n’y paraît. Voici les couches à vérifier :
+Les notifications iOS sont plus complexes qu'il n'y paraît. Voici les couches à vérifier :
 
-**Couche 1 : Réglages dans l’app**
-- Ouvrez Mindful Coffee → Réglages → Notifications.
-- Vérifiez que les rappels sont activés et que l’horaire est raisonnable.
+**Couche 1 : Réglages dans l'app**
+- Ouvrez Mindful Coffee → Moi → Notifications.
+- Vérifiez que les rappels sont activés et que l'horaire est raisonnable.
 
 **Couche 2 : Réglages iOS**
 - Réglages → Notifications → Mindful Coffee.
