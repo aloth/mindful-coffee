@@ -15,6 +15,7 @@ La mayoría de los rastreadores de cafeína solo cuentan miligramos. Mindful Cof
 **Registra mejor, duerme mejor**
 
 - **Rachas de registro diario** - Mantén la motivación con contadores visuales que celebran tu constancia
+- **Registro de días sin cafeína** - Registra días intencionalmente sin cafeína para mantener tu racha mientras tomas descansos conscientes
 - **Tarjeta de insights de sueño** - Ve de un vistazo cuánto dormiste anoche y el impacto de la cafeína
 - **Historial agrupado** - Navega por tu historial con el mes actual expandido y los anteriores resumidos
 

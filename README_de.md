@@ -15,6 +15,7 @@ Die meisten Koffein-Tracker zählen nur Milligramm. Mindful Coffee geht weiter: 
 **Smarter tracken, besser schlafen**
 
 - **Tägliche Logging-Streaks** – Bleib motiviert mit visuellen Zählern, die deine Konstanz feiern
+- **Koffeinfreie Tage erfassen** – Logge bewusste koffeinfreie Tage, um deine Serie zu halten und achtsame Pausen einzulegen
 - **Schlaf-Insights-Karte** – Sieh auf einen Blick, wie lange du geschlafen hast und wie Koffein deinen Schlaf beeinflusst
 - **Gruppierte Verlaufsansicht** – Durchstöbere deine Konsumhistorie: aktueller Monat ausgeklappt, frühere Monate kompakt zusammengefasst
 

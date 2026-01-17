@@ -15,6 +15,7 @@ La plupart des trackers de caféine se contentent de compter les milligrammes. M
 **Suivez mieux, dormez mieux**
 
 - **Séries de jours consécutifs** - Restez motivé avec des compteurs visuels qui célèbrent votre régularité
+- **Suivi des journées sans caféine** - Enregistrez vos journées intentionnellement sans caféine pour maintenir votre série tout en prenant des pauses conscientes
 - **Carte d'insights sommeil** - Voyez d'un coup d'œil la durée de votre sommeil hier soir et l'impact de la caféine
 - **Historique groupé** - Parcourez votre historique avec le mois en cours développé et les mois passés résumés
 

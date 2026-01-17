@@ -15,6 +15,7 @@ Most caffeine trackers just count milligrams. Mindful Coffee goes deeper - it mo
 **Track Smarter, Sleep Better**
 
 - **Daily Logging Streaks** - Stay motivated with visual streak counters that celebrate your consistency
+- **Caffeine-Free Day Tracking** - Log intentional caffeine-free days to maintain your streak while taking mindful breaks
 - **Sleep Insights Card** - See last night's sleep duration and caffeine impact at a glance
 - **Grouped History View** - Browse your consumption history with the current month expanded and past months neatly summarized
 
