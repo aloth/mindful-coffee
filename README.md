@@ -29,6 +29,7 @@ Most caffeine trackers just count milligrams. Mindful Coffee goes deeper - it mo
 **Personalized to Your Body**
 
 - **Personal Metabolism Quiz** - Answer guided questions to calibrate sensitivity, half-life, and sleep thresholds
+- **AI Insights (Pro)** - Get personalized caffeine commentary powered by Apple Intelligence. Context-aware messages adapt to your energy levels, time of day, and sleep patterns - all processed entirely on-device. The AI research foundation is based on the [JudgeGPT project](https://github.com/aloth/JudgeGPT). *(Requires iPhone 15 Pro or iPhone 16 series, iPad Air/Pro with M1+, iPad mini with A17 Pro, or Mac with Apple Silicon, running iOS 18.1+, iPadOS 18.1+, or macOS 15.1+)*
 - **Cortisol Rhythm Modeling** - Visualize your body's natural energy curve and optimize caffeine timing
 - **Sleep Correlation Analysis** - Discover how caffeine levels affect your actual sleep duration using Apple Health data
 
@@ -102,7 +103,7 @@ The cortisol modeling feature is grounded in established research from chronobio
   author       = {Loth, Alexander},
   title        = {Mindful Coffee: Caffeine Log & Cortisol Rhythm},
   year         = {2025},
-  version      = {5.0},
+  version      = {5.3},
   publisher    = {Alexander Loth},
   url          = {https://apps.apple.com/us/app/mindful-coffee-tracks-caffeine/id6742878005}
 }
@@ -110,7 +111,7 @@ The cortisol modeling feature is grounded in established research from chronobio
 
 ## Privacy First
 
-Your data stays on your device. Mindful Coffee stores all consumption data locally using SwiftData. HealthKit access requires your explicit permission following Apple guidelines. **All calculations, analysis, and modeling run entirely on-device** - nothing is ever sent to a server.
+Your data stays on your device. Mindful Coffee stores all consumption data locally using SwiftData. HealthKit access requires your explicit permission following Apple guidelines. **All calculations, analysis, AI insights, and modeling run entirely on-device** - nothing is ever sent to a server.
 
 Read the full [Privacy Policy](https://github.com/aloth/mindful-coffee/blob/main/privacy_policy.md).
 

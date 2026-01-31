@@ -29,6 +29,7 @@ La plupart des trackers de caféine se contentent de compter les milligrammes. M
 **Personnalisé pour votre corps**
 
 - **Quiz métabolisme personnel** - Répondez à des questions guidées pour calibrer sensibilité, demi-vie et seuils de sommeil
+- **Informations IA (Pro)** - Obtenez des commentaires personnalisés sur la caféine avec Apple Intelligence. Messages contextuels qui s'adaptent à votre niveau d'énergie, l'heure de la journée et vos habitudes de sommeil - tout traité entièrement sur l'appareil. La base de recherche IA est fondée sur le [projet JudgeGPT](https://github.com/aloth/JudgeGPT). *(Nécessite iPhone 15 Pro ou iPhone 16, iPad Air/Pro avec M1+, iPad mini avec A17 Pro, ou Mac avec Apple Silicon, iOS 18.1+, iPadOS 18.1+ ou macOS 15.1+)*
 - **Modélisation du rythme de cortisol** - Visualisez la courbe d'énergie naturelle de votre corps et optimisez le timing de votre caféine
 - **Analyse de corrélation avec le sommeil** - Découvrez comment les niveaux de caféine affectent votre durée de sommeil réelle grâce aux données Apple Santé
 
@@ -102,7 +103,7 @@ Le modèle de cortisol est basé sur des recherches établies en chronobiologie 
   author       = {Loth, Alexander},
   title        = {Mindful Coffee: Caffeine Log & Cortisol Rhythm},
   year         = {2025},
-  version      = {5.0},
+  version      = {5.3},
   publisher    = {Alexander Loth},
   url          = {https://apps.apple.com/fr/app/mindful-coffee-tracks-caffeine/id6742878005}
 }
@@ -110,7 +111,7 @@ Le modèle de cortisol est basé sur des recherches établies en chronobiologie 
 
 ## Confidentialité avant tout
 
-Vos données restent sur votre appareil. Mindful Coffee stocke toutes les données de consommation localement via SwiftData. L'accès à HealthKit nécessite votre autorisation explicite conformément aux directives Apple. **Tous les calculs, analyses et modélisations s'exécutent entièrement sur l'appareil** - rien n'est jamais envoyé à un serveur.
+Vos données restent sur votre appareil. Mindful Coffee stocke toutes les données de consommation localement via SwiftData. L'accès à HealthKit nécessite votre autorisation explicite conformément aux directives Apple. **Tous les calculs, analyses, informations IA et modélisations s'exécutent entièrement sur l'appareil** - rien n'est jamais envoyé à un serveur.
 
 Lisez la [Politique de Confidentialité](https://github.com/aloth/mindful-coffee/blob/main/privacy_policy.md) complète.
 

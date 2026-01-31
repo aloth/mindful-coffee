@@ -29,6 +29,7 @@ Appleの美しい**Liquid Glass**デザイン言語で作られたMindful Coffee
 **あなたの体に合わせてパーソナライズ**
 
 - **パーソナル代謝クイズ** - ガイド付きの質問に答えて、感受性、半減期、睡眠閾値をキャリブレーション
+- **AIインサイト (Pro)** - Apple Intelligenceによるパーソナライズされたカフェインコメントを取得。エネルギーレベル、時間帯、睡眠パターンに適応するコンテキスト対応メッセージ - すべてデバイス上で完全に処理。AI研究の基盤は[JudgeGPTプロジェクト](https://github.com/aloth/JudgeGPT)に基づいています。*(iPhone 15 ProまたはiPhone 16シリーズ、M1+搭載iPad Air/Pro、A17 Pro搭載iPad mini、またはApple Silicon搭載Mac、iOS 18.1+、iPadOS 18.1+、またはmacOS 15.1+が必要)*
 - **コルチゾールリズムモデリング** - 体の自然なエネルギー曲線を可視化し、カフェインのタイミングを最適化
 - **睡眠相関分析** - Apple Healthのデータを使って、カフェインレベルが実際の睡眠時間にどう影響するかを発見
 
@@ -102,7 +103,7 @@ Appleの美しい**Liquid Glass**デザイン言語で作られたMindful Coffee
   author       = {Loth, Alexander},
   title        = {Mindful Coffee: Caffeine Log & Cortisol Rhythm},
   year         = {2025},
-  version      = {5.0},
+  version      = {5.3},
   publisher    = {Alexander Loth},
   url          = {https://apps.apple.com/jp/app/mindful-coffee-tracks-caffeine/id6742878005}
 }
@@ -110,7 +111,7 @@ Appleの美しい**Liquid Glass**デザイン言語で作られたMindful Coffee
 
 ## プライバシー第一
 
-あなたのデータはデバイスに留まります。Mindful CoffeeはSwiftDataを使用してすべての消費データをローカルに保存します。HealthKitへのアクセスはAppleのガイドラインに従い、明示的な許可が必要です。**すべての計算、分析、モデリングは完全にデバイス上で実行** - サーバーに送信されることはありません。
+あなたのデータはデバイスに留まります。Mindful CoffeeはSwiftDataを使用してすべての消費データをローカルに保存します。HealthKitへのアクセスはAppleのガイドラインに従い、明示的な許可が必要です。**すべての計算、分析、AIインサイト、モデリングは完全にデバイス上で実行** - サーバーに送信されることはありません。
 
 完全な[プライバシーポリシー](https://github.com/aloth/mindful-coffee/blob/main/privacy_policy.md)をお読みください。
 

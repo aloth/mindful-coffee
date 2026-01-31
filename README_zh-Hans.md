@@ -29,6 +29,7 @@
 **为你的身体量身定制**
 
 - **个人代谢测验** - 回答引导式问题，校准敏感度、半衰期和睡眠阈值
+- **AI洞察 (Pro)** - 获取由Apple Intelligence提供的个性化咖啡因评论。情境感知消息适应你的能量水平、时间和睡眠模式 - 全部在设备上完成处理。AI研究基础基于[JudgeGPT项目](https://github.com/aloth/JudgeGPT)。*(需要iPhone 15 Pro或iPhone 16系列、配备M1+的iPad Air/Pro、配备A17 Pro的iPad mini，或Apple Silicon Mac，运行iOS 18.1+、iPadOS 18.1+或macOS 15.1+)*
 - **皮质醇节律建模** - 可视化身体的自然能量曲线，优化咖啡因时机
 - **睡眠相关性分析** - 利用Apple健康数据，发现咖啡因水平如何影响实际睡眠时长
 
@@ -102,7 +103,7 @@
   author       = {Loth, Alexander},
   title        = {Mindful Coffee: Caffeine Log & Cortisol Rhythm},
   year         = {2025},
-  version      = {5.0},
+  version      = {5.3},
   publisher    = {Alexander Loth},
   url          = {https://apps.apple.com/cn/app/mindful-coffee-tracks-caffeine/id6742878005}
 }
@@ -110,7 +111,7 @@
 
 ## 隐私至上
 
-你的数据留在你的设备上。Mindful Coffee使用SwiftData将所有消费数据本地存储。HealthKit访问需要你的明确授权，遵循Apple准则。**所有计算、分析和建模完全在设备上运行** - 绝不发送到任何服务器。
+你的数据留在你的设备上。Mindful Coffee使用SwiftData将所有消费数据本地存储。HealthKit访问需要你的明确授权，遵循Apple准则。**所有计算、分析、AI洞察和建模完全在设备上运行** - 绝不发送到任何服务器。
 
 阅读完整的[隐私政策](https://github.com/aloth/mindful-coffee/blob/main/privacy_policy.md)。
 

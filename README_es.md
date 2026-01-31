@@ -29,6 +29,7 @@ La mayoría de los rastreadores de cafeína solo cuentan miligramos. Mindful Cof
 **Personalizado para tu cuerpo**
 
 - **Test de metabolismo personal** - Responde preguntas guiadas para calibrar sensibilidad, vida media y umbrales de sueño
+- **Información de IA (Pro)** - Obtén comentarios personalizados de cafeína con Apple Intelligence. Mensajes contextuales que se adaptan a tu nivel de energía, hora del día y patrones de sueño - todo procesado completamente en el dispositivo. La base de investigación de IA se basa en el [proyecto JudgeGPT](https://github.com/aloth/JudgeGPT). *(Requiere iPhone 15 Pro o iPhone 16, iPad Air/Pro con M1+, iPad mini con A17 Pro, o Mac con Apple Silicon, iOS 18.1+, iPadOS 18.1+ o macOS 15.1+)*
 - **Modelado del ritmo de cortisol** - Visualiza la curva de energía natural de tu cuerpo y optimiza el timing de tu cafeína
 - **Análisis de correlación con el sueño** - Descubre cómo los niveles de cafeína afectan tu duración real de sueño usando datos de Apple Salud
 
@@ -102,7 +103,7 @@ El modelo de cortisol se basa en investigación establecida de la cronobiología
   author       = {Loth, Alexander},
   title        = {Mindful Coffee: Caffeine Log & Cortisol Rhythm},
   year         = {2025},
-  version      = {5.0},
+  version      = {5.3},
   publisher    = {Alexander Loth},
   url          = {https://apps.apple.com/es/app/mindful-coffee-tracks-caffeine/id6742878005}
 }
@@ -110,7 +111,7 @@ El modelo de cortisol se basa en investigación establecida de la cronobiología
 
 ## Privacidad ante todo
 
-Tus datos permanecen en tu dispositivo. Mindful Coffee almacena todos los datos de consumo localmente usando SwiftData. El acceso a HealthKit requiere tu permiso explícito siguiendo las directrices de Apple. **Todos los cálculos, análisis y modelado se ejecutan completamente en el dispositivo** - nunca se envía nada a un servidor.
+Tus datos permanecen en tu dispositivo. Mindful Coffee almacena todos los datos de consumo localmente usando SwiftData. El acceso a HealthKit requiere tu permiso explícito siguiendo las directrices de Apple. **Todos los cálculos, análisis, información de IA y modelado se ejecutan completamente en el dispositivo** - nunca se envía nada a un servidor.
 
 Lee la [Política de Privacidad](https://github.com/aloth/mindful-coffee/blob/main/privacy_policy.md) completa.
 

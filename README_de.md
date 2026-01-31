@@ -29,6 +29,7 @@ Die meisten Koffein-Tracker zählen nur Milligramm. Mindful Coffee geht weiter: 
 **Auf deinen Körper abgestimmt**
 
 - **Persönliches Stoffwechsel-Quiz** – Beantworte geführte Fragen und kalibriere Empfindlichkeit, Halbwertszeit und Schlafschwellen
+- **KI-Einblicke (Pro)** – Erhalte personalisierte Koffein-Kommentare mit Apple Intelligence. Kontextbezogene Nachrichten passen sich an dein Energielevel, die Tageszeit und deine Schlafmuster an – alles vollständig auf dem Gerät verarbeitet. Die KI-Forschungsgrundlage basiert auf dem [JudgeGPT-Projekt](https://github.com/aloth/JudgeGPT). *(Erfordert iPhone 15 Pro oder iPhone 16, iPad Air/Pro mit M1+, iPad mini mit A17 Pro oder Mac mit Apple Silicon, iOS 18.1+, iPadOS 18.1+ oder macOS 15.1+)*
 - **Cortisol-Rhythmus-Modellierung** – Visualisiere die natürliche Energiekurve deines Körpers und optimiere dein Koffein-Timing
 - **Schlaf-Korrelationsanalyse** – Entdecke, wie sich verschiedene Koffeinmengen auf deine tatsächliche Schlafdauer auswirken (mit Apple Health-Daten)
 
@@ -98,19 +99,19 @@ Das Cortisol-Modell basiert auf etablierter Forschung aus der Chronobiologie und
 ### App zitieren
 
 ```bibtex
-@software{Loth2025MindfulCoffeeApp,
+@software{Loth2026MindfulCoffeeApp,
   author       = {Loth, Alexander},
   title        = {Mindful Coffee: Caffeine Log & Cortisol Rhythm},
-  year         = {2025},
-  version      = {5.0},
+  year         = {2026},
+  version      = {5.3},
   publisher    = {Alexander Loth},
-  url          = {https://apps.apple.com/de/app/mindful-coffee-tracks-caffeine/id6742878005}
+  url          = {https://apps.apple.com/us/app/mindful-coffee-tracks-caffeine/id6742878005}
 }
 ```
 
 ## Datenschutz an erster Stelle
 
-Deine Daten bleiben auf deinem Gerät. Mindful Coffee speichert alle Konsumdaten lokal mit SwiftData. HealthKit-Zugriff erfolgt nur mit deiner ausdrücklichen Erlaubnis gemäß Apple-Richtlinien. **Alle Berechnungen, Analysen und Modellierungen laufen komplett auf deinem Gerät** – nichts wird jemals an einen Server gesendet.
+Deine Daten bleiben auf deinem Gerät. Mindful Coffee speichert alle Konsumdaten lokal mit SwiftData. HealthKit-Zugriff erfolgt nur mit deiner ausdrücklichen Erlaubnis gemäß Apple-Richtlinien. **Alle Berechnungen, Analysen, KI-Einblicke und Modellierungen laufen komplett auf deinem Gerät** – nichts wird jemals an einen Server gesendet.
 
 Lies die vollständige [Datenschutzrichtlinie](https://github.com/aloth/mindful-coffee/blob/main/privacy_policy.md).
 
