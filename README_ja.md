@@ -1,5 +1,9 @@
 # Mindful Coffee - 睡眠予測とコルチゾールリズム機能付きiPhoneカフェイン管理アプリ
 
+<p align="center">
+  <img src="assets/images/mindful-coffee-caffeine-tracker-sleep-optimization-hero.png" alt="Mindful Coffee — smart caffeine tracking with sleep prediction and cortisol rhythm optimization" width="700">
+</p>
+
 **カフェインを賢くトラッキング。睡眠を予測し、一日を通してエネルギーを最適化する最も賢い方法。**
 
 「今日はいつ眠れるんだろう?」そんな疑問にもう悩まされません。Mindful Coffeeは美しくデザインされたiOSアプリで、コーヒー、紅茶、エナジードリンクの摂取を記録しながら、カフェインがいつ体から抜けて質の高い睡眠が取れるようになるかを正確に教えてくれます。体の自然なコルチゾールリズムを理解し、最高のパフォーマンスのためにカフェイン摂取のタイミングを完璧に合わせましょう。
