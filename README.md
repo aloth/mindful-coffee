@@ -1,5 +1,9 @@
 # Mindful Coffee - Caffeine Tracker App for iPhone with Sleep Prediction & Cortisol Rhythm
 
+<p align="center">
+  <img src="assets/images/mindful-coffee-caffeine-tracker-sleep-optimization-hero.png" alt="Mindful Coffee — smart caffeine tracking with sleep prediction and cortisol rhythm optimization" width="700">
+</p>
+
 **The smartest way to track caffeine, predict your sleep, and optimize your energy throughout the day.**
 
 Stop guessing when you'll be ready for bed. Mindful Coffee is a beautifully designed iOS app that tracks your coffee, tea, and energy drink consumption while showing you exactly when caffeine will clear your system for quality sleep. Understand your body's natural cortisol rhythm and time your caffeine perfectly for peak performance.
