@@ -1,5 +1,9 @@
 # Mindful Coffee - 带睡眠预测和皮质醇节律功能的iPhone咖啡因追踪App
 
+<p align="center">
+  <img src="assets/images/mindful-coffee-caffeine-tracker-sleep-optimization-hero.png" alt="Mindful Coffee — smart caffeine tracking with sleep prediction and cortisol rhythm optimization" width="700">
+</p>
+
 **追踪咖啡因、预测睡眠、全天优化精力的最智能方式。**
 
 不再猜测何时能入睡。Mindful Coffee是一款设计精美的iOS应用，追踪你的咖啡、茶和能量饮料摄入，同时精确告诉你咖啡因何时会从体内清除，让你享受高质量睡眠。理解身体的自然皮质醇节律，完美把握咖啡因摄入时机，达到最佳状态。
