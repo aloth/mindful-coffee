@@ -41,6 +41,7 @@ Die meisten Koffein-Tracker zählen nur Milligramm. Mindful Coffee geht weiter: 
 
 - **HealthKit-Sync** – Koffein wird automatisch in Apple Health gespeichert, Schlafdaten werden für tiefere Einblicke importiert
 - **Import aus anderen Apps** – Koffeindaten aus Drittanbieter-Apps über HealthKit übernehmen
+- **iCloud-Sync** – Synchronisiere deine Koffeindaten nahtlos zwischen iPhone, iPad und Mac
 - **CSV-Export** – Volle Datenhoheit: deine komplette Historie zum Exportieren
 
 ## Screenshots
@@ -107,7 +108,7 @@ Das Cortisol-Modell basiert auf etablierter Forschung aus der Chronobiologie und
   author       = {Loth, Alexander},
   title        = {Mindful Coffee: Caffeine Log & Cortisol Rhythm},
   year         = {2026},
-  version      = {5.3},
+  version      = {5.4},
   publisher    = {Alexander Loth},
   url          = {https://apps.apple.com/us/app/mindful-coffee-tracks-caffeine/id6742878005}
 }
@@ -115,7 +116,7 @@ Das Cortisol-Modell basiert auf etablierter Forschung aus der Chronobiologie und
 
 ## Datenschutz an erster Stelle
 
-Deine Daten bleiben auf deinem Gerät. Mindful Coffee speichert alle Konsumdaten lokal mit SwiftData. HealthKit-Zugriff erfolgt nur mit deiner ausdrücklichen Erlaubnis gemäß Apple-Richtlinien. **Alle Berechnungen, Analysen, KI-Einblicke und Modellierungen laufen komplett auf deinem Gerät** – nichts wird jemals an einen Server gesendet.
+Deine Daten bleiben auf deinem Gerät – oder werden sicher über deinen persönlichen iCloud-Account synchronisiert. Mindful Coffee speichert alle Konsumdaten lokal mit SwiftData, mit optionaler iCloud-Synchronisierung über all deine Apple-Geräte. HealthKit-Zugriff erfolgt nur mit deiner ausdrücklichen Erlaubnis gemäß Apple-Richtlinien. **Alle Berechnungen, Analysen, KI-Einblicke und Modellierungen laufen komplett auf deinem Gerät** – nichts wird jemals an einen Server gesendet.
 
 Lies die vollständige [Datenschutzrichtlinie](https://github.com/aloth/mindful-coffee/blob/main/privacy_policy.md).
 

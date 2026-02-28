@@ -41,6 +41,7 @@ La mayoría de los rastreadores de cafeína solo cuentan miligramos. Mindful Cof
 
 - **Sincronización con HealthKit** - Registra cafeína automáticamente en Apple Salud e importa datos de sueño para insights más profundos
 - **Importar de otras apps** - Trae datos de cafeína de apps de terceros via HealthKit
+- **Sincronización iCloud** - Sincroniza tus datos de cafeína entre iPhone, iPad y Mac
 - **Exportación CSV** - Propiedad total de tus datos con exportación completa del historial
 
 ## Capturas de pantalla
@@ -107,7 +108,7 @@ El modelo de cortisol se basa en investigación establecida de la cronobiología
   author       = {Loth, Alexander},
   title        = {Mindful Coffee: Caffeine Log & Cortisol Rhythm},
   year         = {2025},
-  version      = {5.3},
+  version      = {5.4},
   publisher    = {Alexander Loth},
   url          = {https://apps.apple.com/es/app/mindful-coffee-tracks-caffeine/id6742878005}
 }
@@ -115,7 +116,7 @@ El modelo de cortisol se basa en investigación establecida de la cronobiología
 
 ## Privacidad ante todo
 
-Tus datos permanecen en tu dispositivo. Mindful Coffee almacena todos los datos de consumo localmente usando SwiftData. El acceso a HealthKit requiere tu permiso explícito siguiendo las directrices de Apple. **Todos los cálculos, análisis, información de IA y modelado se ejecutan completamente en el dispositivo** - nunca se envía nada a un servidor.
+Tus datos permanecen en tu dispositivo, o se sincronizan de forma segura a través de tu cuenta personal de iCloud. Mindful Coffee almacena todos los datos de consumo localmente usando SwiftData, con sincronización iCloud opcional en todos tus dispositivos Apple. El acceso a HealthKit requiere tu permiso explícito siguiendo las directrices de Apple. **Todos los cálculos, análisis, información de IA y modelado se ejecutan completamente en el dispositivo** - nunca se envía nada a un servidor.
 
 Lee la [Política de Privacidad](https://github.com/aloth/mindful-coffee/blob/main/privacy_policy.md) completa.
 

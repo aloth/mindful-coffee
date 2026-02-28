@@ -41,6 +41,7 @@ Appleの美しい**Liquid Glass**デザイン言語で作られたMindful Coffee
 
 - **HealthKit同期** - カフェインを自動的にApple Healthに記録し、睡眠データをインポートしてより深いインサイトを取得
 - **他のアプリからインポート** - HealthKit経由でサードパーティアプリからカフェインデータを取り込み
+- **iCloud同期** - iPhone、iPad、Mac間でカフェインデータをシームレスに同期
 - **CSVエクスポート** - 完全な履歴エクスポートでデータの完全な所有権を確保
 
 ## スクリーンショット
@@ -107,7 +108,7 @@ Appleの美しい**Liquid Glass**デザイン言語で作られたMindful Coffee
   author       = {Loth, Alexander},
   title        = {Mindful Coffee: Caffeine Log & Cortisol Rhythm},
   year         = {2025},
-  version      = {5.3},
+  version      = {5.4},
   publisher    = {Alexander Loth},
   url          = {https://apps.apple.com/jp/app/mindful-coffee-tracks-caffeine/id6742878005}
 }
@@ -115,7 +116,7 @@ Appleの美しい**Liquid Glass**デザイン言語で作られたMindful Coffee
 
 ## プライバシー第一
 
-あなたのデータはデバイスに留まります。Mindful CoffeeはSwiftDataを使用してすべての消費データをローカルに保存します。HealthKitへのアクセスはAppleのガイドラインに従い、明示的な許可が必要です。**すべての計算、分析、AIインサイト、モデリングは完全にデバイス上で実行** - サーバーに送信されることはありません。
+あなたのデータはデバイスに留まります — または個人のiCloudアカウントを通じて安全に同期されます。Mindful CoffeeはSwiftDataを使用してすべての消費データをローカルに保存し、オプションでAppleデバイス間のiCloud同期に対応しています。HealthKitへのアクセスはAppleのガイドラインに従い、明示的な許可が必要です。**すべての計算、分析、AIインサイト、モデリングは完全にデバイス上で実行** - サーバーに送信されることはありません。
 
 完全な[プライバシーポリシー](https://github.com/aloth/mindful-coffee/blob/main/privacy_policy.md)をお読みください。
 

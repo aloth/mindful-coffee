@@ -41,6 +41,7 @@ La plupart des trackers de caféine se contentent de compter les milligrammes. M
 
 - **Synchronisation HealthKit** - Enregistrez automatiquement la caféine dans Apple Santé et importez les données de sommeil pour des insights approfondis
 - **Import depuis d'autres apps** - Récupérez les données de caféine d'apps tierces via HealthKit
+- **Synchronisation iCloud** - Synchronisez vos données de caféine entre iPhone, iPad et Mac
 - **Export CSV** - Propriété totale de vos données avec export complet de l'historique
 
 ## Captures d'écran
@@ -107,7 +108,7 @@ Le modèle de cortisol est basé sur des recherches établies en chronobiologie 
   author       = {Loth, Alexander},
   title        = {Mindful Coffee: Caffeine Log & Cortisol Rhythm},
   year         = {2025},
-  version      = {5.3},
+  version      = {5.4},
   publisher    = {Alexander Loth},
   url          = {https://apps.apple.com/fr/app/mindful-coffee-tracks-caffeine/id6742878005}
 }
@@ -115,7 +116,7 @@ Le modèle de cortisol est basé sur des recherches établies en chronobiologie 
 
 ## Confidentialité avant tout
 
-Vos données restent sur votre appareil. Mindful Coffee stocke toutes les données de consommation localement via SwiftData. L'accès à HealthKit nécessite votre autorisation explicite conformément aux directives Apple. **Tous les calculs, analyses, informations IA et modélisations s'exécutent entièrement sur l'appareil** - rien n'est jamais envoyé à un serveur.
+Vos données restent sur votre appareil — ou se synchronisent en toute sécurité via votre compte iCloud personnel. Mindful Coffee stocke toutes les données de consommation localement via SwiftData, avec synchronisation iCloud optionnelle sur tous vos appareils Apple. L'accès à HealthKit nécessite votre autorisation explicite conformément aux directives Apple. **Tous les calculs, analyses, informations IA et modélisations s'exécutent entièrement sur l'appareil** - rien n'est jamais envoyé à un serveur.
 
 Lisez la [Politique de Confidentialité](https://github.com/aloth/mindful-coffee/blob/main/privacy_policy.md) complète.
 

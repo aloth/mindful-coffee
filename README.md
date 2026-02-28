@@ -41,6 +41,7 @@ Most caffeine trackers just count milligrams. Mindful Coffee goes deeper - it mo
 
 - **HealthKit Sync** - Automatically log caffeine to Apple Health and import sleep data for deeper insights
 - **Import from Other Apps** - Bring in caffeine data from third-party apps via HealthKit
+- **iCloud Sync** - Seamlessly sync your caffeine data across iPhone, iPad, and Mac
 - **CSV Export** - Full data ownership with complete history export
 
 ## Screenshots
@@ -107,7 +108,7 @@ The cortisol modeling feature is grounded in established research from chronobio
   author       = {Loth, Alexander},
   title        = {Mindful Coffee: Caffeine Log & Cortisol Rhythm},
   year         = {2025},
-  version      = {5.3},
+  version      = {5.4},
   publisher    = {Alexander Loth},
   url          = {https://apps.apple.com/us/app/mindful-coffee-tracks-caffeine/id6742878005}
 }
@@ -115,7 +116,7 @@ The cortisol modeling feature is grounded in established research from chronobio
 
 ## Privacy First
 
-Your data stays on your device. Mindful Coffee stores all consumption data locally using SwiftData. HealthKit access requires your explicit permission following Apple guidelines. **All calculations, analysis, AI insights, and modeling run entirely on-device** - nothing is ever sent to a server.
+Your data stays on your device — or syncs securely via your personal iCloud account. Mindful Coffee stores all consumption data locally using SwiftData, with optional iCloud sync across your Apple devices. HealthKit access requires your explicit permission following Apple guidelines. **All calculations, analysis, AI insights, and modeling run entirely on-device** - nothing is ever sent to a server.
 
 Read the full [Privacy Policy](https://github.com/aloth/mindful-coffee/blob/main/privacy_policy.md).
 

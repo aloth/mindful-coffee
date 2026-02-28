@@ -41,6 +41,7 @@
 
 - **HealthKit同步** - 自动将咖啡因记录到Apple健康，导入睡眠数据获取更深洞察
 - **从其他App导入** - 通过HealthKit导入第三方应用的咖啡因数据
+- **iCloud 同步** - 在 iPhone、iPad 和 Mac 之间无缝同步咖啡因数据
 - **CSV导出** - 完整历史导出，数据完全由你掌控
 
 ## 截图
@@ -107,7 +108,7 @@
   author       = {Loth, Alexander},
   title        = {Mindful Coffee: Caffeine Log & Cortisol Rhythm},
   year         = {2025},
-  version      = {5.3},
+  version      = {5.4},
   publisher    = {Alexander Loth},
   url          = {https://apps.apple.com/cn/app/mindful-coffee-tracks-caffeine/id6742878005}
 }
@@ -115,7 +116,7 @@
 
 ## 隐私至上
 
-你的数据留在你的设备上。Mindful Coffee使用SwiftData将所有消费数据本地存储。HealthKit访问需要你的明确授权，遵循Apple准则。**所有计算、分析、AI洞察和建模完全在设备上运行** - 绝不发送到任何服务器。
+你的数据留在你的设备上，或通过个人 iCloud 账户安全同步。Mindful Coffee使用SwiftData将所有消费数据本地存储，并支持可选的 iCloud 跨设备同步。HealthKit访问需要你的明确授权，遵循Apple准则。**所有计算、分析、AI洞察和建模完全在设备上运行** - 绝不发送到任何服务器。
 
 阅读完整的[隐私政策](https://github.com/aloth/mindful-coffee/blob/main/privacy_policy.md)。
 
