@@ -37,6 +37,13 @@ La plupart des trackers de caféine se contentent de compter les milligrammes. M
 - **Modélisation du rythme de cortisol** - Visualisez la courbe d'énergie naturelle de votre corps et optimisez le timing de votre caféine
 - **Analyse de corrélation avec le sommeil** - Découvrez comment les niveaux de caféine affectent votre durée de sommeil réelle grâce aux données Apple Santé
 
+**Widgets d'écran d'accueil et de verrouillage**
+
+- **Caféine en un coup d'œil** - Consultez votre niveau de caféine, consommation quotidienne et heure de sommeil prévue directement sur l'écran d'accueil
+- **Widgets d'écran de verrouillage** - Styles circulaire, rectangulaire et inline pour vérifier votre caféine sans déverrouiller
+- **Enregistrement rapide depuis le widget** - Enregistrez votre boisson la plus récente ou la plus consommée en un geste depuis l'écran d'accueil
+- **Widget moyen** - Affiche vos boissons préférées pour un enregistrement instantané
+
 **Intégration Apple parfaite**
 
 - **Synchronisation HealthKit** - Enregistrez automatiquement la caféine dans Apple Santé et importez les données de sommeil pour des insights approfondis
@@ -108,7 +115,7 @@ Le modèle de cortisol est basé sur des recherches établies en chronobiologie 
   author       = {Loth, Alexander},
   title        = {Mindful Coffee: Caffeine Log & Cortisol Rhythm},
   year         = {2025},
-  version      = {5.4},
+  version      = {5.5},
   publisher    = {Alexander Loth},
   url          = {https://apps.apple.com/fr/app/mindful-coffee-tracks-caffeine/id6742878005}
 }

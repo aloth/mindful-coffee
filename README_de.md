@@ -37,6 +37,13 @@ Die meisten Koffein-Tracker zählen nur Milligramm. Mindful Coffee geht weiter: 
 - **Cortisol-Rhythmus-Modellierung** – Visualisiere die natürliche Energiekurve deines Körpers und optimiere dein Koffein-Timing
 - **Schlaf-Korrelationsanalyse** – Entdecke, wie sich verschiedene Koffeinmengen auf deine tatsächliche Schlafdauer auswirken (mit Apple Health-Daten)
 
+**Home-Screen- & Sperrbildschirm-Widgets**
+
+- **Koffein auf einen Blick** – Aktuellen Koffeinlevel, Tagesaufnahme und voraussichtliche Schlafenszeit direkt auf dem Home-Screen sehen
+- **Sperrbildschirm-Widgets** – Kreisförmig, rechteckig und inline für schnelle Koffein-Checks ohne Entsperren
+- **Quick Log über Widget** – Das zuletzt oder am häufigsten getrunkene Getränk mit einem Tipp direkt vom Home-Screen loggen
+- **Mittleres Widget** – Zeigt die Top-Getränke zum schnellen Loggen mit einem Tipp
+
 **Nahtlose Apple-Integration**
 
 - **HealthKit-Sync** – Koffein wird automatisch in Apple Health gespeichert, Schlafdaten werden für tiefere Einblicke importiert
@@ -108,7 +115,7 @@ Das Cortisol-Modell basiert auf etablierter Forschung aus der Chronobiologie und
   author       = {Loth, Alexander},
   title        = {Mindful Coffee: Caffeine Log & Cortisol Rhythm},
   year         = {2026},
-  version      = {5.4},
+  version      = {5.5},
   publisher    = {Alexander Loth},
   url          = {https://apps.apple.com/us/app/mindful-coffee-tracks-caffeine/id6742878005}
 }

@@ -37,6 +37,13 @@ La mayoría de los rastreadores de cafeína solo cuentan miligramos. Mindful Cof
 - **Modelado del ritmo de cortisol** - Visualiza la curva de energía natural de tu cuerpo y optimiza el timing de tu cafeína
 - **Análisis de correlación con el sueño** - Descubre cómo los niveles de cafeína afectan tu duración real de sueño usando datos de Apple Salud
 
+**Widgets de pantalla de inicio y bloqueo**
+
+- **Cafeína de un vistazo** - Ve tu nivel actual de cafeína, consumo diario y hora estimada de sueño directamente en tu pantalla de inicio
+- **Widgets de pantalla de bloqueo** - Estilos circular, rectangular e inline para consultar tu cafeína sin desbloquear
+- **Registro rápido desde el widget** - Registra tu bebida más reciente o frecuente con un solo toque desde la pantalla de inicio
+- **Widget mediano** - Muestra tus bebidas favoritas para registro instantáneo con un toque
+
 **Integración perfecta con Apple**
 
 - **Sincronización con HealthKit** - Registra cafeína automáticamente en Apple Salud e importa datos de sueño para insights más profundos
@@ -108,7 +115,7 @@ El modelo de cortisol se basa en investigación establecida de la cronobiología
   author       = {Loth, Alexander},
   title        = {Mindful Coffee: Caffeine Log & Cortisol Rhythm},
   year         = {2025},
-  version      = {5.4},
+  version      = {5.5},
   publisher    = {Alexander Loth},
   url          = {https://apps.apple.com/es/app/mindful-coffee-tracks-caffeine/id6742878005}
 }

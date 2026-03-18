@@ -37,6 +37,13 @@ Appleの美しい**Liquid Glass**デザイン言語で作られたMindful Coffee
 - **コルチゾールリズムモデリング** - 体の自然なエネルギー曲線を可視化し、カフェインのタイミングを最適化
 - **睡眠相関分析** - Apple Healthのデータを使って、カフェインレベルが実際の睡眠時間にどう影響するかを発見
 
+**ホーム画面&ロック画面ウィジェット**
+
+- **カフェインを一目で確認** - 現在のカフェインレベル、1日の摂取量、予測睡眠時間をホーム画面で直接確認
+- **ロック画面ウィジェット** - 円形、長方形、インラインの3スタイルでロック解除せずにカフェインをチェック
+- **ウィジェットからクイック記録** - ホーム画面からワンタップで最近の飲み物やよく飲む飲み物を記録
+- **ミディアムウィジェット** - お気に入りの飲み物を表示、ワンタップで記録
+
 **Appleとのシームレスな連携**
 
 - **HealthKit同期** - カフェインを自動的にApple Healthに記録し、睡眠データをインポートしてより深いインサイトを取得
@@ -108,7 +115,7 @@ Appleの美しい**Liquid Glass**デザイン言語で作られたMindful Coffee
   author       = {Loth, Alexander},
   title        = {Mindful Coffee: Caffeine Log & Cortisol Rhythm},
   year         = {2025},
-  version      = {5.4},
+  version      = {5.5},
   publisher    = {Alexander Loth},
   url          = {https://apps.apple.com/jp/app/mindful-coffee-tracks-caffeine/id6742878005}
 }

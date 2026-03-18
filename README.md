@@ -37,6 +37,13 @@ Most caffeine trackers just count milligrams. Mindful Coffee goes deeper - it mo
 - **Cortisol Rhythm Modeling** - Visualize your body's natural energy curve and optimize caffeine timing
 - **Sleep Correlation Analysis** - Discover how caffeine levels affect your actual sleep duration using Apple Health data
 
+**Home Screen & Lock Screen Widgets**
+
+- **Caffeine at a Glance** - See your current caffeine level, daily intake, and predicted sleep time right on your Home Screen
+- **Lock Screen Widgets** - Circular, rectangular, and inline styles for quick caffeine checks without unlocking
+- **Quick Log from Widget** - Log your most recent or most-used drink with a single tap directly from the Home Screen
+- **Medium Widget** - Shows your top drinks for instant one-tap logging
+
 **Seamless Apple Integration**
 
 - **HealthKit Sync** - Automatically log caffeine to Apple Health and import sleep data for deeper insights
@@ -108,7 +115,7 @@ The cortisol modeling feature is grounded in established research from chronobio
   author       = {Loth, Alexander},
   title        = {Mindful Coffee: Caffeine Log & Cortisol Rhythm},
   year         = {2025},
-  version      = {5.4},
+  version      = {5.5},
   publisher    = {Alexander Loth},
   url          = {https://apps.apple.com/us/app/mindful-coffee-tracks-caffeine/id6742878005}
 }

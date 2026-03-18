@@ -37,6 +37,13 @@
 - **皮质醇节律建模** - 可视化身体的自然能量曲线，优化咖啡因时机
 - **睡眠相关性分析** - 利用Apple健康数据，发现咖啡因水平如何影响实际睡眠时长
 
+**主屏幕和锁屏小组件**
+
+- **一目了然的咖啡因状态** - 在主屏幕上直接查看当前咖啡因水平、每日摄入量和预测睡眠时间
+- **锁屏小组件** - 圆形、矩形和内联三种样式，无需解锁即可快速查看咖啡因
+- **小组件快速记录** - 从主屏幕一键记录最近饮用或最常饮用的饮品
+- **中号小组件** - 显示常用饮品，一键快速记录
+
 **与Apple无缝集成**
 
 - **HealthKit同步** - 自动将咖啡因记录到Apple健康，导入睡眠数据获取更深洞察
@@ -108,7 +115,7 @@
   author       = {Loth, Alexander},
   title        = {Mindful Coffee: Caffeine Log & Cortisol Rhythm},
   year         = {2025},
-  version      = {5.4},
+  version      = {5.5},
   publisher    = {Alexander Loth},
   url          = {https://apps.apple.com/cn/app/mindful-coffee-tracks-caffeine/id6742878005}
 }
