@@ -39,6 +39,9 @@ La plupart des trackers de caféine se contentent de compter les milligrammes. M
 
 **Widgets d'écran d'accueil et de verrouillage**
 
+
+<img align="right" src="assets/images/widget-quick-log.png" alt="Mindful Coffee iOS Widget showing caffeine level, daily intake, and Quick Log buttons on iPhone Home Screen" width="250">
+
 - **Caféine en un coup d'œil** - Consultez votre niveau de caféine, consommation quotidienne et heure de sommeil prévue directement sur l'écran d'accueil
 - **Widgets d'écran de verrouillage** - Styles circulaire, rectangulaire et inline pour vérifier votre caféine sans déverrouiller
 - **Enregistrement rapide depuis le widget** - Enregistrez votre boisson la plus récente ou la plus consommée en un geste depuis l'écran d'accueil

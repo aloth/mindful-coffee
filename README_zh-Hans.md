@@ -39,6 +39,9 @@
 
 **主屏幕和锁屏小组件**
 
+
+<img align="right" src="assets/images/widget-quick-log.png" alt="Mindful Coffee iOS Widget showing caffeine level, daily intake, and Quick Log buttons on iPhone Home Screen" width="250">
+
 - **一目了然的咖啡因状态** - 在主屏幕上直接查看当前咖啡因水平、每日摄入量和预测睡眠时间
 - **锁屏小组件** - 圆形、矩形和内联三种样式，无需解锁即可快速查看咖啡因
 - **小组件快速记录** - 从主屏幕一键记录最近饮用或最常饮用的饮品

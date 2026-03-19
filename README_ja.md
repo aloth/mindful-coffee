@@ -39,6 +39,9 @@ Appleの美しい**Liquid Glass**デザイン言語で作られたMindful Coffee
 
 **ホーム画面&ロック画面ウィジェット**
 
+
+<img align="right" src="assets/images/widget-quick-log.png" alt="Mindful Coffee iOS Widget showing caffeine level, daily intake, and Quick Log buttons on iPhone Home Screen" width="250">
+
 - **カフェインを一目で確認** - 現在のカフェインレベル、1日の摂取量、予測睡眠時間をホーム画面で直接確認
 - **ロック画面ウィジェット** - 円形、長方形、インラインの3スタイルでロック解除せずにカフェインをチェック
 - **ウィジェットからクイック記録** - ホーム画面からワンタップで最近の飲み物やよく飲む飲み物を記録

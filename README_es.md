@@ -39,6 +39,9 @@ La mayoría de los rastreadores de cafeína solo cuentan miligramos. Mindful Cof
 
 **Widgets de pantalla de inicio y bloqueo**
 
+
+<img align="right" src="assets/images/widget-quick-log.png" alt="Mindful Coffee iOS Widget showing caffeine level, daily intake, and Quick Log buttons on iPhone Home Screen" width="250">
+
 - **Cafeína de un vistazo** - Ve tu nivel actual de cafeína, consumo diario y hora estimada de sueño directamente en tu pantalla de inicio
 - **Widgets de pantalla de bloqueo** - Estilos circular, rectangular e inline para consultar tu cafeína sin desbloquear
 - **Registro rápido desde el widget** - Registra tu bebida más reciente o frecuente con un solo toque desde la pantalla de inicio
