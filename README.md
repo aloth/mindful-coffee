@@ -15,6 +15,8 @@ Stop guessing when you'll be ready for bed. Mindful Coffee is a beautifully desi
 
 Built with Apple's stunning **Liquid Glass** design language, Mindful Coffee feels right at home on your iPhone with its modern translucent interface and buttery-smooth animations.
 
+Part of the **Mindful Apps** family, alongside [Mindful Body](https://github.com/aloth/mindful-body).
+
 ## Why Mindful Coffee?
 
 Most caffeine trackers just count milligrams. Mindful Coffee goes deeper - it models your personal metabolism, visualizes your cortisol awakening response, and predicts your optimal sleep time based on real science. Whether you're a coffee enthusiast optimizing your morning routine or someone trying to improve sleep quality, this app gives you the insights you need.
@@ -99,6 +101,11 @@ Customize the app to match your unique caffeine metabolism. Adjust sensitivity, 
 </td>
 </tr>
 </table>
+
+## Related Projects
+
+- [**Mindful Body**](https://github.com/aloth/mindful-body) — Body composition tracker with HealthKit, iCloud sync, progress photos & goal tracking
+- [**Trackless Links**](https://github.com/aloth/trackless-links) — Safari extension for tracker removal from URLs
 
 ## Download Now
 
