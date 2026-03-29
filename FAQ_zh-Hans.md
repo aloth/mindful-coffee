@@ -1,3 +1,5 @@
+🇺🇸 [English](FAQ.md) | 🇩🇪 [Deutsch](FAQ_de.md) | 🇪🇸 [Español](FAQ_es.md) | 🇫🇷 [Français](FAQ_fr.md) | 🇯🇵 [日本語](FAQ_ja.md) | 🇨🇳 **中文**
+
 # Mindful Coffee – 常见问题 (FAQ)
 
 > 说明：本中文 FAQ 是根据英文原版编写的自然中文版本，保持相同结构和核心含义，同时尽量使用地道、易懂的表达方式。

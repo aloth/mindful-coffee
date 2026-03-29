@@ -1,3 +1,5 @@
+🇺🇸 [English](README.md) | 🇩🇪 [Deutsch](README_de.md) | 🇪🇸 [Español](README_es.md) | 🇫🇷 [Français](README_fr.md) | 🇯🇵 **日本語** | 🇨🇳 [中文](README_zh-Hans.md)
+
 # Mindful Coffee - 睡眠予測とコルチゾールリズム機能付きiPhoneカフェイン管理アプリ
 
 <p align="center">

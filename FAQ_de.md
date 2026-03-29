@@ -1,3 +1,5 @@
+🇺🇸 [English](FAQ.md) | 🇩🇪 **Deutsch** | 🇪🇸 [Español](FAQ_es.md) | 🇫🇷 [Français](FAQ_fr.md) | 🇯🇵 [日本語](FAQ_ja.md) | 🇨🇳 [中文](FAQ_zh-Hans.md)
+
 # Mindful Coffee – Häufig gestellte Fragen (FAQ)
 
 Willkommen! Diese FAQ hilft dir, die faszinierende Wissenschaft hinter Koffein zu verstehen – und wie du Mindful Coffee am besten nutzt. Egal ob gelegentlicher Kaffeetrinker oder Performance-Nerd: Hier findest du Erkenntnisse, die deine Beziehung zu Koffein nachhaltig verändern können.

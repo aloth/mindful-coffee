@@ -1,3 +1,5 @@
+🇺🇸 [English](FAQ.md) | 🇩🇪 [Deutsch](FAQ_de.md) | 🇪🇸 [Español](FAQ_es.md) | 🇫🇷 [Français](FAQ_fr.md) | 🇯🇵 **日本語** | 🇨🇳 [中文](FAQ_zh-Hans.md)
+
 # Mindful Coffee – よくある質問 (FAQ)
 
 > 注：この日本語版 FAQ は英語オリジナルをもとに、「直訳」ではなく日本語として自然に読めるように意訳したものです。構成と内容は英語版と同じです。

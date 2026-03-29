@@ -1,3 +1,5 @@
+🇺🇸 **English** | 🇩🇪 [Deutsch](FAQ_de.md) | 🇪🇸 [Español](FAQ_es.md) | 🇫🇷 [Français](FAQ_fr.md) | 🇯🇵 [日本語](FAQ_ja.md) | 🇨🇳 [中文](FAQ_zh-Hans.md)
+
 # Mindful Coffee – Frequently Asked Questions (FAQ)
 
 Welcome! This guide will help you understand the fascinating science of caffeine and get the most out of Mindful Coffee. Whether you're a casual coffee drinker or a serious optimizer, you'll find insights here that can transform your relationship with caffeine.
@@ -957,4 +959,3 @@ Ad-supported apps are incentivized to track you (more data = better ad targeting
 **Our privacy promise:**
 
 Your caffeine consumption is personal health data. It should be private. We built the app to make sure it is.
-

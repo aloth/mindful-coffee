@@ -1,3 +1,5 @@
+🇺🇸 [English](README.md) | 🇩🇪 [Deutsch](README_de.md) | 🇪🇸 **Español** | 🇫🇷 [Français](README_fr.md) | 🇯🇵 [日本語](README_ja.md) | 🇨🇳 [中文](README_zh-Hans.md)
+
 # Mindful Coffee - App de seguimiento de cafeína para iPhone con predicción de sueño y ritmo de cortisol
 
 <p align="center">

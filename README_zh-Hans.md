@@ -1,3 +1,5 @@
+🇺🇸 [English](README.md) | 🇩🇪 [Deutsch](README_de.md) | 🇪🇸 [Español](README_es.md) | 🇫🇷 [Français](README_fr.md) | 🇯🇵 [日本語](README_ja.md) | 🇨🇳 **中文**
+
 # Mindful Coffee - 带睡眠预测和皮质醇节律功能的iPhone咖啡因追踪App
 
 <p align="center">

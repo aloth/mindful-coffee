@@ -1,3 +1,5 @@
+🇺🇸 [English](FAQ.md) | 🇩🇪 [Deutsch](FAQ_de.md) | 🇪🇸 [Español](FAQ_es.md) | 🇫🇷 **Français** | 🇯🇵 [日本語](FAQ_ja.md) | 🇨🇳 [中文](FAQ_zh-Hans.md)
+
 # Mindful Coffee – Foire aux questions (FAQ)
 
 > Remarque : cette FAQ en français est une adaptation naturelle du texte anglais. La structure et le contenu scientifique sont conservés, mais les formulations ont été adaptées pour être fluides en français.
