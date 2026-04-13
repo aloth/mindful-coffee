@@ -47,6 +47,7 @@ La mayoría de los rastreadores de cafeína solo cuentan miligramos. Mindful Cof
 - **Cafeína de un vistazo** - Ve tu nivel actual de cafeína, consumo diario y hora estimada de sueño directamente en tu pantalla de inicio
 - **Widgets de pantalla de bloqueo** - Estilos circular, rectangular e inline para consultar tu cafeína sin desbloquear
 - **Registro rápido desde el widget** - Registra tu bebida más reciente o frecuente con un solo toque desde la pantalla de inicio
+- **Personalización del widget (Pro)** - Personaliza los botones de registro rápido y elige estilos modernos como Midnight, Warm Latte, Focus Blue y Forest
 - **Widget mediano** - Muestra tus bebidas favoritas para registro instantáneo con un toque
 
 **Integración perfecta con Apple**

@@ -47,6 +47,7 @@ La plupart des trackers de caféine se contentent de compter les milligrammes. M
 - **Caféine en un coup d'œil** - Consultez votre niveau de caféine, consommation quotidienne et heure de sommeil prévue directement sur l'écran d'accueil
 - **Widgets d'écran de verrouillage** - Styles circulaire, rectangulaire et inline pour vérifier votre caféine sans déverrouiller
 - **Enregistrement rapide depuis le widget** - Enregistrez votre boisson la plus récente ou la plus consommée en un geste depuis l'écran d'accueil
+- **Personnalisation du widget (Pro)** - Personnalisez les boutons d’enregistrement rapide et choisissez des styles modernes comme Midnight, Warm Latte, Focus Blue et Forest
 - **Widget moyen** - Affiche vos boissons préférées pour un enregistrement instantané
 
 **Intégration Apple parfaite**

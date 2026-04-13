@@ -265,6 +265,25 @@ Es ist 15:00 Uhr, du möchtest um 23:00 Uhr schlafen:
 
 Der Simulator hilft dir, Entscheidungen an deinem Schlafziel statt an kurzfristigen Gelüsten auszurichten.
 
+### Kann ich das Widget anpassen?
+
+Ja. Mindful Coffee bietet eine Widget-Anpassung, damit sich dein Home-Screen persönlicher und nützlicher anfühlt.
+
+**Was du anpassen kannst:**
+- Wähle moderne Widget-Stile wie **Midnight**, **Warm Latte**, **Focus Blue** und **Forest**
+- Personalisiere die **Quick-Log**-Tasten im mittleren Widget
+- Halte deine Lieblingsgetränke direkt auf dem Home-Screen mit einem Tipp erreichbar
+
+**Warum das sinnvoll ist:**
+Das Widget soll mehr sein als nur eine passive Anzeige. Mit der Anpassung wird es zu einem schnelleren und persönlicheren Koffein-Dashboard, das zu deinem Stil und deinem Alltag passt.
+
+**Gute Setups:**
+- Nutze eine Quick-Log-Taste für dein zuletzt getrunkenes Getränk
+- Pinne dein typisches Morgengedränk als eigenen Shortcut
+- Wähle einen Stil, der gut zu deinem Hintergrundbild passt und den Koffeinwert trotzdem schnell lesbar hält
+
+Die Widget-Anpassung ist eine **Pro**-Funktion.
+
 ### Wie nutze ich die Tages-Streaks sinnvoll?
 
 Streaks nutzen einen psychologischen Effekt namens **Verlustaversion**: Wenn du einmal eine Serie aufgebaut hast, willst du sie ungern wieder verlieren.

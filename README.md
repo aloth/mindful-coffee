@@ -54,6 +54,7 @@ Most caffeine trackers just count milligrams. Mindful Coffee goes deeper - it mo
 - **Caffeine at a Glance** - See your current caffeine level, daily intake, and predicted sleep time right on your Home Screen
 - **Lock Screen Widgets** - Circular, rectangular, and inline styles for quick caffeine checks without unlocking
 - **Quick Log from Widget** - Log your most recent or most-used drink with a single tap directly from the Home Screen
+- **Widget Customization (Pro)** - Personalize Quick Log buttons and choose modern widget styles like Midnight, Warm Latte, Focus Blue, and Forest
 - **Medium Widget** - Shows your top drinks for instant one-tap logging
 
 **Seamless Apple Integration**

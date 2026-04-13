@@ -270,6 +270,25 @@ It's 3 PM. You want to sleep by 11 PM. You're considering coffee.
 
 The simulator empowers you to make choices aligned with your sleep goals, not just your immediate cravings.
 
+### Can I customize the widget?
+
+Yes. Mindful Coffee includes widget customization so you can make the Home Screen experience feel more personal and useful.
+
+**What you can customize:**
+- Choose modern widget styles like **Midnight**, **Warm Latte**, **Focus Blue**, and **Forest**
+- Personalize the **Quick Log** buttons shown in the medium widget
+- Keep your favorite drinks one tap away right from the Home Screen
+
+**Why this matters:**
+The widget is meant to be more than a passive display. With customization, it becomes a faster, more personal caffeine dashboard that fits both your taste and your routine.
+
+**Good setup ideas:**
+- Use one Quick Log button for your most recent drink
+- Pin your go-to morning drink as a custom shortcut
+- Pick a style that looks great on your wallpaper but still keeps the caffeine number easy to scan
+
+Widget customization is available as a **Pro** feature.
+
 ### How do I use daily logging streaks?
 
 Streaks tap into a powerful psychological principle: **loss aversion**. Once you've built a streak, you're motivated to maintain it.

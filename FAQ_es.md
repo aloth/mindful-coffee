@@ -287,6 +287,25 @@ Son las 15:00. Quieres dormir a las 23:00. Estás dudando entre varias opciones.
 
 El simulador te ayuda a tomar decisiones alineadas con tus objetivos de sueño, no solo con el antojo del momento.
 
+### ¿Puedo personalizar el widget?
+
+Sí. Mindful Coffee incluye personalización del widget para que la experiencia en la pantalla de inicio sea más personal y útil.
+
+**Qué puedes personalizar:**
+- Elegir estilos modernos como **Midnight**, **Warm Latte**, **Focus Blue** y **Forest**
+- Personalizar los botones de **registro rápido** del widget mediano
+- Mantener tus bebidas favoritas siempre a un toque desde la pantalla de inicio
+
+**Por qué importa:**
+El widget no está pensado solo como una vista pasiva. Con la personalización se convierte en un panel de cafeína más rápido y más personal, alineado con tu estilo y tu rutina.
+
+**Ideas de configuración:**
+- Usa un botón de registro rápido para tu bebida más reciente
+- Fija tu bebida matutina favorita como acceso directo personalizado
+- Elige un estilo que combine con tu fondo pero que siga dejando la cifra de cafeína fácil de leer
+
+La personalización del widget es una función **Pro**.
+
 ### ¿Cómo usar las rachas de días consecutivos (streaks)?
 
 Las rachas aprovechan un sesgo psicológico muy potente: **evitar perder lo que ya has ganado**. Cuando has construido una buena racha de días seguidos, querrás mantenerla.

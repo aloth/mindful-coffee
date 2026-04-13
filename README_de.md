@@ -47,6 +47,7 @@ Die meisten Koffein-Tracker zählen nur Milligramm. Mindful Coffee geht weiter: 
 - **Koffein auf einen Blick** – Aktuellen Koffeinlevel, Tagesaufnahme und voraussichtliche Schlafenszeit direkt auf dem Home-Screen sehen
 - **Sperrbildschirm-Widgets** – Kreisförmig, rechteckig und inline für schnelle Koffein-Checks ohne Entsperren
 - **Quick Log über Widget** – Das zuletzt oder am häufigsten getrunkene Getränk mit einem Tipp direkt vom Home-Screen loggen
+- **Widget-Anpassung (Pro)** – Personalisiere Quick-Log-Tasten und wähle moderne Widget-Stile wie Midnight, Warm Latte, Focus Blue und Forest
 - **Mittleres Widget** – Zeigt die Top-Getränke zum schnellen Loggen mit einem Tipp
 
 **Nahtlose Apple-Integration**
