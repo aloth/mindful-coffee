@@ -10,6 +10,59 @@ Ce guide vous aidera à comprendre la science fascinante de la caféine et à ti
 
 ---
 
+## Journal de café (Nouveau dans 5.6)
+
+### C'est quoi le Journal de café ?
+
+Le **Journal de café** est une fonction Pro qui vous permet de loguer chaque tasse préparée à la maison ou prise dehors : espresso, V60, AeroPress, Chemex, French press, moka, cold brew, plus thé, matcha et sessions Gong Fu. Pour chaque extraction vous pouvez capturer **mouture, dose, ratio d'eau, temps, température, pression, pré-infusion, eau de bloom, TDS et une note de 1 à 5**. Au fil du temps, vous construisez un historique cherchable de ce qui marche — pour reproduire vos meilleures tasses et oublier les mauvaises.
+
+### Quelles méthodes d'extraction sont supportées ?
+
+Mindful Coffee 5.6 prend en charge nativement :
+
+- **Espresso** (avec pression, pré-infusion)
+- **V60 / pour over** (avec bloom, pré-infusion)
+- **AeroPress** (standard et inversée)
+- **Chemex**
+- **French press**
+- **Moka**
+- **Cold brew** (minuteur long, hh:mm)
+- **Café filtre**
+- **Thé** (vert, noir, oolong, blanc, herbal)
+- **Matcha**
+- **Gong Fu cha**
+
+Chaque méthode n'affiche que les paramètres pertinents — pas de champs inutiles.
+
+### C'est quoi le Guide d'extraction ?
+
+Le **Guide d'extraction** est une bibliothèque de recettes de départ pour chaque méthode, intégrée à l'app. Touchez une recette pour pré-remplir le log, puis ajustez. Avec le temps, vos propres recettes apparaissent dans **Mes recettes** à côté du Guide — vos favorites sont toujours à un tap.
+
+### C'est quoi les Suggestions intelligentes ?
+
+Après quelques extractions de la même méthode, Mindful Coffee analyse vos essais passés et suggère des ajustements de **mouture, temps et température** selon les extractions que vous avez le mieux notées. Plus vous loguez, plus les suggestions s'affinent.
+
+### Quelle est la précision de l'estimation de caféine pour le thé et le matcha ?
+
+L'app estime la caféine par tasse selon :
+
+- Le **type de feuille** (vert, noir, oolong, blanc, herbal, matcha)
+- La **dose** (grammes de feuille ou de matcha en poudre)
+- Le **temps d'infusion** (plus long = plus de caféine extraite)
+- La **méthode** (Gong Fu utilise plus de feuille avec des infusions courtes ; le matcha incorpore la feuille entière)
+
+Le matcha est spécial car vous consommez la feuille entière, pas seulement l'infusion — 1 g de matcha peut rivaliser avec un petit espresso. L'app en tient compte automatiquement.
+
+### Le Journal de café se synchronise-t-il entre mes appareils ?
+
+Oui — les entrées et recettes enregistrées se synchronisent via **iCloud** avec votre log de caféine. Commencez sur l'iPhone, finissez la saisie sur l'iPad, consultez l'analyse sur le Mac.
+
+### Le Journal de café est-il gratuit ?
+
+Le Journal de café, le Guide d'extraction, les Suggestions intelligentes et l'Analyse de café sont des **fonctions Pro**. Vous pouvez voir l'interface gratuitement ; loguer et analyser nécessite un abonnement Pro. (Le suivi de caféine, la prédiction du sommeil et le log de base restent gratuits.)
+
+---
+
 ## Comprendre la caféine
 
 ### Qu’est‑ce que la caféine, et comment agit‑elle ?

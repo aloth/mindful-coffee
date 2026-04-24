@@ -1,6 +1,6 @@
 🇺🇸 **English** | 🇩🇪 [Deutsch](README_de.md) | 🇪🇸 [Español](README_es.md) | 🇫🇷 [Français](README_fr.md) | 🇯🇵 [日本語](README_ja.md) | 🇨🇳 [中文](README_zh-Hans.md)
 
-# Mindful Coffee - Caffeine Tracker App for iPhone with Sleep Prediction & Cortisol Rhythm
+# Mindful Coffee — Caffeine Tracker & Brew Journal for iPhone, iPad & Mac
 
 [![App Store](https://img.shields.io/badge/App_Store-Download-blue?logo=apple&logoColor=white)](https://apps.apple.com/us/app/mindful-coffee-tracks-caffeine/id6742878005)
 [![Swift](https://img.shields.io/badge/Swift-6.0-orange?logo=swift&logoColor=white)](https://swift.org)
@@ -11,9 +11,9 @@
   <img src="assets/images/mindful-coffee-caffeine-tracker-sleep-optimization-hero.png" alt="Mindful Coffee — smart caffeine tracking with sleep prediction and cortisol rhythm optimization" width="700">
 </p>
 
-**The smartest way to track caffeine, predict your sleep, and optimize your energy throughout the day.**
+**The smartest way to log every espresso, V60, AeroPress, cold brew or matcha — dial in your perfect cup, track your caffeine, and predict your sleep.**
 
-Stop guessing when you'll be ready for bed. Mindful Coffee is a beautifully designed iOS app that tracks your coffee, tea, and energy drink consumption while showing you exactly when caffeine will clear your system for quality sleep. Understand your body's natural cortisol rhythm and time your caffeine perfectly for peak performance.
+Mindful Coffee is a beautifully designed iOS app that combines a full **Brew Journal** (espresso, V60, AeroPress, Chemex, French press, moka, cold brew, tea, matcha, Gong Fu) with smart caffeine and sleep tracking. Capture grind, dose, ratio, time, temperature and rating in one elegant flow, see exactly when caffeine will clear your system for quality sleep, and understand your body's natural cortisol rhythm.
 
 Built with Apple's stunning **Liquid Glass** design language, Mindful Coffee feels right at home on your iPhone with its modern translucent interface and buttery-smooth animations.
 
@@ -21,7 +21,16 @@ Part of the **Mindful Apps** family, alongside [Mindful Body](https://github.com
 
 ## Why Mindful Coffee?
 
-Most caffeine trackers just count milligrams. Mindful Coffee goes deeper - it models your personal metabolism, visualizes your cortisol awakening response, and predicts your optimal sleep time based on real science. Whether you're a coffee enthusiast optimizing your morning routine or someone trying to improve sleep quality, this app gives you the insights you need.
+Most caffeine trackers just count milligrams. Most brew apps just hold recipes. Mindful Coffee does both — the only iOS app that joins a full Brew Journal with a personal-metabolism caffeine model and on-device sleep prediction. Whether you're chasing the perfect espresso shot, dialing in a V60 pour-over, or simply trying to sleep better tonight, this app gives you the insights you need.
+
+## What's New in 5.6 — Brew Journal (Pro)
+
+- **Log Every Brew** — Espresso, V60, AeroPress, Chemex, French press, moka pot, cold brew — plus tea, matcha and Gong Fu. Capture grind, dose, ratio, time, temperature and rating in one elegant flow.
+- **Brew Guide** — Built-in recipes for every method. Tap to start, or save your own perfect cup.
+- **Smart Suggestions** — Tweak grind, time and temperature based on your past brews. Dial in faster, waste fewer beans.
+- **Brew Analytics** — Average rating, best brew, and what "dialed-in" really means for you.
+- **Live Timer** — mm:ss precision with a dedicated cold brew picker and Gong Fu support.
+- **Tea, Done Right** — Smart caffeine estimates per leaf and method (green, black, oolong, white, herbal, matcha).
 
 ## Key Features
 
@@ -133,7 +142,7 @@ The cortisol modeling feature is grounded in established research from chronobio
   author       = {Loth, Alexander},
   title        = {Mindful Coffee: Caffeine Log & Cortisol Rhythm},
   year         = {2025},
-  version      = {5.5},
+  version      = {5.6},
   publisher    = {Alexander Loth},
   url          = {https://apps.apple.com/us/app/mindful-coffee-tracks-caffeine/id6742878005}
 }
@@ -171,7 +180,7 @@ Help make Mindful Coffee even better:
 
 ---
 
-**Track smarter. Sleep better. Feel your best with Mindful Coffee.**
+**Brew better. Sleep smarter. Feel your best with Mindful Coffee.**
 
 [![Download on the App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/us/app/mindful-coffee-tracks-caffeine/id6742878005?platform=iphone)
 

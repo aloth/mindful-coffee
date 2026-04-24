@@ -6,15 +6,24 @@
   <img src="assets/images/mindful-coffee-caffeine-tracker-sleep-optimization-hero.png" alt="Mindful Coffee — smart caffeine tracking with sleep prediction and cortisol rhythm optimization" width="700">
 </p>
 
-**La manière la plus intelligente de suivre sa caféine, prédire son sommeil et optimiser son énergie tout au long de la journée.**
+**La manière la plus intelligente de loguer chaque espresso, V60, AeroPress, cold brew ou matcha — réglez votre tasse parfaite, suivez votre caféine et prédisez votre sommeil.**
 
-Fini de deviner quand vous serez prêt à dormir. Mindful Coffee est une app iOS magnifiquement conçue qui suit votre consommation de café, thé et boissons énergisantes tout en vous montrant exactement quand la caféine aura quitté votre système pour un sommeil de qualité. Comprenez le rythme naturel de cortisol de votre corps et synchronisez parfaitement votre caféine pour des performances optimales.
+Mindful Coffee est une app iOS magnifiquement conçue qui combine un **Journal de café** complet (espresso, V60, AeroPress, Chemex, French press, moka, cold brew, thé, matcha, Gong Fu) avec un suivi intelligent de la caféine et du sommeil. Capturez mouture, dose, ratio, temps, température et note dans un flux élégant, voyez quand la caféine quittera votre système et comprenez le rythme naturel de cortisol de votre corps.
 
 Conçue avec le superbe langage de design **Liquid Glass** d'Apple, Mindful Coffee se sent chez elle sur votre iPhone : interface translucide moderne et animations d'une fluidité parfaite.
 
 ## Pourquoi Mindful Coffee ?
 
-La plupart des trackers de caféine se contentent de compter les milligrammes. Mindful Coffee va plus loin : elle modélise votre métabolisme personnel, visualise votre réponse de cortisol au réveil et prédit votre heure de sommeil optimale en se basant sur la vraie science. Que vous soyez un passionné de café optimisant votre routine matinale ou quelqu'un cherchant à améliorer la qualité de son sommeil, cette app vous donne les réponses dont vous avez besoin.
+La plupart des trackers de caféine ne comptent que les milligrammes. La plupart des apps café ne stockent que des recettes. Mindful Coffee fait les deux — la seule app iOS qui réunit un Journal de café complet avec un modèle personnel de métabolisme de la caféine et une prédiction du sommeil sur l'appareil. Que vous chassiez l'espresso parfait, régliez un V60 ou cherchiez simplement à mieux dormir.
+
+## Nouveautés 5.6 — Journal de café (Pro)
+
+- **Loguez chaque extraction** — Espresso, V60, AeroPress, Chemex, French press, moka, cold brew — plus thé, matcha et Gong Fu. Mouture, dose, ratio, temps, température et note dans un flux élégant.
+- **Guide d'extraction** — Recettes intégrées pour chaque méthode. Touchez pour démarrer, ou enregistrez votre tasse parfaite.
+- **Suggestions intelligentes** — Ajustez mouture, temps et température selon vos cafés précédents. Calez plus vite, gaspillez moins.
+- **Analyse de café** — Note moyenne, votre meilleur café, et ce que « réglé » signifie pour vous.
+- **Minuteur en direct** — Précision mm:ss avec sélecteur dédié au cold brew et prise en charge Gong Fu.
+- **Le thé bien fait** — Estimation intelligente de la caféine par feuille et méthode (vert, noir, oolong, blanc, herbal, matcha).
 
 ## Fonctionnalités principales
 
@@ -121,7 +130,7 @@ Le modèle de cortisol est basé sur des recherches établies en chronobiologie 
   author       = {Loth, Alexander},
   title        = {Mindful Coffee: Caffeine Log & Cortisol Rhythm},
   year         = {2025},
-  version      = {5.5},
+  version      = {5.6},
   publisher    = {Alexander Loth},
   url          = {https://apps.apple.com/fr/app/mindful-coffee-tracks-caffeine/id6742878005}
 }

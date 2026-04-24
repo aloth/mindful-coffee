@@ -10,6 +10,59 @@ Esta guía te ayudará a entender la ciencia fascinante de la cafeína y a sacar
 
 ---
 
+## Diario de cafés (Novedad en 5.6)
+
+### ¿Qué es el Diario de cafés?
+
+El **Diario de cafés** es una función Pro que te permite registrar cada taza que preparas en casa o pides fuera: espresso, V60, AeroPress, Chemex, prensa francesa, moka, cold brew, además de té, matcha y sesiones Gong Fu. En cada extracción puedes capturar **molienda, dosis, ratio de agua, tiempo, temperatura, presión, pre-infusión, agua de bloom, TDS y una nota de 1-5**. Con el tiempo construyes un historial buscable de lo que funciona — para repetir tus mejores tazas y descartar las malas.
+
+### ¿Qué métodos de extracción están soportados?
+
+Mindful Coffee 5.6 incluye soporte nativo para:
+
+- **Espresso** (con presión, pre-infusión)
+- **V60 / pour over** (con bloom, pre-infusión)
+- **AeroPress** (estándar e invertida)
+- **Chemex**
+- **Prensa francesa**
+- **Moka**
+- **Cold brew** (cronómetro largo, hh:mm)
+- **Café de filtro**
+- **Té** (verde, negro, oolong, blanco, herbal)
+- **Matcha**
+- **Gong Fu cha**
+
+Cada método muestra solo los parámetros que tienen sentido — sin campos irrelevantes.
+
+### ¿Qué es la Guía de extracción?
+
+La **Guía de extracción** es una biblioteca de recetas iniciales para cada método, integrada en la app. Toca una receta para precargar el registro y luego ajusta a tu gusto. Con el tiempo, tus recetas guardadas aparecen en **Mis recetas** junto a la Guía — tus favoritas siempre están a un toque.
+
+### ¿Qué son las Sugerencias inteligentes?
+
+Después de registrar varias extracciones del mismo método, Mindful Coffee analiza tus intentos pasados y sugiere ajustes en **molienda, tiempo y temperatura del agua** según qué extracciones puntuaste mejor. Cuanto más registras, más inteligentes son las sugerencias.
+
+### ¿Qué tan precisa es la estimación de cafeína para té y matcha?
+
+La app estima la cafeína por taza basándose en:
+
+- **Tipo de hoja** (verde, negro, oolong, blanco, herbal, matcha)
+- **Dosis** (gramos de hoja o polvo de matcha)
+- **Tiempo de infusión** (más tiempo = más cafeína extraída)
+- **Método** (Gong Fu usa más hoja con infusiones cortas; el matcha bate la hoja entera)
+
+El matcha es especial porque consumes la hoja completa, no solo la infusión — 1g de matcha puede rivalizar con un espresso pequeño. La app lo calcula automáticamente.
+
+### ¿El Diario de cafés se sincroniza entre mis dispositivos?
+
+Sí — las entradas y recetas guardadas se sincronizan vía **iCloud** junto con tu registro de cafeína. Empieza en el iPhone, termina de registrar en el iPad y revisa la analítica en el Mac.
+
+### ¿El Diario de cafés es gratis?
+
+El Diario de cafés, la Guía de extracción, las Sugerencias inteligentes y el Análisis de cafés son **funciones Pro**. Puedes ver la UI gratis; registrar y analizar extracciones requiere suscripción Pro. (El seguimiento de cafeína, la predicción de sueño y el registro básico siguen siendo gratis.)
+
+---
+
 ## Entender la cafeína
 
 ### ¿Qué es exactamente la cafeína y cómo funciona?

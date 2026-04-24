@@ -6,6 +6,59 @@ Willkommen! Diese FAQ hilft dir, die faszinierende Wissenschaft hinter Koffein z
 
 ---
 
+## Brüh-Tagebuch (Neu in 5.6)
+
+### Was ist das Brüh-Tagebuch?
+
+Das **Brüh-Tagebuch** ist ein Pro-Feature, mit dem du jeden Brew zuhause oder unterwegs loggst: Espresso, V60, AeroPress, Chemex, French Press, Mokkakanne, Cold Brew, plus Tee, Matcha und Gong Fu. Pro Brew erfasst du **Mahlgrad, Dosis, Wasserverhältnis, Zeit, Temperatur, Druck, Pre-Infusion, Bloom-Wasser, TDS und eine 1-5-Bewertung**. Mit der Zeit baust du dir eine durchsuchbare Historie auf — die besten Tassen wiederholen, die schlechten überspringen.
+
+### Welche Brühmethoden werden unterstützt?
+
+Mindful Coffee 5.6 unterstützt nativ:
+
+- **Espresso** (mit Druck, Pre-Infusion)
+- **V60 / Pour Over** (mit Bloom-Wasser, Pre-Infusion)
+- **AeroPress** (Standard und invertiert)
+- **Chemex**
+- **French Press**
+- **Mokkakanne**
+- **Cold Brew** (Long-Timer, hh:mm)
+- **Filterkaffee**
+- **Tee** (grün, schwarz, Oolong, weiß, Kräuter)
+- **Matcha**
+- **Gong Fu Cha**
+
+Jede Methode zeigt nur die Parameter, die wirklich Sinn ergeben — keine überflüssigen Felder.
+
+### Was ist die Brüh-Anleitung?
+
+Die **Brüh-Anleitung** ist eine eingebaute Bibliothek mit Startrezepten für jede Methode. Tippe ein Rezept an, um den Brew-Log vorauszufüllen, und passe es dann an. Über die Zeit erscheinen deine eigenen Rezepte unter **Meine Rezepte** direkt neben der Anleitung — Lieblinge sind immer einen Tap entfernt.
+
+### Was sind Smarte Vorschläge?
+
+Nach ein paar Brews derselben Methode analysiert Mindful Coffee deine bisherigen Versuche und schlägt Anpassungen für **Mahlgrad, Brühzeit und Wassertemperatur** vor — basierend darauf, welche Brews du am höchsten bewertet hast. Je mehr du loggst, desto schlauer werden die Vorschläge.
+
+### Wie genau ist die Koffein-Schätzung für Tee und Matcha?
+
+Die App schätzt Koffein pro Tasse anhand von:
+
+- **Teesorte** (grün, schwarz, Oolong, weiß, Kräuter, Matcha)
+- **Dosis** (Gramm Blatt oder Matcha-Pulver)
+- **Ziehzeit** (länger = mehr extrahiert)
+- **Methode** (Gong Fu nutzt mehr Blatt mit kürzeren Aufgüssen; Matcha trinkt das ganze Blatt mit)
+
+Matcha ist besonders, weil du das ganze Blatt konsumierst — 1g Matcha kann es mit einem kleinen Espresso aufnehmen. Die App rechnet das automatisch ein.
+
+### Synct das Brüh-Tagebuch über meine Geräte?
+
+Ja — Brew-Einträge und gespeicherte Rezepte syncen via **iCloud** zusammen mit deinem Koffein-Log. Auf dem iPhone starten, auf dem iPad fertig eintragen, auf dem Mac analysieren.
+
+### Ist das Brüh-Tagebuch kostenlos?
+
+Brüh-Tagebuch, Brüh-Anleitung, Smarte Vorschläge und Brüh-Analyse sind **Pro-Features**. Die UI kannst du kostenlos ansehen; Loggen und Analysieren erfordern ein Pro-Abo. (Koffein-Tracking, Schlafvorhersage und Basis-Logging bleiben gratis.)
+
+---
+
 ## Koffein verstehen
 
 ### Was genau ist Koffein und wie wirkt es?

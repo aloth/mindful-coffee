@@ -2,7 +2,60 @@
 
 # Mindful Coffee – Frequently Asked Questions (FAQ)
 
-Welcome! This guide will help you understand the fascinating science of caffeine and get the most out of Mindful Coffee. Whether you're a casual coffee drinker or a serious optimizer, you'll find insights here that can transform your relationship with caffeine.
+Welcome! This guide will help you understand the fascinating science of caffeine, get the most out of the Brew Journal, and dial in your perfect cup with Mindful Coffee. Whether you're a casual coffee drinker, a home espresso enthusiast, or a serious sleep optimizer, you'll find insights here that can transform your relationship with caffeine.
+
+---
+
+## Brew Journal (New in 5.6)
+
+### What is the Brew Journal?
+
+The **Brew Journal** is a Pro feature that lets you log every cup you make at home or order out: espresso, V60, AeroPress, Chemex, French press, moka pot, cold brew, plus tea, matcha and Gong Fu sessions. For each brew you can capture **grind size, dose, water ratio, brew time, temperature, pressure, pre-infusion, bloom water, TDS, and a 1-5 rating**. Over time you build a searchable history of what works — so you can replicate your best cups and skip the bad ones.
+
+### What brewing methods are supported?
+
+Mindful Coffee 5.6 ships with first-class support for:
+
+- **Espresso** (with pressure, pre-infusion)
+- **V60 / pour over** (with bloom water, pre-infusion)
+- **AeroPress** (standard and inverted)
+- **Chemex**
+- **French press**
+- **Moka pot**
+- **Cold brew** (long timer, hh:mm)
+- **Drip coffee**
+- **Tea steep** (green, black, oolong, white, herbal)
+- **Matcha whisk**
+- **Gong Fu cha**
+
+Each method shows only the parameters that make sense for it — no irrelevant fields cluttering the form.
+
+### What is the Brew Guide?
+
+The **Brew Guide** is a library of starting-point recipes for every supported method, baked into the app. Tap a recipe to pre-fill the brew log, then tweak from there. Over time, your own saved recipes appear in the **My Recipes** tab right next to the Guide — your favorites are always one tap away.
+
+### What are Smart Suggestions?
+
+After you've logged a few brews of the same method, Mindful Coffee analyzes your past attempts and suggests adjustments to **grind, brew time, and water temperature** based on which brews you rated highest. The more you log, the smarter the suggestions get — it's a personalized feedback loop for dialing in your equipment.
+
+### How accurate is the caffeine estimate for tea and matcha?
+
+The app estimates caffeine per cup based on:
+
+- The **leaf type** (green, black, oolong, white, herbal, matcha)
+- The **dose** (grams of leaf or matcha powder)
+- The **steep time** (longer = more caffeine extracted)
+- The **method** (Gong Fu typically uses more leaf with shorter steeps; matcha whisks the entire leaf in)
+
+Matcha is special because you consume the whole leaf, not just an infusion — so a 1g serving of matcha can rival a small espresso shot for caffeine. The app accounts for this automatically.
+
+### Does the Brew Journal sync across my devices?
+
+Yes — brew entries and saved recipes sync via **iCloud** alongside your caffeine log. Start a brew on your iPhone, finish entering it on your iPad, and review analytics on your Mac.
+
+### Is the Brew Journal free?
+
+The Brew Journal, Brew Guide, Smart Suggestions, and Brew Analytics are **Pro features**. You can preview the UI for free; logging and analyzing brews requires a Pro subscription. (Caffeine tracking, sleep prediction, and basic logging remain free.)
 
 ---
 

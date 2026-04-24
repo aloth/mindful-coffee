@@ -1,20 +1,29 @@
 🇺🇸 [English](README.md) | 🇩🇪 [Deutsch](README_de.md) | 🇪🇸 [Español](README_es.md) | 🇫🇷 [Français](README_fr.md) | 🇯🇵 [日本語](README_ja.md) | 🇨🇳 **中文**
 
-# Mindful Coffee - 带睡眠预测和皮质醇节律功能的iPhone咖啡因追踪App
+# Mindful Coffee — iPhone、iPad 与 Mac 上的咖啡因追踪与冲煮日记 App
 
 <p align="center">
   <img src="assets/images/mindful-coffee-caffeine-tracker-sleep-optimization-hero.png" alt="Mindful Coffee — smart caffeine tracking with sleep prediction and cortisol rhythm optimization" width="700">
 </p>
 
-**追踪咖啡因、预测睡眠、全天优化精力的最智能方式。**
+**记录每一杯意式浓缩、V60、爱乐压、冷萃或抹茶的最智能方式 — 调出你的完美一杯，追踪咖啡因，预测睡眠。**
 
-不再猜测何时能入睡。Mindful Coffee是一款设计精美的iOS应用，追踪你的咖啡、茶和能量饮料摄入，同时精确告诉你咖啡因何时会从体内清除，让你享受高质量睡眠。理解身体的自然皮质醇节律，完美把握咖啡因摄入时机，达到最佳状态。
+Mindful Coffee 是一款设计精美的 iOS 应用，将完整的**冲煮日记**（意式浓缩、V60、爱乐压、Chemex、法压壶、摩卡壶、冷萃、茶、抹茶、功夫茶）与智能的咖啡因和睡眠追踪融为一体。在一个优雅的流程中记录研磨度、粉量、粉水比、时间、温度和评分，精确知道咖啡因何时清除体内，并理解身体的自然皮质醇节律。
 
 采用Apple绚丽的**Liquid Glass**设计语言，Mindful Coffee在你的iPhone上呈现现代半透明界面和丝滑动画，完美融入iOS生态。
 
-## 为什么选择Mindful Coffee?
+## 为什么选择 Mindful Coffee？
 
-大多数咖啡因追踪器只是简单计算毫克数。Mindful Coffee更深入一步：它模拟你的个人代谢，可视化皮质醇觉醒反应，并基于真实科学预测你的最佳睡眠时间。无论你是想优化晨间routine的咖啡爱好者，还是希望改善睡眠质量的人，这款应用都能给你所需的洞察。
+大多数咖啡因追踪器只会数毫克。大多数冲煮 App 只会存配方。Mindful Coffee 同时做到这两件事 — 是唯一一款将完整冲煮日记、个人化咖啡因代谢模型与设备端睡眠预测合而为一的 iOS 应用。无论你是在追求完美的意式浓缩、调试 V60，还是只想睡得更好。
+
+## 5.6 新功能 — 冲煮日记 (Pro)
+
+- **记录每一次冲煮** — 意式浓缩、V60、爱乐压、Chemex、法压壶、摩卡壶、冷萃 — 还有茶、抹茶和功夫茶。在一个优雅的流程中记录研磨度、粉量、粉水比、时间、温度和评分。
+- **冲煮指南** — 每种方法都内建配方。点击即开始，或保存你自己的完美一杯。
+- **智能建议** — 根据你过往的冲煮记录调整研磨度、时间和温度。更快调对，少浪费豆子。
+- **冲煮分析** — 平均评分、最佳一杯，以及对你而言「调对了」到底意味着什么。
+- **实时计时器** — mm:ss 精度，专属冷萃选择器并支持功夫茶。
+- **正确做茶** — 按茶叶和方法的智能咖啡因估算（绿茶、红茶、乌龙、白茶、花草茶、抹茶）。
 
 ## 核心功能
 
@@ -121,7 +130,7 @@
   author       = {Loth, Alexander},
   title        = {Mindful Coffee: Caffeine Log & Cortisol Rhythm},
   year         = {2025},
-  version      = {5.5},
+  version      = {5.6},
   publisher    = {Alexander Loth},
   url          = {https://apps.apple.com/cn/app/mindful-coffee-tracks-caffeine/id6742878005}
 }
