@@ -59,6 +59,95 @@ The Brew Journal, Brew Guide, Smart Suggestions, and Brew Analytics are **Pro fe
 
 ---
 
+## Apple Watch, Siri & Cortisol Timing (New in 5.6.1)
+
+### How do I set up the Apple Watch complications?
+
+Mindful Coffee 5.6.1 ships two **WidgetKit complications** for watchOS:
+
+- **Caffeine Now** — your current caffeine level at a glance.
+- **Bedtime Prognosis** — when you'll be ready for sleep based on current intake.
+
+To add them:
+
+1. Make sure the **Mindful Coffee Watch app is installed** — open the **Watch app on your iPhone** → scroll to **Mindful Coffee** → tap **Install**. (If your iPhone app updated to 5.6.1 the watch app should install automatically once both are paired.)
+2. On your Apple Watch, **long-press the watch face** you want to customize → tap **Edit** → swipe to **Complications**.
+3. Tap an empty complication slot, then scroll down to **Mindful Coffee** and pick either **Caffeine Now** or **Bedtime Prognosis**.
+4. Press the Digital Crown to save.
+
+Supported families: `.accessoryCircular`, `.accessoryRectangular`, `.accessoryInline`, `.accessoryCorner` — they work on Modular, Infograph, and the Smart Stack.
+
+### How do I quick-log a drink from my Apple Watch?
+
+Just **tap the complication**. A one-screen logging view opens with your **Default Drink** pre-filled. Spin the **Digital Crown** to fine-tune the mg amount, then tap **Log**. Done.
+
+If you'd rather pick a different drink, the regular Mindful Coffee Watch app still works — the complication tap is the express lane for your default.
+
+### How do I set my Default Drink?
+
+On your iPhone: **Settings** (gear icon top-right) → **Personalization** → **Default Drink**. Pick any drink from your catalog. The picker shows the drink name and caffeine amount, e.g. *"Espresso (64 mg)"*.
+
+This single setting powers:
+
+- The Apple Watch complication tap-to-log
+- "Hey Siri, log a coffee"
+- Quick-log from cortisol-window notifications
+
+### How do I use "Hey Siri, log a coffee"?
+
+Mindful Coffee donates an **App Shortcut** to Siri on first launch (iOS 18+). Try any of these phrases:
+
+- *"Hey Siri, log a coffee in Mindful Coffee"*
+- *"Hey Siri, log coffee with Mindful Coffee"*
+- *"Hey Siri, add coffee to Mindful Coffee"*
+
+Siri will instantly log your **Default Drink** without opening the app — perfect when you're driving, working out, or already mid-sip.
+
+You can also assign the shortcut to the **Action Button** (iPhone 15 Pro and later) or a Home Screen widget via the Shortcuts app.
+
+### Where do I find today's caffeine timing windows?
+
+Two ways:
+
+1. **Tap the cortisol chart** on the Today screen. A sheet slides up showing every **Best**, **OK**, and **Avoid** window for today with exact start times. Tap the disclosure arrows to expand each section. The toggle at the bottom lets you show or hide the legend on the chart itself.
+2. Look at the **☆ markers below the caffeine bars** on the chart — those are the start times of today's Best caffeine windows.
+
+### What are cortisol-window alerts and how do I enable them?
+
+A **gentle local notification** at the start of each Best caffeine window (when your cortisol is naturally dropping and caffeine helps most). Each notification offers a **Quick Log** button (logs your Default Drink instantly) and a **Snooze 30 min** option.
+
+To enable:
+
+1. **Settings** → **Notifications** → toggle on **Cortisol-window alerts**.
+2. Make sure Mindful Coffee has notification permission (you'll be prompted on first enable, or check **iOS Settings → Notifications → Mindful Coffee**).
+
+Built-in safeguards:
+
+- **Quiet hours respected** — nothing during your configured bedtime/wake window.
+- **Max 2 per day** — you won't get spammed even on long days.
+- **Smart suppression** — if you logged a drink in the last hour, the next alert is skipped automatically.
+
+### What is the Smart Stack relevance?
+
+On iPhone (lock screen, StandBy, Smart Stack on the Home Screen) and on Apple Watch, the Mindful Coffee widget now hints to iOS when it should be **automatically surfaced**:
+
+- **Morning Best window** — high relevance just before your first Best caffeine window of the day.
+- **Near bedtime + still high caffeine** — maximum relevance so you see the warning.
+- **~90 minutes before sleep-ready** — medium relevance as a heads-up.
+
+You don't need to configure anything — iOS handles the surfacing automatically once the widget is in your Smart Stack.
+
+### How does the Mindful Body integration work?
+
+[Mindful Body](https://github.com/aloth/mindful-body) is the companion app for body composition, goals and progress photos. Mindful Coffee 5.6.1 adds a **Companion App** card in Settings:
+
+- If Mindful Body is installed, the card shows **OPEN** — tap to launch it.
+- If not, the card shows **GET** — tap to open the App Store.
+
+Caffeine data flows automatically via **Apple Health**: Mindful Coffee writes your caffeine intake to Health, and Mindful Body reads it from there. No manual export needed. To verify the link, log a drink in Mindful Coffee, then open the **Health app → Browse → Nutrition → Caffeine** — your entry should appear with "Mindful Coffee" as the source.
+
+---
+
 ## Understanding Caffeine
 
 ### What exactly is caffeine, and how does it work?

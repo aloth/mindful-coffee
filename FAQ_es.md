@@ -63,6 +63,95 @@ El Diario de cafés, la Guía de extracción, las Sugerencias inteligentes y el 
 
 ---
 
+## Apple Watch, Siri y momentos de cafeína (Novedad en 5.6.1)
+
+### ¿Cómo configuro las complicaciones para Apple Watch?
+
+Mindful Coffee 5.6.1 incluye dos **complicaciones WidgetKit** para watchOS:
+
+- **Cafeína ahora** — tu nivel actual de cafeína de un vistazo.
+- **Pronóstico de sueño** — cuándo estarás listo para dormir según tu consumo actual.
+
+Para añadirlas:
+
+1. Asegúrate de tener instalada la **app Mindful Coffee para Watch** — abre la **app Watch en tu iPhone** → desplaza hasta **Mindful Coffee** → toca **Instalar**. (Si tu app de iPhone se actualizó a 5.6.1, la app del Watch debería instalarse automáticamente con los dispositivos emparejados.)
+2. En tu Apple Watch, **mantén pulsada la esfera** que quieras personalizar → toca **Editar** → desliza hasta **Complicaciones**.
+3. Toca un hueco vacío, baja hasta **Mindful Coffee** y elige **Cafeína ahora** o **Pronóstico de sueño**.
+4. Pulsa la Digital Crown para guardar.
+
+Familias compatibles: `.accessoryCircular`, `.accessoryRectangular`, `.accessoryInline`, `.accessoryCorner` — funcionan en Modular, Infograph y la pila inteligente.
+
+### ¿Cómo registro rápidamente una bebida desde mi Apple Watch?
+
+Simplemente **toca la complicación**. Se abre una pantalla de registro con tu **Bebida predeterminada** ya seleccionada. Gira la **Digital Crown** para ajustar los mg, luego toca **Registrar**. Listo.
+
+Si prefieres elegir otra bebida, la app de Mindful Coffee para Watch sigue funcionando — el toque en la complicación es la vía rápida para tu predeterminada.
+
+### ¿Cómo configuro mi Bebida predeterminada?
+
+En tu iPhone: **Ajustes** (engranaje arriba a la derecha) → **Personalización** → **Bebida predeterminada**. Elige cualquier bebida de tu catálogo. El selector muestra el nombre y la cantidad de cafeína, p. ej. *«Espresso (64 mg)»*.
+
+Este único ajuste alimenta:
+
+- El toque en la complicación del Apple Watch
+- «Oye Siri, log a coffee»
+- Registro rápido desde las notificaciones de ventana de cortisol
+
+### ¿Cómo uso «Oye Siri, log a coffee»?
+
+Mindful Coffee dona un **App Shortcut** a Siri al iniciar por primera vez (iOS 18+). Prueba estas frases:
+
+- *«Oye Siri, log a coffee in Mindful Coffee»*
+- *«Oye Siri, log coffee with Mindful Coffee»*
+- *«Oye Siri, add coffee to Mindful Coffee»*
+
+Siri registrará al instante tu **Bebida predeterminada** sin abrir la app — perfecto cuando estás conduciendo, entrenando o ya con la taza en la mano.
+
+También puedes asignar el atajo al **Botón de Acción** (iPhone 15 Pro y posterior) o a un widget de pantalla de inicio mediante la app Atajos.
+
+### ¿Dónde encuentro los momentos de cafeína de hoy?
+
+Dos formas:
+
+1. **Toca el gráfico de cortisol** en la pantalla Hoy. Una hoja se desliza mostrando todas las ventanas **Mejor**, **OK** y **Evitar** del día con horas exactas. Toca las flechas para expandir cada sección. El conmutador de abajo muestra u oculta la leyenda en el gráfico.
+2. Mira las **marcas ☆ debajo de las barras de cafeína** del gráfico — son las horas de inicio de las mejores ventanas de cafeína de hoy.
+
+### ¿Qué son los avisos de ventana de cortisol y cómo los activo?
+
+Una **notificación local sutil** al inicio de cada mejor ventana de cafeína (cuando tu cortisol baja de forma natural y la cafeína ayuda más). Cada notificación ofrece un botón de **Registro rápido** (registra tu bebida predeterminada al instante) y una opción de **Posponer 30 min**.
+
+Para activarlos:
+
+1. **Ajustes** → **Notificaciones** → activa **Avisos de ventana de cortisol**.
+2. Asegúrate de que Mindful Coffee tenga permiso de notificaciones (te lo pedirá al activar por primera vez, o comprueba **Ajustes de iOS → Notificaciones → Mindful Coffee**).
+
+Protecciones integradas:
+
+- **Horas de descanso respetadas** — nada durante tu ventana de sueño configurada.
+- **Máx. 2 al día** — no recibirás spam ni en jornadas largas.
+- **Supresión inteligente** — si registraste una bebida en la última hora, el siguiente aviso se omite automáticamente.
+
+### ¿Qué es la relevancia en Smart Stack?
+
+En iPhone (pantalla bloqueada, StandBy, pila inteligente en el inicio) y en Apple Watch, el widget de Mindful Coffee ahora indica a iOS cuándo debe **aparecer automáticamente**:
+
+- **Mejor ventana de la mañana** — alta relevancia justo antes de tu primera mejor ventana del día.
+- **Cerca de dormir + cafeína alta** — máxima relevancia para que veas la advertencia.
+- **~90 minutos antes de estar listo para dormir** — relevancia media como aviso previo.
+
+No necesitas configurar nada — iOS gestiona la aparición automáticamente cuando el widget está en tu Smart Stack.
+
+### ¿Cómo funciona la integración con Mindful Body?
+
+[Mindful Body](https://github.com/aloth/mindful-body) es la app complementaria para composición corporal, objetivos y fotos de progreso. Mindful Coffee 5.6.1 añade una tarjeta de **App complementaria** en Ajustes:
+
+- Si Mindful Body está instalada, la tarjeta muestra **ABRIR** — toca para iniciarla.
+- Si no, la tarjeta muestra **OBTENER** — toca para abrir el App Store.
+
+Los datos de cafeína fluyen automáticamente vía **Apple Salud**: Mindful Coffee escribe tu consumo de cafeína en Salud, y Mindful Body lo lee desde allí. No hace falta exportar manualmente. Para verificar el vínculo, registra una bebida en Mindful Coffee, luego abre la **app Salud → Explorar → Nutrición → Cafeína** — tu entrada debería aparecer con «Mindful Coffee» como origen.
+
+---
+
 ## Entender la cafeína
 
 ### ¿Qué es exactamente la cafeína y cómo funciona?

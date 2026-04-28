@@ -16,6 +16,19 @@ Diseñada con el elegante lenguaje de diseño **Liquid Glass** de Apple, Mindful
 
 La mayoría de los rastreadores de cafeína solo cuentan miligramos. La mayoría de las apps de cafe solo guardan recetas. Mindful Coffee hace ambas cosas — la única app iOS que une un Diario de cafes completo con un modelo personal de metabolismo de cafeína y predicción de sueño en el dispositivo. Ya sea que persigas el espresso perfecto, ajustes un V60 o simplemente quieras dormir mejor.
 
+## Novedades en 5.6.1 — Apple Watch, Siri y momentos de cafeína
+
+- **Complicaciones para Apple Watch** — Cafeína ahora y Pronóstico de sueño en todas las esferas modernas (Modular, Infograph, Smart Stack).
+- **Toca para registrar en el Watch** — toca una complicación para registrar tu bebida predeterminada en una sola pantalla, ajusta los mg con la Digital Crown.
+- **«Oye Siri, log a coffee»** — registra tu bebida predeterminada al instante sin abrir la app.
+- **Avisos de ventana de cortisol** — un recordatorio amable cuando el cortisol baja y la cafeína ayuda más. Respeta las horas de descanso, máx. 2 al día, omitidos si acabas de registrar una bebida.
+- **Relevancia en Smart Stack** — tu widget aparece en el momento adecuado (mejor ventana de la mañana, cerca de dormir si sigues acelerado).
+- **Bebida predeterminada** — una sola fuente que alimenta Siri, el reloj y las notificaciones.
+- **Toca el gráfico de cortisol** para ver los momentos de cafeína de hoy (Mejor / OK / Evitar).
+- **App complementaria Mindful Body** — la cafeína se sincroniza vía Apple Salud para verla junto a tus métricas corporales.
+
+👉 Consulta las [FAQ](FAQ_es.md#apple-watch-siri-y-momentos-de-cafe%C3%ADna-novedad-en-561) para guías de configuración.
+
 ## Novedades en 5.6 — Diario de cafes (Pro)
 
 - **Registra cada extracción** — Espresso, V60, AeroPress, Chemex, prensa francesa, moka, cold brew — más té, matcha y Gong Fu. Molienda, dosis, ratio, tiempo, temperatura y nota en un flujo elegante.

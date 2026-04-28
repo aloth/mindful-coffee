@@ -23,6 +23,19 @@ Part of the **Mindful Apps** family, alongside [Mindful Body](https://github.com
 
 Most caffeine trackers just count milligrams. Most brew apps just hold recipes. Mindful Coffee does both — the only iOS app that joins a full Brew Journal with a personal-metabolism caffeine model and on-device sleep prediction. Whether you're chasing the perfect espresso shot, dialing in a V60 pour-over, or simply trying to sleep better tonight, this app gives you the insights you need.
 
+## What's New in 5.6.1 — Apple Watch, Siri & Cortisol Timing
+
+- **Apple Watch Complications** — Caffeine Now and Bedtime Prognosis on every modern face (Modular, Infograph, Smart Stack).
+- **Tap-to-Log on Watch** — tap a complication to log your default drink in one screen, fine-tune mg with the Digital Crown.
+- **"Hey Siri, log a coffee"** — instantly log your default drink without opening the app.
+- **Cortisol-Window Alerts** — a gentle nudge when your cortisol drops and caffeine helps most. Quiet hours respected, max 2/day, smart-skipped if you just logged a drink.
+- **Smart Stack Relevance** — your widget surfaces at the right moments (morning Best window, near bedtime if still wired).
+- **Default Drink Setting** — one source of truth used by Siri, the watch, and notifications.
+- **Tap the Cortisol Chart** to see today's caffeine timing windows (Best / OK / Avoid).
+- **Mindful Body Companion** — caffeine syncs via Apple Health to view alongside body metrics.
+
+👉 See the [FAQ](FAQ.md#apple-watch-siri--cortisol-timing-new-in-561) for setup walkthroughs.
+
 ## What's New in 5.6 — Brew Journal (Pro)
 
 - **Log Every Brew** — Espresso, V60, AeroPress, Chemex, French press, moka pot, cold brew — plus tea, matcha and Gong Fu. Capture grind, dose, ratio, time, temperature and rating in one elegant flow.

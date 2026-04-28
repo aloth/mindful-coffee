@@ -61,6 +61,95 @@ App 会根据以下因素估算每杯咖啡因：
 
 ---
 
+## Apple Watch、Siri 与咖啡因时段 (5.6.1 新功能)
+
+### 如何设置 Apple Watch 复杂功能？
+
+Mindful Coffee 5.6.1 为 watchOS 提供两个 **WidgetKit 复杂功能**：
+
+- **当前咖啡因** — 一眼看出你目前的咖啡因水平。
+- **睡眠预报** — 根据当前摄入量，判断你什么时候能入睡。
+
+添加方法：
+
+1. 确保**Mindful Coffee Watch App 已安装** — 打开 iPhone 上的 **Watch App**，滚动到 **Mindful Coffee**，点 **安装**。（若 iPhone App 已更新至 5.6.1，在配对设备上 Watch App 应会自动安装。）
+2. 在 Apple Watch 上，**长按要自定义的表盘** → 点 **编辑** → 滑动到 **复杂功能**。
+3. 点击一个空的复杂功能位，滚动到 **Mindful Coffee**，选择 **当前咖啡因** 或 **睡眠预报**。
+4. 按 Digital Crown 保存。
+
+支持的类型：`.accessoryCircular`、`.accessoryRectangular`、`.accessoryInline`、`.accessoryCorner` — 适用于 Modular、Infograph 和 Smart Stack。
+
+### 如何从 Apple Watch 快速记录饮品？
+
+只需**轻点复杂功能**，就会弹出一个预填了**默认饮品**的单屏记录页。转动 **Digital Crown** 微调毫克数，然后点 **记录**。完成。
+
+如果你想选择另一种饮品，常规的 Mindful Coffee Watch App 仍可使用 — 复杂功能轻点是默认饮品的快捷通道。
+
+### 如何设置默认饮品？
+
+在 iPhone 上：**设置**（右上角齿轮）→ **个性化** → **默认饮品**。从你的饮品目录中选择任一饮品。选择器会显示饮品名称和咖啡因含量，例如 *“意式浓缩咖啡（64 毫克）”*。
+
+这一个设置驱动：
+
+- Apple Watch 复杂功能轻点记录
+- “Hey Siri, log a coffee”
+- 皮质醇时段通知中的快速记录
+
+### 如何使用“Hey Siri, log a coffee”？
+
+Mindful Coffee 会在首次启动时向 Siri 捳赠一个 **App Shortcut**（iOS 18+）。请试试以下语句：
+
+- *“Hey Siri, log a coffee in Mindful Coffee”*
+- *“Hey Siri, log coffee with Mindful Coffee”*
+- *“Hey Siri, add coffee to Mindful Coffee”*
+
+Siri 会立即记录你的**默认饮品**，无需打开 App — 适合开车、运动、或正在喝中的场合。
+
+你也可以通过「捷径」App 将捷径分配给 **动作按钮**（iPhone 15 Pro 及以后）或主屏幕小组件。
+
+### 在哪里查看今日的咖啡因时段？
+
+两种方式：
+
+1. 在「今日」屏幕上**轻点皮质醇图表**。一个侧面面板会从下方滑出，列出今日所有 **最佳**、**OK**和**避免** 时段以及准确时间。点击箭头可展开各分区。底部开关可在图表上显示或隐藏图例。
+2. 查看图表上**咖啡因柱状图下方的 ☆ 标记** — 这些是今日最佳咖啡因时段的开始时间。
+
+### 什么是皮质醇时段提醒？如何启用？
+
+在每个最佳咖啡因时段开始时发出的**柔和本地通知**（此时你的皮质醇自然下降，咖啡因最有效）。每条通知都提供**快速记录**按钮（立即记录默认饮品）以及 **稍后提醒 30 分钟** 选项。
+
+启用步骤：
+
+1. **设置** → **通知** → 开启 **皮质醇时段提醒**。
+2. 确保 Mindful Coffee 拥有通知权限（首次启用时会提示授权，也可在 **iOS 设置 → 通知 → Mindful Coffee** 中检查）。
+
+内置保护：
+
+- **尊重勿扰时段** — 在你设置的睡眠时间内不会推送。
+- **每天最多 2 次** — 即使是长一天也不会护骤轰炸。
+- **智能抣除** — 如果你上一小时内刚记录过饮品，下一条提醒会被自动跳过。
+
+### 什么是 Smart Stack 相关性？
+
+在 iPhone（锁屏、StandBy、主屏幕的 Smart Stack）和 Apple Watch 上，Mindful Coffee 小组件现在会向 iOS 提示何时应该**自动出现**：
+
+- **清晨的最佳时段** — 在你当天首个最佳咖啡因时段之前，相关性高。
+- **接近就寝 + 咖啡因仍高** — 最高相关性，让你看到警告。
+- **距离入睡尚需约 90 分钟** — 中等相关性，提前提醒。
+
+无需设置 — 只要小组件在你的 Smart Stack 中，iOS 会自动管理出现时机。
+
+### Mindful Body 集成是如何工作的？
+
+[Mindful Body](https://github.com/aloth/mindful-body) 是身体成分、目标和进度照片的配套 App。Mindful Coffee 5.6.1 在设置中添加了 **配套 App** 卡片：
+
+- 如果 Mindful Body 已安装，卡片显示 **打开** — 轻点即可启动。
+- 如果未安装，卡片显示 **获取** — 轻点打开 App Store。
+
+咖啡因数据通过 **Apple 健康** 自动流动：Mindful Coffee 将你的咖啡因摄入写入健康，Mindful Body 从健康读取。无需手动导出。验证连接：在 Mindful Coffee 中记录一杯饮品，然后打开 **健康 App → 浏览 → 营养 → 咖啡因** — 你的记录应该以 “Mindful Coffee” 为来源出现。
+
+---
+
 ## 了解咖啡因
 
 ### 咖啡因到底是什么？它是怎么起作用的？

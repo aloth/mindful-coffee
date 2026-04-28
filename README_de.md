@@ -16,6 +16,19 @@ Mit Apples eleganter **Liquid Glass**-Designsprache fühlt sich Mindful Coffee a
 
 Die meisten Koffein-Tracker zählen nur Milligramm. Die meisten Brüh-Apps verwalten nur Rezepte. Mindful Coffee macht beides — die einzige iOS-App, die ein vollwertiges Brüh-Tagebuch mit einem persönlichen Koffein-Stoffwechselmodell und Schlafvorhersage on-device verbindet. Egal ob du den perfekten Espresso jagst, einen V60 einstellst oder einfach besser schlafen willst.
 
+## Neu in 5.6.1 — Apple Watch, Siri & Cortisol-Timing
+
+- **Apple Watch Komplikationen** — Koffein jetzt und Schlafprognose auf allen modernen Zifferblättern (Modular, Infograph, Smart Stack).
+- **Tippen zum Eintragen auf der Watch** — tippe auf eine Komplikation, um dein Standardgetränk in einem Bildschirm einzutragen, mit der Digital Crown feinjustieren.
+- **„Hey Siri, log a coffee“** — trage dein Standardgetränk sofort ein, ohne die App zu öffnen.
+- **Cortisol-Fenster-Hinweise** — ein dezenter Hinweis, wenn das Cortisol fällt und Koffein am meisten hilft. Ruhezeiten respektiert, max. 2 pro Tag, übersprungen wenn du gerade ein Getränk eingetragen hast.
+- **Smart-Stack-Relevanz** — dein Widget erscheint zur richtigen Zeit (morgens im besten Fenster, vor dem Schlafen wenn noch zu wach).
+- **Standardgetränk-Einstellung** — eine zentrale Quelle für Siri, Watch und Hinweise.
+- **Tippe auf das Cortisol-Diagramm**, um die heutigen Koffein-Fenster zu sehen (Beste / OK / Vermeiden).
+- **Mindful Body Companion** — Koffein wird über Apple Health synchronisiert und neben Körperdaten angezeigt.
+
+👉 Setup-Anleitungen findest du in der [FAQ](FAQ_de.md#apple-watch-siri--cortisol-timing-neu-in-561).
+
 ## Neu in 5.6 — Brüh-Tagebuch (Pro)
 
 - **Jeden Brew loggen** — Espresso, V60, AeroPress, Chemex, French Press, Mokkakanne, Cold Brew — plus Tee, Matcha und Gong Fu. Mahlgrad, Dosis, Ratio, Zeit, Temperatur und Bewertung in einem eleganten Flow.
