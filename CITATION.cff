@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use Mindful Coffee in your research, please cite it as below."
+title: "Mindful Coffee: Caffeine Log & Cortisol Rhythm"
+authors:
+  - family-names: Loth
+    given-names: Alexander
+    orcid: "https://orcid.org/0009-0004-7080-3651"
+type: software
+version: "5.7.0"
+date-released: 2026-05-05
+license: "Proprietary"
+url: "https://apps.apple.com/us/app/mindful-coffee-tracks-caffeine/id6742878005"
+repository-code: "https://github.com/aloth/mindful-coffee"
+abstract: >
+  Mindful Coffee is an iOS caffeine tracker and brew journal with on-device
+  cortisol-rhythm modeling, sleep prediction, and HealthKit-driven correlation
+  analyses (sleep, resting heart rate). All calculations run locally on the
+  user's device.
+keywords:
+  - caffeine
+  - cortisol
+  - circadian-rhythm
+  - sleep-prediction
+  - heart-rate
+  - quantified-self
+  - healthkit
+  - ios
+  - swiftui
