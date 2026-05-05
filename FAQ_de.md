@@ -6,7 +6,7 @@ Willkommen! Diese FAQ hilft dir, die faszinierende Wissenschaft hinter Koffein z
 
 ---
 
-## Brüh-Tagebuch (Neu in 5.6)
+## Brüh-Tagebuch
 
 ### Was ist das Brüh-Tagebuch?
 
@@ -14,7 +14,7 @@ Das **Brüh-Tagebuch** ist ein Pro-Feature, mit dem du jeden Brew zuhause oder u
 
 ### Welche Brühmethoden werden unterstützt?
 
-Mindful Coffee 5.6 unterstützt nativ:
+Mindful Coffee unterstützt nativ:
 
 - **Espresso** (mit Druck, Pre-Infusion)
 - **V60 / Pour Over** (mit Bloom-Wasser, Pre-Infusion)
@@ -59,18 +59,18 @@ Brüh-Tagebuch, Brüh-Anleitung, Smarte Vorschläge und Brüh-Analyse sind **Pro
 
 ---
 
-## Apple Watch, Siri & Cortisol-Timing (Neu in 5.6.1)
+## Apple Watch, Siri & Cortisol-Timing
 
 ### Wie richte ich die Apple Watch Komplikationen ein?
 
-Mindful Coffee 5.6.1 bringt zwei **WidgetKit-Komplikationen** für watchOS:
+Mindful Coffee bringt zwei **WidgetKit-Komplikationen** für watchOS:
 
 - **Koffein jetzt** — dein aktueller Koffeinspiegel auf einen Blick.
 - **Schlafprognose** — wann du basierend auf deinem aktuellen Konsum schlafbereit bist.
 
 So fügst du sie hinzu:
 
-1. Stelle sicher, dass die **Mindful Coffee Watch-App installiert ist** — öffne die **Watch-App auf deinem iPhone** → scrolle zu **Mindful Coffee** → tippe auf **Installieren**. (Wenn deine iPhone-App auf 5.6.1 aktualisiert wurde, sollte die Watch-App bei verbundenen Geräten automatisch installiert werden.)
+1. Stelle sicher, dass die **Mindful Coffee Watch-App installiert ist** — öffne die **Watch-App auf deinem iPhone** → scrolle zu **Mindful Coffee** → tippe auf **Installieren**. Bei verbundenen Geräten sollte die Watch-App automatisch installiert werden.
 2. Auf deiner Apple Watch **lange auf das Zifferblatt drücken**, das du anpassen möchtest → **Bearbeiten** antippen → zu **Komplikationen** wischen.
 3. Tippe auf einen leeren Komplikationsplatz, scrolle zu **Mindful Coffee** und wähle entweder **Koffein jetzt** oder **Schlafprognose**.
 4. Digital Crown drücken zum Speichern.
@@ -139,7 +139,7 @@ Du musst nichts konfigurieren — iOS übernimmt die Einblendung automatisch, so
 
 ### Wie funktioniert die Mindful Body Integration?
 
-[Mindful Body](https://github.com/aloth/mindful-body) ist die Companion-App für Körperzusammensetzung, Ziele und Fortschrittsfotos. Mindful Coffee 5.6.1 ergänzt eine **Companion-App**-Karte in den Einstellungen:
+[Mindful Body](https://github.com/aloth/mindful-body) ist die Companion-App für Körperzusammensetzung, Ziele und Fortschrittsfotos. Mindful Coffee ergänzt eine **Companion-App**-Karte in den Einstellungen:
 
 - Wenn Mindful Body installiert ist, zeigt die Karte **ÖFFNEN** — tippe, um sie zu starten.
 - Wenn nicht, zeigt die Karte **LADEN** — tippe, um den App Store zu öffnen.
@@ -670,6 +670,49 @@ Dann teilt sie deine Tage in Koffein-Buckets ein und berechnet für jeden Bucket
 
 **Tipp:** Nutze das Ergebnis, um deine Tagesobergrenze zu definieren – nicht die pauschalen 400 mg aus Leitlinien, sondern den Wert, bei dem *dein* Schlaf deutlich schlechter wird.
 
+### Wie funktioniert die Resting-HR-Korrelation? (Pro)
+
+Dieselbe Idee wie die Sleep-Correlation, aber für deine kardiovaskuläre Baseline.
+
+**Die Hypothese, die hier getestet wird:**
+
+Koffein ist ein Stimulans und treibt im Schnitt den Puls leicht nach oben. Aber „im Schnitt“ sagt nichts darüber, was es Tag für Tag mit *deiner* Ruheherzfrequenz macht. Genau das beantwortet die Resting-HR-Korrelation – mit deinen eigenen Daten.
+
+**Was berechnet wird:**
+
+Die Funktion verknüpft zwei Datenquellen:
+1. dein geloggtes Koffein (aus dieser App)
+2. deine Ruheherzfrequenz (aus Apple Health, normalerweise nachts von der Apple Watch erfasst)
+
+Dann teilt sie deine Tage in Koffein-Buckets ein und zeigt für jeden Bucket den durchschnittlichen Ruhepuls:
+
+| Tageskoffein | Deine Ø Ruheherzfrequenz | Anzahl Tage |
+|-------------|--------------------------|-------------|
+| 0–100 mg | 58 bpm | 12 |
+| 100–200 mg | 60 bpm | 28 |
+| 200–300 mg | 62 bpm | 35 |
+| 300+ mg | 65 bpm | 15 |
+
+**Wie du das interpretierst:**
+
+- **Klarer Aufwärtstrend:** An Tagen mit mehr Koffein liegt deine Ruheherzfrequenz höher.
+- **Flach über alle Buckets:** Dein Herz-Kreislauf-System steckt die Mengen, die du konsumierst, ohne sichtbare Reaktion weg.
+- **Sprung ab einer bestimmten Schwelle:** Dein Körper toleriert Koffein bis zu einem Punkt, dann zieht der Ruhepuls deutlich an.
+
+**Warum Ruhepuls (und nicht der aktive Puls)?**
+
+Der aktive Puls springt aus hundert Gründen (Sport, Treppe, Stress). Die Ruheherzfrequenz wird im Schlaf oder in langen ruhigen Phasen erfasst und ist einer der saubersten Einzelwerte für Erholung und kardiovaskuläre Belastung. Sportler:innen und Longevity-Forschende achten genau auf diesen Trend.
+
+**Voraussetzungen:**
+1. Apple Watch (oder eine andere Quelle in Apple Health, die Ruheherzfrequenz schreibt)
+2. Lesezugriff auf „Herzfrequenz“ / „Ruheherzfrequenz“ für Mindful Coffee in Apple Health
+3. Mindestens 2–3 Wochen konsistentes Koffein-Logging
+4. Variation in deinen Tagesmengen (immer dieselbe Menge = keine Korrelation möglich)
+
+**Datenschutz:** Wie bei der Sleep-Correlation läuft die gesamte Berechnung on-device. Deine Herzfrequenzdaten verlassen dein iPhone nie.
+
+**Pro-Funktion:** Die Resting-HR-Korrelation ist eine Pro-Funktion. Die Sleep-Correlation ist für alle dabei.
+
 ### Wie funktioniert die HealthKit-Integration? (Pro)
 
 Apple HealthKit ist das zentrale Nervensystem für Gesundheitsdaten auf dem iPhone. Mindful Coffee dockt direkt daran an.
@@ -688,6 +731,7 @@ Jeder Eintrag in Mindful Coffee erzeugt einen passenden Datensatz in Apple Healt
 | Datentyp | Verwendung |
 |----------|-----------|
 | Schlafanalyse | Grundlage für Sleep-Correlation-Insights |
+| Ruheherzfrequenz | Grundlage für die Resting-HR-Korrelation (Pro) |
 | Koffein anderer Apps | Optionaler Import von z. B. Ketten-Apps |
 
 **Warum das spannend ist:**
@@ -795,6 +839,30 @@ Damit die Schlafkorrelation funktioniert, müssen ein paar Bedingungen erfüllt 
    Wenn du jeden Tag exakt gleich viel trinkst, lassen sich keine Gruppen bilden.
 
 Wenn trotzdem nichts angezeigt wird, hilft es oft, die Health-Berechtigungen einmal zu entziehen und neu zu vergeben.
+
+### Es werden keine Resting-HR-Korrelationsdaten angezeigt (Pro)
+
+Ähnliche Fehlersuche wie bei der Sleep-Correlation, mit ein paar Punkten speziell für Herzfrequenz-Daten.
+
+1. **Es gibt überhaupt Ruheherzfrequenz in Apple Health**
+   - Health-App → „Durchsuchen“ → „Herz“ → „Ruheherzfrequenz“.
+   - Die Ruheherzfrequenz wird normalerweise von der Apple Watch nach ein paar Nächten geschrieben.
+   - Keine Apple Watch und keine Drittquelle = keine Daten zum Korrelieren.
+
+2. **Mindful Coffee hat Lesezugriff**
+   - Einstellungen → Datenschutz & Sicherheit → Health → Mindful Coffee
+   - „Herzfrequenz“ / „Ruheherzfrequenz“ aktivieren.
+
+3. **Genug gepaarte Daten**
+   - Mindestens 14 Tage, an denen sowohl Koffein als auch Ruheherzfrequenz vorliegen.
+
+4. **Variation in den Tagesmengen**
+   - Immer exakt dieselbe Menge = nichts zum Vergleichen.
+
+**Wenn es immer noch nicht klappt:**
+- Trage die Apple Watch mindestens 3–4 Nächte, damit Apple eine tägliche Baseline berechnen kann.
+- Stelle sicher, dass Schlaf-Tracking oder das Hintergrund-Sampling der Herzfrequenz auf der Watch aktiviert ist.
+- Health-Berechtigungen einmal entziehen und neu vergeben, wenn die Werte „eingefroren“ wirken.
 
 ### Die App schickt mir keine Erinnerungen
 

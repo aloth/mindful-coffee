@@ -10,7 +10,7 @@ Ce guide vous aidera à comprendre la science fascinante de la caféine et à ti
 
 ---
 
-## Journal de café (Nouveau dans 5.6)
+## Journal de café
 
 ### C'est quoi le Journal de café ?
 
@@ -18,7 +18,7 @@ Le **Journal de café** est une fonction Pro qui vous permet de loguer chaque ta
 
 ### Quelles méthodes d'extraction sont supportées ?
 
-Mindful Coffee 5.6 prend en charge nativement :
+Mindful Coffee prend en charge nativement :
 
 - **Espresso** (avec pression, pré-infusion)
 - **V60 / pour over** (avec bloom, pré-infusion)
@@ -63,18 +63,18 @@ Le Journal de café, le Guide d'extraction, les Suggestions intelligentes et l'A
 
 ---
 
-## Apple Watch, Siri & timing du cortisol (Nouveau dans 5.6.1)
+## Apple Watch, Siri & timing du cortisol
 
 ### Comment configurer les complications Apple Watch ?
 
-Mindful Coffee 5.6.1 livre deux **complications WidgetKit** pour watchOS :
+Mindful Coffee livre deux **complications WidgetKit** pour watchOS :
 
 - **Caféine actuelle** — ton niveau de caféine actuel en un coup d’œil.
 - **Pronostic de sommeil** — quand tu seras prêt à dormir selon ta consommation actuelle.
 
 Pour les ajouter :
 
-1. Assure-toi que **l’app Mindful Coffee pour Watch est installée** — ouvre l’**app Watch sur ton iPhone** → fais défiler jusqu’à **Mindful Coffee** → touche **Installer**. (Si ton app iPhone a été mise à jour vers 5.6.1, l’app Watch devrait s’installer automatiquement avec les appareils jumelés.)
+1. Assure-toi que **l’app Mindful Coffee pour Watch est installée** — ouvre l’**app Watch sur ton iPhone** → fais défiler jusqu’à **Mindful Coffee** → touche **Installer**. Avec les appareils jumelés, l’app Watch devrait s’installer automatiquement.
 2. Sur ton Apple Watch, **appuie longuement sur le cadran** à personnaliser → touche **Modifier** → fais glisser jusqu’aux **Complications**.
 3. Touche un emplacement vide, descends jusqu’à **Mindful Coffee** et choisis **Caféine actuelle** ou **Pronostic de sommeil**.
 4. Appuie sur la Digital Crown pour enregistrer.
@@ -143,7 +143,7 @@ Tu n’as rien à configurer — iOS gère l’affichage automatiquement dès qu
 
 ### Comment fonctionne l’intégration Mindful Body ?
 
-[Mindful Body](https://github.com/aloth/mindful-body) est l’app compagnon pour la composition corporelle, les objectifs et les photos de progression. Mindful Coffee 5.6.1 ajoute une carte **App compagnon** dans les Réglages :
+[Mindful Body](https://github.com/aloth/mindful-body) est l’app compagnon pour la composition corporelle, les objectifs et les photos de progression. Mindful Coffee ajoute une carte **App compagnon** dans les Réglages :
 
 - Si Mindful Body est installée, la carte affiche **OUVRIR** — touche pour la lancer.
 - Sinon, la carte affiche **OBTENIR** — touche pour ouvrir l’App Store.
@@ -732,6 +732,49 @@ Ensuite, elle regroupe les jours par tranches de caféine quotidienne et calcule
 
 **Astuce :** servez‑vous de cette analyse pour fixer votre **budget caféine**. Si vos données montrent qu’au‑delà de 200 mg votre sommeil chute, alors 200 mg devient votre limite personnelle — peu importe les recommandations générales.
 
+### Comment fonctionne la corrélation avec la fréquence cardiaque au repos ? (Pro)
+
+Même idée que la Sleep Correlation, mais appliquée à votre base cardiovasculaire.
+
+**L’hypothèse testée :**
+
+La caféine est un stimulant. En moyenne, elle fait légèrement monter le rythme cardiaque. Mais « en moyenne » ne dit rien sur ce qu’elle fait, jour après jour, à *votre* fréquence cardiaque au repos. C’est exactement ce qu’analyse cette fonction, avec vos propres données.
+
+**Ce qui est calculé :**
+
+La fonction croise deux flux :
+1. votre caféine enregistrée (dans cette app)
+2. votre fréquence cardiaque au repos (depuis Apple Santé, généralement mesurée par l’Apple Watch pendant la nuit)
+
+Elle regroupe ensuite vos jours par dose de caféine et affiche la fréquence cardiaque au repos moyenne pour chaque groupe :
+
+| Caféine quotidienne | Votre FC au repos moyenne | Jours |
+|---------------------|----------------------------|-------|
+| 0–100 mg | 58 bpm | 12 |
+| 100–200 mg | 60 bpm | 28 |
+| 200–300 mg | 62 bpm | 35 |
+| 300+ mg | 65 bpm | 15 |
+
+**Comment interpréter vos résultats :**
+
+- **Tendance nette à la hausse :** les jours plus caféinés s’accompagnent d’une FC au repos plus élevée.
+- **Plat entre les groupes :** votre système cardiovasculaire encaisse les doses que vous consommez sans broncher.
+- **Saut au-delà d’un seuil :** votre corps tolère la caféine jusqu’à un certain point, puis la FC au repos décolle.
+
+**Pourquoi la FC au repos (et pas la FC active) ?**
+
+La FC active grimpe pour cent raisons (sport, escaliers, stress). La FC au repos est mesurée pendant le sommeil ou de longues périodes calmes : c’est l’un des indicateurs uniques les plus propres pour la récupération et la charge cardiovasculaire. Sportifs et chercheurs en longévité la suivent de près.
+
+**Prérequis :**
+1. Apple Watch (ou autre source dans Apple Santé écrivant la FC au repos)
+2. Permission de lecture pour « Fréquence cardiaque » / « Fréquence cardiaque au repos »
+3. Au moins 2–3 semaines de log de caféine régulier
+4. Une variation de vos doses quotidiennes (la même quantité chaque jour = rien à corréler)
+
+**Confidentialité :** comme la Sleep Correlation, tout est calculé sur l’appareil. Votre fréquence cardiaque ne quitte jamais votre iPhone.
+
+**Fonction Pro :** la corrélation avec la FC au repos est Pro. La Sleep Correlation reste accessible à tous.
+
 ### Comment fonctionne l’intégration HealthKit ? (Pro)
 
 HealthKit est le “système nerveux central” des données de santé sur iPhone. Mindful Coffee s’y connecte dans les deux sens.
@@ -753,6 +796,7 @@ Chaque boisson enregistrée crée une entrée horodatée dans Apple Health :
 | Type de données | Utilisation |
 |-----------------|------------|
 | Analyse du sommeil | Alimente les Sleep Correlation Insights |
+| Fréquence cardiaque au repos | Alimente la corrélation avec la FC au repos (Pro) |
 | Caféine (autres apps) | Import ponctuel (ex. certaines apps de chaînes de café) |
 
 **Avantages de l’écosystème :**
@@ -892,6 +936,30 @@ Cette fonctionnalité nécessite certaines conditions.
 **Toujours rien ?**
 
 Essayez de révoquer puis de réaccorder les autorisations Health. Parfois, cela résout des blocages du système.
+
+### La corrélation avec la FC au repos n’affiche aucune donnée (Pro)
+
+Dépannage similaire à celui de la Sleep Correlation, avec quelques spécificités pour les données cardiaques.
+
+1. **La FC au repos existe dans Apple Santé**
+   - App Santé → Parcourir → Cœur → Fréquence cardiaque au repos.
+   - Elle est généralement écrite par l’Apple Watch après quelques nuits portées.
+   - Pas d’Apple Watch ni de source tierce = aucune donnée à corréler.
+
+2. **Mindful Coffee a la permission de lecture**
+   - Réglages → Confidentialité et sécurité → Santé → Mindful Coffee.
+   - Activer « Fréquence cardiaque » / « Fréquence cardiaque au repos ».
+
+3. **Suffisamment de données appariées**
+   - Au moins 14 jours avec caféine et FC au repos pour la même journée.
+
+4. **Variation des doses**
+   - Exactement la même quantité chaque jour = rien à corréler.
+
+**Toujours rien ?**
+- Portez l’Apple Watch au moins 3–4 nuits pour qu’Apple calcule une base quotidienne.
+- Vérifiez que le suivi du sommeil ou l’échantillonnage cardiaque en arrière-plan est activé sur la Watch.
+- Révoquez puis réaccordez les autorisations Santé si les valeurs paraissent « figées ».
 
 ### L’app n’envoie pas de rappels
 

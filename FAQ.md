@@ -6,7 +6,7 @@ Welcome! This guide will help you understand the fascinating science of caffeine
 
 ---
 
-## Brew Journal (New in 5.6)
+## Brew Journal
 
 ### What is the Brew Journal?
 
@@ -14,7 +14,7 @@ The **Brew Journal** is a Pro feature that lets you log every cup you make at ho
 
 ### What brewing methods are supported?
 
-Mindful Coffee 5.6 ships with first-class support for:
+Mindful Coffee ships with first-class support for:
 
 - **Espresso** (with pressure, pre-infusion)
 - **V60 / pour over** (with bloom water, pre-infusion)
@@ -59,18 +59,18 @@ The Brew Journal, Brew Guide, Smart Suggestions, and Brew Analytics are **Pro fe
 
 ---
 
-## Apple Watch, Siri & Cortisol Timing (New in 5.6.1)
+## Apple Watch, Siri & Cortisol Timing
 
 ### How do I set up the Apple Watch complications?
 
-Mindful Coffee 5.6.1 ships two **WidgetKit complications** for watchOS:
+Mindful Coffee ships two **WidgetKit complications** for watchOS:
 
 - **Caffeine Now** — your current caffeine level at a glance.
 - **Bedtime Prognosis** — when you'll be ready for sleep based on current intake.
 
 To add them:
 
-1. Make sure the **Mindful Coffee Watch app is installed** — open the **Watch app on your iPhone** → scroll to **Mindful Coffee** → tap **Install**. (If your iPhone app updated to 5.6.1 the watch app should install automatically once both are paired.)
+1. Make sure the **Mindful Coffee Watch app is installed** — open the **Watch app on your iPhone** → scroll to **Mindful Coffee** → tap **Install**. The Watch app should install automatically once both devices are paired.
 2. On your Apple Watch, **long-press the watch face** you want to customize → tap **Edit** → swipe to **Complications**.
 3. Tap an empty complication slot, then scroll down to **Mindful Coffee** and pick either **Caffeine Now** or **Bedtime Prognosis**.
 4. Press the Digital Crown to save.
@@ -139,7 +139,7 @@ You don't need to configure anything — iOS handles the surfacing automatically
 
 ### How does the Mindful Body integration work?
 
-[Mindful Body](https://github.com/aloth/mindful-body) is the companion app for body composition, goals and progress photos. Mindful Coffee 5.6.1 adds a **Companion App** card in Settings:
+[Mindful Body](https://github.com/aloth/mindful-body) is the companion app for body composition, goals and progress photos. Mindful Coffee includes a **Companion App** card in Settings:
 
 - If Mindful Body is installed, the card shows **OPEN** — tap to launch it.
 - If not, the card shows **GET** — tap to open the App Store.
@@ -695,7 +695,7 @@ Then it buckets your days by caffeine amount and calculates average sleep for ea
 
 ### How does Resting Heart Rate Correlation work? (Pro)
 
-New in 5.7. Same idea as Sleep Correlation, but for your cardiovascular baseline.
+Same idea as Sleep Correlation, but for your cardiovascular baseline.
 
 **The hypothesis it tests:**
 
@@ -757,7 +757,7 @@ Every drink you log creates a timestamped entry in Apple Health. This means:
 | Data Type | Use Case |
 |-----------|----------|
 | Sleep Analysis | Powers the Sleep Correlation feature |
-| Resting Heart Rate | Powers the Resting HR Correlation feature (Pro, 5.7+) |
+| Resting Heart Rate | Powers the Resting HR Correlation feature (Pro) |
 | Caffeine (from other apps) | One-time import from Starbucks app, etc. |
 
 **The magic of the ecosystem:**
