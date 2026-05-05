@@ -107,7 +107,7 @@ Read the full [Privacy Policy](https://github.com/aloth/mindful-coffee/blob/main
 
 ## Research Collaboration
 
-If you're a researcher or student in chronobiology, sleep science or related fields, reach out at `support+mindfulcoffee@alexloth.com`. Citation metadata lives in [`CITATION.cff`](./CITATION.cff).
+If you're a researcher or student in chronobiology, sleep science or related fields, reach out at `support+mindfulcoffee@alexloth.com`.
 
 ## Feedback
 

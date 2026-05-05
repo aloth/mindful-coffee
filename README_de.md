@@ -1,83 +1,54 @@
 🇺🇸 [English](README.md) | 🇩🇪 **Deutsch** | 🇪🇸 [Español](README_es.md) | 🇫🇷 [Français](README_fr.md) | 🇯🇵 [日本語](README_ja.md) | 🇨🇳 [中文](README_zh-Hans.md)
 
-# Mindful Coffee - Koffein-Tracker für iPhone mit Schlafvorhersage & Cortisol-Rhythmus
+# Mindful Coffee — Koffein-Tracker & Brüh-Tagebuch für iPhone, iPad & Mac
+
+[![App Store](https://img.shields.io/badge/App_Store-Laden-blue?logo=apple&logoColor=white)](https://apps.apple.com/de/app/mindful-coffee-tracks-caffeine/id6742878005)
+[![Swift](https://img.shields.io/badge/Swift-6.0-orange?logo=swift&logoColor=white)](https://swift.org)
+[![Plattform](https://img.shields.io/badge/Plattform-iOS_17+-lightgrey?logo=apple)](https://developer.apple.com/ios/)
+[![GitHub stars](https://img.shields.io/github/stars/aloth/mindful-coffee?style=social)](https://github.com/aloth/mindful-coffee/stargazers)
 
 <p align="center">
-  <img src="assets/images/mindful-coffee-caffeine-tracker-sleep-optimization-hero.png" alt="Mindful Coffee — smart caffeine tracking with sleep prediction and cortisol rhythm optimization" width="700">
+  <img src="assets/images/mindful-coffee-caffeine-tracker-sleep-optimization-hero.png" alt="Mindful Coffee — smartes Koffein-Tracking mit Schlafvorhersage und Cortisol-Rhythmus-Optimierung" width="700">
 </p>
 
-**Die clevere Art, jeden Espresso, V60, AeroPress, Cold Brew oder Matcha zu loggen — deinen perfekten Brew einstellen, Koffein tracken und deinen Schlaf vorhersagen.**
+**Besser brühen. Besser schlafen.**
 
-Mindful Coffee ist eine wunderschön gestaltete iOS-App, die ein vollwertiges **Brüh-Tagebuch** (Espresso, V60, AeroPress, Chemex, French Press, Mokkakanne, Cold Brew, Tee, Matcha, Gong Fu) mit smartem Koffein- und Schlaf-Tracking verbindet. Mahlgrad, Dosis, Ratio, Zeit, Temperatur und Bewertung in einem eleganten Flow festhalten, sehen wann das Koffein aus deinem System ist und den natürlichen Cortisol-Rhythmus deines Körpers verstehen.
+Mindful Coffee ist die einzige iOS-App, die ein vollwertiges **Brüh-Tagebuch** mit einem persönlichen Koffein-Stoffwechselmodell und Schlafvorhersage on-device verbindet. Logge jeden Espresso, V60, AeroPress, Chemex, Cold Brew, Matcha oder Tee, sieh genau wann das Koffein aus deinem System ist und verstehe den natürlichen Cortisol-Rhythmus deines Körpers. Gebaut mit Apples **Liquid Glass**-Designsprache. Teil der **Mindful Apps**-Familie, neben [Mindful Body](https://github.com/aloth/mindful-body).
 
-Mit Apples eleganter **Liquid Glass**-Designsprache fühlt sich Mindful Coffee auf deinem iPhone wie zu Hause: moderne, transluzente Oberflächen und butterweiche Animationen, die perfekt zu iOS passen.
+[![Im App Store laden](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/de/app/mindful-coffee-tracks-caffeine/id6742878005?platform=iphone)
 
-## Warum Mindful Coffee?
+## Highlights
 
-Die meisten Koffein-Tracker zählen nur Milligramm. Die meisten Brüh-Apps verwalten nur Rezepte. Mindful Coffee macht beides — die einzige iOS-App, die ein vollwertiges Brüh-Tagebuch mit einem persönlichen Koffein-Stoffwechselmodell und Schlafvorhersage on-device verbindet. Egal ob du den perfekten Espresso jagst, einen V60 einstellst oder einfach besser schlafen willst.
+### ☕ Brüh-Tagebuch
+Espresso, V60, AeroPress, Chemex, French Press, Mokkakanne, Cold Brew, dazu Tee, Matcha und Gong Fu. Mahlgrad, Dosis, Ratio, Zeit, Temperatur und Bewertung in einem eleganten Flow festhalten. Eingebaute Rezepte, smarte Vorschläge zum schnelleren Einstellen, Brüh-Analytics für deine beste Tasse.
 
-## Neu in 5.6.1 — Apple Watch, Siri & Cortisol-Timing
+### 🧬 Cortisol- & Koffein-Modell
+Ein persönliches Halbwertszeit-Modell sagt vorher, wann das Koffein aus deinem System ist und wann dein Körper bereit für Schlaf ist. Die Cortisol-Rhythmus-Ansicht zeigt deine natürliche Energiekurve, damit du Kaffee in den Fenstern timen kannst, in denen er wirklich hilft.
 
-- **Apple Watch Komplikationen** — Koffein jetzt und Schlafprognose auf allen modernen Zifferblättern (Modular, Infograph, Smart Stack).
-- **Tippen zum Eintragen auf der Watch** — tippe auf eine Komplikation, um dein Standardgetränk in einem Bildschirm einzutragen, mit der Digital Crown feinjustieren.
-- **„Hey Siri, log a coffee“** — trage dein Standardgetränk sofort ein, ohne die App zu öffnen.
-- **Cortisol-Fenster-Hinweise** — ein dezenter Hinweis, wenn das Cortisol fällt und Koffein am meisten hilft. Ruhezeiten respektiert, max. 2 pro Tag, übersprungen wenn du gerade ein Getränk eingetragen hast.
-- **Smart-Stack-Relevanz** — dein Widget erscheint zur richtigen Zeit (morgens im besten Fenster, vor dem Schlafen wenn noch zu wach).
-- **Standardgetränk-Einstellung** — eine zentrale Quelle für Siri, Watch und Hinweise.
-- **Tippe auf das Cortisol-Diagramm**, um die heutigen Koffein-Fenster zu sehen (Beste / OK / Vermeiden).
-- **Mindful Body Companion** — Koffein wird über Apple Health synchronisiert und neben Körperdaten angezeigt.
+### ❤️ Body Insights aus Apple Health
+Verknüpfe deinen Koffeinkonsum damit, wie dein Körper tatsächlich reagiert. Schlaf-Korrelation zeigt den Einfluss verschiedener täglicher Mengen auf die Schlafdauer. Ruheherzfrequenz-Korrelation (Pro) zeigt, ob mehr Kaffee deine kardiovaskuläre Baseline beeinflusst.
 
-👉 Setup-Anleitungen findest du in der [FAQ](FAQ_de.md#apple-watch-siri--cortisol-timing-neu-in-561).
+### ⌚ Apple Watch & Siri
+Komplikationen für „Koffein jetzt“ und Schlafprognose auf allen modernen Zifferblättern. Tippe eine Komplikation an, um dein Standardgetränk in einem Bildschirm einzutragen. „Hey Siri, log a coffee“ funktioniert ohne die App zu öffnen. Cortisol-Fenster-Hinweise stupsen dich zur richtigen Zeit.
 
-## Neu in 5.6 — Brüh-Tagebuch (Pro)
+### 🤖 KI-Insights, vollständig on-device
+Apple Intelligence liefert personalisierte Koffein-Kommentare, die sich an dein Energieniveau, die Tageszeit und deine Schlafmuster anpassen. Die Forschungsgrundlage ist das [JudgeGPT-Projekt](https://github.com/aloth/JudgeGPT). Nichts verlässt dein Gerät.
 
-- **Jeden Brew loggen** — Espresso, V60, AeroPress, Chemex, French Press, Mokkakanne, Cold Brew — plus Tee, Matcha und Gong Fu. Mahlgrad, Dosis, Ratio, Zeit, Temperatur und Bewertung in einem eleganten Flow.
-- **Brüh-Anleitung** — Eingebaute Rezepte für jede Methode. Antippen und loslegen, oder eigene Lieblingsrezepte speichern.
-- **Smarte Vorschläge** — Mahlgrad, Zeit und Temperatur basierend auf deinen letzten Brews anpassen. Schneller eingestellt, weniger Bohnen verschwendet.
-- **Brüh-Analyse** — Durchschnittsbewertung, bester Brew und was „eingestellt" für dich wirklich bedeutet.
-- **Live-Timer** — mm:ss-Präzision mit eigenem Cold-Brew-Picker und Gong-Fu-Unterstützung.
-- **Tee, richtig gemacht** — Smarte Koffein-Schätzungen je Blatt und Methode (grün, schwarz, Oolong, weiß, Kräuter, Matcha).
+### 🔒 Apple-Integration & Datenschutz
+HealthKit-Sync schreibt Koffein in Apple Health und liest Schlaf- und Ruheherzfrequenz-Daten. iCloud-Sync zwischen iPhone, iPad und Mac. CSV-Export für volle Datenhoheit. Alle Berechnungen und KI laufen lokal — keine Konten, keine Server, keine Telemetrie.
 
-## Die wichtigsten Funktionen
+## Pro-Funktionen
 
-**Smarter tracken, besser schlafen**
+| Funktion | Pro? |
+|---|---|
+| Brüh-Tagebuch & Brüh-Analytics | Pro |
+| Ruheherzfrequenz-Korrelation | Pro |
+| KI-Insights (Apple Intelligence) | Pro |
+| Widget-Anpassung | Pro |
+| HealthKit-Zwei-Wege-Sync & CSV-Import/Export | Pro |
+| Koffein- & Cortisol-Tracking, Schlafvorhersage, Schlaf-Korrelation, Widgets, Watch-Komplikationen, Siri | Kostenlos |
 
-- **Tägliche Logging-Streaks** – Bleib motiviert mit visuellen Zählern, die deine Konstanz feiern
-- **Koffeinfreie Tage erfassen** – Logge bewusste koffeinfreie Tage, um deine Serie zu halten und achtsame Pausen einzulegen
-- **Schlaf-Insights-Karte** – Sieh auf einen Blick, wie lange du geschlafen hast und wie Koffein deinen Schlaf beeinflusst
-- **Gruppierte Verlaufsansicht** – Durchstöbere deine Konsumhistorie: aktueller Monat ausgeklappt, frühere Monate kompakt zusammengefasst
-
-**Intelligentes Koffein-Tracking**
-
-- **Ein-Tap-Erfassung** – Kaffee, Tee, Energy-Drinks und eigene Getränke blitzschnell loggen
-- **Smarte Sortierung** – Liste nach „Zuletzt verwendet" oder „Am häufigsten" sortieren für schnelleres Logging
-- **Echtzeit-Schlafvorhersage** – Wisse genau, ab wann du für guten Schlaf bereit bist
-- **Was-Wäre-Wenn-Simulator** – Schau dir an, wie ein weiteres Getränk deine Schlafzeit beeinflusst – bevor du es trinkst
-
-**Auf deinen Körper abgestimmt**
-
-- **Persönliches Stoffwechsel-Quiz** – Beantworte geführte Fragen und kalibriere Empfindlichkeit, Halbwertszeit und Schlafschwellen
-- **KI-Einblicke (Pro)** – Erhalte personalisierte Koffein-Kommentare mit Apple Intelligence. Kontextbezogene Nachrichten passen sich an dein Energielevel, die Tageszeit und deine Schlafmuster an – alles vollständig auf dem Gerät verarbeitet. Die KI-Forschungsgrundlage basiert auf dem [JudgeGPT-Projekt](https://github.com/aloth/JudgeGPT). *(Erfordert iPhone 15 Pro oder iPhone 16, iPad Air/Pro mit M1+, iPad mini mit A17 Pro oder Mac mit Apple Silicon, iOS 18.1+, iPadOS 18.1+ oder macOS 15.1+)*
-- **Cortisol-Rhythmus-Modellierung** – Visualisiere die natürliche Energiekurve deines Körpers und optimiere dein Koffein-Timing
-- **Schlaf-Korrelationsanalyse** – Entdecke, wie sich verschiedene Koffeinmengen auf deine tatsächliche Schlafdauer auswirken (mit Apple Health-Daten)
-
-**Home-Screen- & Sperrbildschirm-Widgets**
-
-
-<img align="right" src="assets/images/widget-quick-log.png" alt="Mindful Coffee iOS Widget showing caffeine level, daily intake, and Quick Log buttons on iPhone Home Screen" width="250">
-
-- **Koffein auf einen Blick** – Aktuellen Koffeinlevel, Tagesaufnahme und voraussichtliche Schlafenszeit direkt auf dem Home-Screen sehen
-- **Sperrbildschirm-Widgets** – Kreisförmig, rechteckig und inline für schnelle Koffein-Checks ohne Entsperren
-- **Quick Log über Widget** – Das zuletzt oder am häufigsten getrunkene Getränk mit einem Tipp direkt vom Home-Screen loggen
-- **Widget-Anpassung (Pro)** – Personalisiere Quick-Log-Tasten und wähle moderne Widget-Stile wie Midnight, Warm Latte, Focus Blue und Forest
-- **Mittleres Widget** – Zeigt die Top-Getränke zum schnellen Loggen mit einem Tipp
-
-**Nahtlose Apple-Integration**
-
-- **HealthKit-Sync** – Koffein wird automatisch in Apple Health gespeichert, Schlafdaten werden für tiefere Einblicke importiert
-- **Import aus anderen Apps** – Koffeindaten aus Drittanbieter-Apps über HealthKit übernehmen
-- **iCloud-Sync** – Synchronisiere deine Koffeindaten nahtlos zwischen iPhone, iPad und Mac
-- **CSV-Export** – Volle Datenhoheit: deine komplette Historie zum Exportieren
+*KI-Insights benötigen iPhone 15 Pro oder 16er-Serie, iPad Air/Pro mit M1+, iPad mini mit A17 Pro oder Mac mit Apple Silicon, mit iOS 18.1+ / iPadOS 18.1+ / macOS 15.1+.*
 
 ## Screenshots
 
@@ -85,104 +56,62 @@ Die meisten Koffein-Tracker zählen nur Milligramm. Die meisten Brüh-Apps verwa
 <tr>
 <td width="50%">
 
-### Echtzeit-Tracking: Koffein & Cortisol
-Sieh deine Koffein-Abbaukurve zusammen mit dem natürlichen Cortisol-Rhythmus deines Körpers. Der intelligente Assistent gibt personalisierte Empfehlungen für den optimalen Koffeinzeitpunkt.
+### Echtzeit-Koffein- & Cortisol-Tracking
+Koffein-Abbaukurve neben dem natürlichen Cortisol-Rhythmus deines Körpers, mit personalisierten Timing-Empfehlungen.
 
-<img src="screenshots/mindful-coffee-caffeine-tracker-cortisol-rhythm-chart.png" alt="Mindful Coffee App mit Echtzeit-Koffein-Abbaukurve, Cortisol-Rhythmus und Schlafvorhersage" width="400"/>
+<img src="screenshots/mindful-coffee-caffeine-tracker-cortisol-rhythm-chart.png" alt="Mindful Coffee zeigt Echtzeit-Koffein-Abbaukurve mit Cortisol-Rhythmus und Schlafvorhersage" width="400"/>
 
 </td>
 <td width="50%">
 
-### Datengestützte Schlaf-Insights
-Analysiere, wie dein Koffeinkonsum die Schlafqualität bei verschiedenen Konsumleveln beeinflusst. Verfolge Zusammenhänge zwischen täglicher Koffeinmenge und Schlafdauer mit personalisierten Schwellenwerten.
+### Body Insights
+Sieh wie dein Koffeinkonsum mit Schlafdauer und Ruheherzfrequenz aus Apple Health zusammenhängt.
 
-<img src="screenshots/caffeine-sleep-correlation-analysis-ios-app.png" alt="Koffein-Schlaf-Korrelationsanalyse mit durchschnittlicher Schlafdauer je Koffein-Level" width="400"/>
+<img src="screenshots/caffeine-sleep-correlation-analysis-ios-app.png" alt="Korrelation zwischen Koffein und Schlaf, durchschnittliche Schlafdauer bei verschiedenen Koffeinmengen" width="400"/>
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### Schnelles Logging mit smarten Vorhersagen
-Erfasse Kaffee, Tee oder Energy-Drinks blitzschnell. Sieh in Echtzeit, wie jedes Getränk deine Schlafbereitschaft beeinflusst – noch bevor du trinkst.
+### Schnelles Loggen mit smarten Prognosen
+Trage Kaffee, Tee oder Energy-Drinks sofort ein. Sieh in Echtzeit, wie jedes Getränk deinen Schlaf beeinflussen wird.
 
-<img src="screenshots/coffee-tea-caffeine-logging-interface-smart-predictions.png" alt="Schnelle Koffein-Erfassung mit Getränke-Icons, mg-Angaben und smarten Schlaf-Vorhersagen" width="400"/>
+<img src="screenshots/coffee-tea-caffeine-logging-interface-smart-predictions.png" alt="Schnelles Koffein-Logging mit Getränke-Icons, Mengen und smarten Schlafprognosen" width="400"/>
 
 </td>
 <td width="50%">
 
 ### Persönliche Stoffwechsel-Kalibrierung
-Passe die App an deinen individuellen Koffein-Stoffwechsel an. Justiere Empfindlichkeit, Halbwertszeit, Schlafschwellen und Cortisol-Parameter für präzises Tracking, das zu deinem Körper passt.
+Stelle Empfindlichkeit, Halbwertszeit, Schlafschwellen und Cortisol-Parameter so ein, dass das Tracking zu deinem Körper passt.
 
-<img src="screenshots/cortisol-rhythm-settings-personal-metabolism-assistant.png" alt="Persönlicher Stoffwechsel-Assistent und Cortisol-Rhythmus-Einstellungen für präzises Koffein-Tracking" width="400"/>
+<img src="screenshots/cortisol-rhythm-settings-personal-metabolism-assistant.png" alt="Persönlicher Stoffwechsel-Assistent und Cortisol-Rhythmus-Einstellungen" width="400"/>
 
 </td>
 </tr>
 </table>
 
-## Jetzt herunterladen
+## Datenschutz zuerst
 
-Übernimm die Kontrolle über deine Koffein-Gewohnheiten und schlaf heute Nacht besser:
+Deine Daten bleiben auf deinem Gerät oder synchronisieren sicher über deine persönliche iCloud. Alle Konsumdaten werden lokal mit SwiftData gespeichert, HealthKit-Zugriff erfordert deine ausdrückliche Erlaubnis, und **alle Berechnungen, Analysen und KI-Insights laufen vollständig on-device** — nichts wird je an einen Server gesendet.
 
-[![Download on the App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/de/app/mindful-coffee-tracks-caffeine/id6742878005?platform=iphone)
+Vollständige [Datenschutzerklärung lesen](https://github.com/aloth/mindful-coffee/blob/main/privacy_policy.md).
 
-[**Offizielle Website besuchen**](http://mindfulcoffee.alexloth.com) – Mehr über Funktionen, Wissenschaft und Updates erfahren
+## Ressourcen
 
----
+- 📖 [**FAQ**](./FAQ_de.md) — Koffein-Wissenschaft, App-Funktionen, Fehlerbehebung · auch in [English](./FAQ.md) · [Español](./FAQ_es.md) · [Français](./FAQ_fr.md) · [日本語](./FAQ_ja.md) · [简体中文](./FAQ_zh-Hans.md)
+- 🔬 [**Wissenschaftlicher Hintergrund**](./RESEARCH_BACKGROUND.md) — die Forschung hinter dem Cortisol-Modell
+- 🌍 **Sprachen** — vollständig lokalisiert in Englisch, Deutsch, Spanisch, Französisch, Japanisch und vereinfachtem Chinesisch
+- 🌐 [**Offizielle Website**](http://mindfulcoffee.alexloth.com)
+- 🧘 **Verwandt** — [Mindful Body](https://github.com/aloth/mindful-body) · [Trackless Links](https://github.com/aloth/trackless-links)
 
-## Die Wissenschaft hinter Mindful Coffee
+## Forschungs-Kooperation
 
-Das Cortisol-Modell basiert auf etablierter Forschung aus der Chronobiologie und Langlebigkeitsforschung. Für einen detaillierten Blick auf die wissenschaftlichen Grundlagen, siehe [**Research Background**](./RESEARCH_BACKGROUND.md) (auf Englisch).
+Wenn du als Forscher:in oder Studierende:r in Chronobiologie, Schlafforschung oder verwandten Bereichen arbeitest, melde dich unter `support+mindfulcoffee@alexloth.com`.
 
-**Interesse an Forschungskooperation?** Wenn du Wissenschaftler:in oder Student:in in den Bereichen Chronobiologie, Schlafforschung oder verwandten Feldern bist, melde dich unter `support+mindfulcoffee@alexloth.com`.
+## Feedback
 
-### App zitieren
+- 🐛 [Bug melden](https://github.com/aloth/mindful-coffee/issues/new?template=bug_report.md)
+- 💡 [Funktion vorschlagen](https://github.com/aloth/mindful-coffee/issues/new?template=feature_request.md)
 
-```bibtex
-@software{Loth2026MindfulCoffeeApp,
-  author       = {Loth, Alexander},
-  title        = {Mindful Coffee: Caffeine Log & Cortisol Rhythm},
-  year         = {2026},
-  version      = {5.6},
-  publisher    = {Alexander Loth},
-  url          = {https://apps.apple.com/us/app/mindful-coffee-tracks-caffeine/id6742878005}
-}
-```
-
-## Datenschutz an erster Stelle
-
-Deine Daten bleiben auf deinem Gerät – oder werden sicher über deinen persönlichen iCloud-Account synchronisiert. Mindful Coffee speichert alle Konsumdaten lokal mit SwiftData, mit optionaler iCloud-Synchronisierung über all deine Apple-Geräte. HealthKit-Zugriff erfolgt nur mit deiner ausdrücklichen Erlaubnis gemäß Apple-Richtlinien. **Alle Berechnungen, Analysen, KI-Einblicke und Modellierungen laufen komplett auf deinem Gerät** – nichts wird jemals an einen Server gesendet.
-
-Lies die vollständige [Datenschutzrichtlinie](https://github.com/aloth/mindful-coffee/blob/main/privacy_policy.md).
-
-## FAQ & Support
-
-Fragen zur Koffein-Wissenschaft, App-Funktionen oder Problemlösungen? Schau in die umfassende FAQ:
-
-[**Häufig gestellte Fragen**](./FAQ_de.md)
-
-Auch verfügbar auf: [English](./FAQ.md) | [Español](./FAQ_es.md) | [Français](./FAQ_fr.md) | [日本語](./FAQ_ja.md) | [简体中文](./FAQ_zh-Hans.md)
-
-## Verfügbare Sprachen
-
-Mindful Coffee ist vollständig lokalisiert in Englisch, Deutsch, Spanisch, Französisch, Japanisch und vereinfachtem Chinesisch.
-
-**README in anderen Sprachen:**
-[English](./README.md) | [Español](./README_es.md) | [Français](./README_fr.md) | [日本語](./README_ja.md) | [简体中文](./README_zh-Hans.md)
-
----
-
-## Feedback & Support
-
-Hilf mit, Mindful Coffee noch besser zu machen:
-
-- **Bug melden**: [Issue erstellen](https://github.com/aloth/mindful-coffee/issues/new?template=bug_report.md)
-- **Feature vorschlagen**: [Feature Request erstellen](https://github.com/aloth/mindful-coffee/issues/new?template=feature_request.md)
-
----
-
-**Smarter tracken. Besser schlafen. Mit Mindful Coffee das Beste aus dir herausholen.**
-
-[![Download on the App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/de/app/mindful-coffee-tracks-caffeine/id6742878005?platform=iphone)
-
-[Website besuchen](http://mindfulcoffee.alexloth.com)
+[![Im App Store laden](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/de/app/mindful-coffee-tracks-caffeine/id6742878005?platform=iphone)

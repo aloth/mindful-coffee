@@ -1,83 +1,54 @@
 🇺🇸 [English](README.md) | 🇩🇪 [Deutsch](README_de.md) | 🇪🇸 [Español](README_es.md) | 🇫🇷 [Français](README_fr.md) | 🇯🇵 **日本語** | 🇨🇳 [中文](README_zh-Hans.md)
 
-# Mindful Coffee - 睡眠予測とコルチゾールリズム機能付きiPhoneカフェイン管理アプリ
+# Mindful Coffee — iPhone・iPad・Mac 用カフェイントラッカー & 抽出ジャーナル
+
+[![App Store](https://img.shields.io/badge/App_Store-ダウンロード-blue?logo=apple&logoColor=white)](https://apps.apple.com/jp/app/mindful-coffee-tracks-caffeine/id6742878005)
+[![Swift](https://img.shields.io/badge/Swift-6.0-orange?logo=swift&logoColor=white)](https://swift.org)
+[![プラットフォーム](https://img.shields.io/badge/プラットフォーム-iOS_17+-lightgrey?logo=apple)](https://developer.apple.com/ios/)
+[![GitHub stars](https://img.shields.io/github/stars/aloth/mindful-coffee?style=social)](https://github.com/aloth/mindful-coffee/stargazers)
 
 <p align="center">
-  <img src="assets/images/mindful-coffee-caffeine-tracker-sleep-optimization-hero.png" alt="Mindful Coffee — smart caffeine tracking with sleep prediction and cortisol rhythm optimization" width="700">
+  <img src="assets/images/mindful-coffee-caffeine-tracker-sleep-optimization-hero.png" alt="Mindful Coffee — 睡眠予測とコルチゾールリズム最適化を備えたスマートなカフェイン管理" width="700">
 </p>
 
-**エスプレッソ、V60、エアロプレス、コールドブリュー、抹茶 — すべての一杯を記録する最も賢い方法。完璧な抽出を見つけ、カフェインを管理し、睡眠を予測。**
+**おいしく淹れて、ぐっすり眠る。**
 
-Mindful Coffeeは美しくデザインされたiOSアプリで、本格的な**抽出ジャーナル**（エスプレッソ、V60、エアロプレス、ケメックス、フレンチプレス、モカポット、コールドブリュー、紅茶、抹茶、工夫茶）とスマートなカフェイン・睡眠トラッキングを融合します。挽き目、豆量、比率、時間、温度、評価をエレガントなフローで記録し、いつカフェインが体から抜けるかを正確に把握、そして体の自然なコルチゾールリズムを理解できます。
+Mindful Coffee は、本格的な**抽出ジャーナル**と、自分の代謝に合わせたカフェインモデルを組み合わせ、すべてオンデバイスで睡眠予測まで行う唯一の iOS アプリです。エスプレッソ、V60、エアロプレス、ケメックス、コールドブリュー、抹茶、お茶など 1 杯ずつ記録し、いつカフェインが体から抜けるかを正確に把握し、自分の自然なコルチゾールリズムを理解できます。Apple の **Liquid Glass** デザイン言語で構築。**Mindful Apps** ファミリーの 1 つで、[Mindful Body](https://github.com/aloth/mindful-body) と並びます。
 
-Appleの美しい**Liquid Glass**デザイン言語で作られたMindful Coffeeは、モダンで半透明なインターフェースと滑らかなアニメーションで、iPhoneに完璧にフィットします。
+[![App Store でダウンロード](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/jp/app/mindful-coffee-tracks-caffeine/id6742878005?platform=iphone)
 
-## なぜMindful Coffeeなのか?
+## ハイライト
 
-ほとんどのカフェイントラッカーはミリグラムを数えるだけ。ほとんどの抽出アプリはレシピを保存するだけ。Mindful Coffeeは両方を実現する唯一のiOSアプリ — 本格的な抽出ジャーナルと、個人のカフェイン代謝モデル、そしてオンデバイスの睡眠予測を一つに統合。完璧なエスプレッソショットを追求している方も、V60を調整中の方も、ただぐっすり眠りたい方にも。
+### ☕ 抽出ジャーナル
+エスプレッソ、V60、エアロプレス、ケメックス、フレンチプレス、モカ、コールドブリューに加え、お茶、抹茶、工夫茶まで対応。挽き目、ドーズ、レシオ、時間、温度、評価をひとつの美しいフローで記録します。レシピを内蔵し、過去の抽出からのスマート提案で素早くダイヤルイン、ベストな 1 杯を分析で見つけられます。
 
-## 5.6.1の新機能 — Apple Watch、Siri、コルチゾールタイミング
+### 🧬 コルチゾール × カフェインモデル
+あなた専用の半減期モデルが、カフェインが体から抜けるタイミングと、眠りに入れるタイミングを予測。コルチゾールリズム表示で自然なエネルギーカーブを可視化し、コーヒーが本当に効く時間帯にタイミングを合わせられます。
 
-- **Apple Watch コンプリケーション** — 「カフェイン現在」と「就寢予測」を、あらゆるモダンな文字盤（Modular、Infograph、Smart Stack）に表示。
-- **Watchでタップして記録** — コンプリケーションをタップして、デフォルトの飲み物を1画面で記録。Digital Crownでmgを微調整。
-- **「Hey Siri, log a coffee」** — アプリを開かずにデフォルトの飲み物をすぐに記録。
-- **コルチゾール枚の通知** — コルチゾールが下がりカフェインが最も効くタイミングでやさしくお知らせ。おやすみ時間を尊重、1日最大2件まで、直前に飲み物を記録した場合はスキップ。
-- **Smart Stack の関連性** — ウィジェットが適切なタイミングで表示（朝のベスト枚、まだ覚醒している就寢前など）。
-- **デフォルトの飲み物設定** — Siri、Watch、通知で使用される唯一の設定。
-- **コルチゾールチャートをタップ**して、今日のカフェイン枚（ベスト / OK / 避ける）を確認。
-- **Mindful Body コンパニオン** — カフェインは Apple ヘルスケア経由で同期され、身体データと並べて表示。
+### ❤️ Apple ヘルスケアからの Body Insights
+カフェイン摂取量と、体の実際の反応を結びつけて確認できます。睡眠の相関では、1 日の摂取量が睡眠時間にどう影響するかが分かります。安静時心拍数の相関（Pro）では、コーヒーを増やすと循環器系のベースラインが本当に変わるのかを確認できます。
 
-👉 セットアップ手順は [FAQ](FAQ_ja.md#apple-watchsiriコルチゾールタイミング-561-新機能) をご覧ください。
+### ⌚ Apple Watch と Siri
+あらゆる現行文字盤で「現在のカフェイン」と「就寝予測」のコンプリケーションを表示。コンプリケーションをタップすれば、デフォルト飲料を 1 画面で記録できます。「Hey Siri, log a coffee」と言えば、アプリを開かずに記録。コルチゾールウィンドウのアラートが、ちょうど良いタイミングで通知してくれます。
 
-## 5.6の新機能 — 抽出ジャーナル (Pro)
+### 🤖 完全オンデバイスの AI インサイト
+Apple Intelligence が、エネルギーレベル、時間帯、睡眠パターンに合わせたパーソナライズされたカフェイン解説を生成します。研究基盤は [JudgeGPT プロジェクト](https://github.com/aloth/JudgeGPT)。データはあなたのデバイスから一切外に出ません。
 
-- **すべての抽出を記録** — エスプレッソ、V60、エアロプレス、ケメックス、フレンチプレス、モカポット、コールドブリュー — さらに紅茶、抹茶、工夫茶。挽き目、豆量、比率、時間、温度、評価をエレガントなフローで。
-- **抽出ガイド** — 各メソッドの内蔵レシピ。タップで開始、または自分の完璧な一杯を保存。
-- **スマート提案** — 過去の抽出に基づいて挽き目、時間、温度を調整。素早く完璧な一杯へ、無駄な豆を減らす。
-- **抽出分析** — 平均評価、ベストブリュー、あなたにとっての「ダイヤルイン」の意味。
-- **ライブタイマー** — mm:ss精度。コールドブリュー専用ピッカーと工夫茶対応。
-- **正しい紅茶** — 茶葉とメソッド別のスマートカフェイン推定（緑茶、紅茶、ウーロン、白茶、ハーブ、抹茶）。
+### 🔒 Apple との連携とプライバシー
+HealthKit でカフェインを Apple ヘルスケアに書き込み、睡眠と安静時心拍数を読み取ります。iCloud で iPhone・iPad・Mac 間を同期。CSV エクスポートでデータの完全な所有権を保てます。すべての計算と AI はローカルで動作 — アカウント不要、サーバー不要、テレメトリなし。
 
-## 主な機能
+## Pro 機能
 
-**賢く記録して、ぐっすり眠る**
+| 機能 | Pro? |
+|---|---|
+| 抽出ジャーナル & 抽出アナリティクス | Pro |
+| 安静時心拍数の相関分析 | Pro |
+| AI インサイト（Apple Intelligence） | Pro |
+| ウィジェットのカスタマイズ | Pro |
+| HealthKit 双方向同期、CSV インポート/エクスポート | Pro |
+| カフェイン・コルチゾール追跡、睡眠予測、睡眠相関、ウィジェット、Watch コンプリケーション、Siri | 無料 |
 
-- **毎日の記録ストリーク** - 継続を祝うビジュアルカウンターでモチベーションを維持
-- **カフェインフリーの日を記録** - 意識的なカフェインフリーの日を記録して、マインドフルな休息を取りながらストリークを維持
-- **睡眠インサイトカード** - 昨夜の睡眠時間とカフェインの影響を一目で確認
-- **グループ化された履歴** - 当月は展開表示、過去の月はコンパクトにまとめて履歴を閲覧
-
-**インテリジェントなカフェイントラッキング**
-
-- **ワンタップ記録** - コーヒー、紅茶、エナジードリンク、カスタム飲料を瞬時に記録
-- **スマートソート** - 「最近使用」や「よく使う」で並び替えてより速く記録
-- **リアルタイム睡眠予測** - 質の高い睡眠の準備ができる正確な時間を把握
-- **もしもシミュレーター** - もう一杯飲んだら就寝時間にどう影響するかを飲む前にプレビュー
-
-**あなたの体に合わせてパーソナライズ**
-
-- **パーソナル代謝クイズ** - ガイド付きの質問に答えて、感受性、半減期、睡眠閾値をキャリブレーション
-- **AIインサイト (Pro)** - Apple Intelligenceによるパーソナライズされたカフェインコメントを取得。エネルギーレベル、時間帯、睡眠パターンに適応するコンテキスト対応メッセージ - すべてデバイス上で完全に処理。AI研究の基盤は[JudgeGPTプロジェクト](https://github.com/aloth/JudgeGPT)に基づいています。*(iPhone 15 ProまたはiPhone 16シリーズ、M1+搭載iPad Air/Pro、A17 Pro搭載iPad mini、またはApple Silicon搭載Mac、iOS 18.1+、iPadOS 18.1+、またはmacOS 15.1+が必要)*
-- **コルチゾールリズムモデリング** - 体の自然なエネルギー曲線を可視化し、カフェインのタイミングを最適化
-- **睡眠相関分析** - Apple Healthのデータを使って、カフェインレベルが実際の睡眠時間にどう影響するかを発見
-
-**ホーム画面&ロック画面ウィジェット**
-
-
-<img align="right" src="assets/images/widget-quick-log.png" alt="Mindful Coffee iOS Widget showing caffeine level, daily intake, and Quick Log buttons on iPhone Home Screen" width="250">
-
-- **カフェインを一目で確認** - 現在のカフェインレベル、1日の摂取量、予測睡眠時間をホーム画面で直接確認
-- **ロック画面ウィジェット** - 円形、長方形、インラインの3スタイルでロック解除せずにカフェインをチェック
-- **ウィジェットからクイック記録** - ホーム画面からワンタップで最近の飲み物やよく飲む飲み物を記録
-- **ウィジェットのカスタマイズ (Pro)** - クイック記録ボタンを自分好みに設定し、Midnight、Warm Latte、Focus Blue、Forest などのモダンなスタイルを選択
-- **ミディアムウィジェット** - お気に入りの飲み物を表示、ワンタップで記録
-
-**Appleとのシームレスな連携**
-
-- **HealthKit同期** - カフェインを自動的にApple Healthに記録し、睡眠データをインポートしてより深いインサイトを取得
-- **他のアプリからインポート** - HealthKit経由でサードパーティアプリからカフェインデータを取り込み
-- **iCloud同期** - iPhone、iPad、Mac間でカフェインデータをシームレスに同期
-- **CSVエクスポート** - 完全な履歴エクスポートでデータの完全な所有権を確保
+*AI インサイトには iPhone 15 Pro または 16 シリーズ、M1 以降の iPad Air/Pro、A17 Pro 搭載の iPad mini、または Apple Silicon 搭載 Mac、iOS 18.1+ / iPadOS 18.1+ / macOS 15.1+ が必要です。*
 
 ## スクリーンショット
 
@@ -85,102 +56,62 @@ Appleの美しい**Liquid Glass**デザイン言語で作られたMindful Coffee
 <tr>
 <td width="50%">
 
-### リアルタイム カフェイン&コルチゾール追跡
-カフェイン減衰曲線と体の自然なコルチゾールリズムを一緒に可視化。インテリジェントアシスタントが最適なカフェインタイミングをパーソナライズ提案。
+### リアルタイムのカフェイン × コルチゾール
+カフェインの減衰カーブと、自然なコルチゾールリズムを並べて表示。最適なタイミングをパーソナライズして提案します。
 
-<img src="screenshots/mindful-coffee-caffeine-tracker-cortisol-rhythm-chart.png" alt="Mindful Coffee アプリのリアルタイムカフェイン減衰チャート、コルチゾールリズム曲線、睡眠予測" width="400"/>
+<img src="screenshots/mindful-coffee-caffeine-tracker-cortisol-rhythm-chart.png" alt="Mindful Coffee のカフェイン減衰チャートとコルチゾールリズム、睡眠予測" width="400"/>
 
 </td>
 <td width="50%">
 
-### データドリブンな睡眠インサイト
-カフェイン摂取量の違いが睡眠の質にどう影響するかを分析。パーソナライズされた閾値で日々のカフェイン量と睡眠時間の相関を追跡。
+### Body Insights
+カフェイン摂取量が、Apple ヘルスケアの睡眠時間と安静時心拍数とどう関係しているかを確認できます。
 
-<img src="screenshots/caffeine-sleep-correlation-analysis-ios-app.png" alt="カフェインと睡眠の相関分析。摂取レベル別の平均睡眠時間を表示" width="400"/>
+<img src="screenshots/caffeine-sleep-correlation-analysis-ios-app.png" alt="カフェインと睡眠の相関分析" width="400"/>
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### クイック記録&スマート予測
-コーヒー、紅茶、エナジードリンクを直感的なインターフェースで瞬時に記録。飲む前に、その一杯が入眠にどう影響するかリアルタイムで確認。
+### スマート予測付きのクイック記録
+コーヒー、お茶、エナジードリンクを瞬時に記録。1 杯ごとに、睡眠への影響をリアルタイムで予測します。
 
-<img src="screenshots/coffee-tea-caffeine-logging-interface-smart-predictions.png" alt="飲料アイコン、カフェイン量、スマート睡眠影響予測を備えたクイックカフェイン記録インターフェース" width="400"/>
+<img src="screenshots/coffee-tea-caffeine-logging-interface-smart-predictions.png" alt="飲料アイコンとスマートな睡眠予測を備えたクイック記録 UI" width="400"/>
 
 </td>
 <td width="50%">
 
-### パーソナル代謝キャリブレーション
-あなた固有のカフェイン代謝に合わせてアプリをカスタマイズ。感受性、半減期、睡眠閾値、コルチゾールパラメータを調整し、体の反応にぴったり合った精密なトラッキングを実現。
+### あなた専用の代謝キャリブレーション
+感受性、半減期、睡眠閾値、コルチゾールパラメータを調整して、あなたの体に合ったトラッキングへ。
 
-<img src="screenshots/cortisol-rhythm-settings-personal-metabolism-assistant.png" alt="パーソナル代謝アシスタントとコルチゾールリズムカスタマイズ設定" width="400"/>
+<img src="screenshots/cortisol-rhythm-settings-personal-metabolism-assistant.png" alt="代謝アシスタントとコルチゾールリズム設定" width="400"/>
 
 </td>
 </tr>
 </table>
 
-## 今すぐダウンロード
+## まずはプライバシー
 
-カフェイン習慣をコントロールして、今夜からぐっすり眠りましょう:
+データはあなたのデバイス内に留まるか、個人の iCloud で安全に同期されます。すべての記録は SwiftData でローカルに保存され、HealthKit へのアクセスはあなたの明示的な許可が必要、そして**すべての計算・分析・AI インサイトは完全にオンデバイスで動作します** — サーバーへ送信されることは一切ありません。
 
-[![Download on the App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/jp/app/mindful-coffee-tracks-caffeine/id6742878005?platform=iphone)
+詳しくは[プライバシーポリシー](https://github.com/aloth/mindful-coffee/blob/main/privacy_policy.md)をご覧ください。
 
-[**公式ウェブサイトへ**](http://mindfulcoffee.alexloth.com) - 機能、科学的背景、最新アップデート情報をチェック
+## リソース
 
----
+- 📖 [**FAQ**](./FAQ_ja.md) — カフェインの科学、アプリの機能、トラブルシューティング · ほかに [English](./FAQ.md) · [Deutsch](./FAQ_de.md) · [Español](./FAQ_es.md) · [Français](./FAQ_fr.md) · [简体中文](./FAQ_zh-Hans.md)
+- 🔬 [**研究の背景**](./RESEARCH_BACKGROUND.md) — コルチゾールモデルの科学
+- 🌍 **対応言語** — 英語・ドイツ語・スペイン語・フランス語・日本語・簡体中国語に完全ローカライズ
+- 🌐 [**公式サイト**](http://mindfulcoffee.alexloth.com)
+- 🧘 **関連アプリ** — [Mindful Body](https://github.com/aloth/mindful-body) · [Trackless Links](https://github.com/aloth/trackless-links)
 
-## Mindful Coffeeの科学的背景
+## 研究コラボレーション
 
-コルチゾールモデリング機能は、時間生物学と長寿科学における確立された研究に基づいています。科学的基盤の詳細については [**Research Background**](./RESEARCH_BACKGROUND.md)(英語)をご覧ください。
+クロノバイオロジー、睡眠科学、関連分野の研究者・学生の方は `support+mindfulcoffee@alexloth.com` までご連絡ください。
 
-**研究コラボレーションに興味がありますか?** 時間生物学、睡眠科学、または関連分野で研究されている研究者や学生の方は、`support+mindfulcoffee@alexloth.com`までお気軽にご連絡ください。
+## フィードバック
 
-### アプリの引用
+- 🐛 [バグを報告](https://github.com/aloth/mindful-coffee/issues/new?template=bug_report.md)
+- 💡 [機能を提案](https://github.com/aloth/mindful-coffee/issues/new?template=feature_request.md)
 
-```bibtex
-@software{Loth2025MindfulCoffeeApp,
-  author       = {Loth, Alexander},
-  title        = {Mindful Coffee: Caffeine Log & Cortisol Rhythm},
-  year         = {2025},
-  version      = {5.6},
-  publisher    = {Alexander Loth},
-  url          = {https://apps.apple.com/jp/app/mindful-coffee-tracks-caffeine/id6742878005}
-}
-```
-
-## プライバシー第一
-
-あなたのデータはデバイスに留まります — または個人のiCloudアカウントを通じて安全に同期されます。Mindful CoffeeはSwiftDataを使用してすべての消費データをローカルに保存し、オプションでAppleデバイス間のiCloud同期に対応しています。HealthKitへのアクセスはAppleのガイドラインに従い、明示的な許可が必要です。**すべての計算、分析、AIインサイト、モデリングは完全にデバイス上で実行** - サーバーに送信されることはありません。
-
-完全な[プライバシーポリシー](https://github.com/aloth/mindful-coffee/blob/main/privacy_policy.md)をお読みください。
-
-## FAQ&サポート
-
-カフェインの科学、アプリの機能、トラブルシューティングについて質問がありますか?包括的なFAQをご覧ください:
-
-[**よくある質問**](./FAQ_ja.md)
-
-他の言語でも利用可能: [English](./FAQ.md) | [Deutsch](./FAQ_de.md) | [Español](./FAQ_es.md) | [Français](./FAQ_fr.md) | [简体中文](./FAQ_zh-Hans.md)
-
-## 対応言語
-
-Mindful Coffeeは英語、ドイツ語、スペイン語、フランス語、日本語、簡体字中国語に完全対応しています。
-
-**他の言語のREADME:**
-[English](./README.md) | [Deutsch](./README_de.md) | [Español](./README_es.md) | [Français](./README_fr.md) | [简体中文](./README_zh-Hans.md)
-
----
-
-## フィードバック&サポート
-
-Mindful Coffeeをさらに良くするためにご協力ください:
-
-- **バグを報告**: [Issueを作成](https://github.com/aloth/mindful-coffee/issues/new?template=bug_report.md)
-- **機能を提案**: [Feature Requestを作成](https://github.com/aloth/mindful-coffee/issues/new?template=feature_request.md)
-
----
-
-**賢く記録。ぐっすり眠る。Mindful Coffeeで最高の自分を。**
-
-[App Storeでダウンロード](https://apps.apple.com/jp/app/mindful-coffee-tracks-caffeine/id6742878005?platform=iphone) | [ウェブサイトへ](http://mindfulcoffee.alexloth.com)
+[![App Store でダウンロード](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/jp/app/mindful-coffee-tracks-caffeine/id6742878005?platform=iphone)
