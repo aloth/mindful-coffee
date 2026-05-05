@@ -36,6 +36,12 @@ Most caffeine trackers just count milligrams. Most brew apps just hold recipes. 
 
 👉 See the [FAQ](FAQ.md#apple-watch-siri--cortisol-timing-new-in-561) for setup walkthroughs.
 
+## What's New in 5.7 — Resting Heart Rate Correlation (Pro)
+
+- **Resting HR Correlation Analysis (Pro)** — See how your daily caffeine intake correlates with your resting heart rate from Apple Health. Days are bucketed by caffeine amount and matched against the morning's resting HR, so you can spot whether more coffee actually nudges your baseline cardiovascular load.
+- **Body Tab** — Sleep correlation and Resting HR correlation now live together in a unified Body tab, with a single timeframe picker (7D / 1M / 3M / 1Y).
+- **Smarter empty states** — Clear guidance when Apple Health data is missing, when there isn't enough variation to correlate, or when the bucket sample size is too small to trust.
+
 ## What's New in 5.6 — Brew Journal (Pro)
 
 - **Log Every Brew** — Espresso, V60, AeroPress, Chemex, French press, moka pot, cold brew — plus tea, matcha and Gong Fu. Capture grind, dose, ratio, time, temperature and rating in one elegant flow.
@@ -67,6 +73,7 @@ Most caffeine trackers just count milligrams. Most brew apps just hold recipes. 
 - **AI Insights (Pro)** - Get personalized caffeine commentary powered by Apple Intelligence. Context-aware messages adapt to your energy levels, time of day, and sleep patterns - all processed entirely on-device. The AI research foundation is based on the [JudgeGPT project](https://github.com/aloth/JudgeGPT). *(Requires iPhone 15 Pro or iPhone 16 series, iPad Air/Pro with M1+, iPad mini with A17 Pro, or Mac with Apple Silicon, running iOS 18.1+, iPadOS 18.1+, or macOS 15.1+)*
 - **Cortisol Rhythm Modeling** - Visualize your body's natural energy curve and optimize caffeine timing
 - **Sleep Correlation Analysis** - Discover how caffeine levels affect your actual sleep duration using Apple Health data
+- **Resting Heart Rate Correlation Analysis (Pro)** - See how daily caffeine intake correlates with your resting heart rate from Apple Health. Buckets your days by caffeine amount and shows the average resting HR for each bucket, so you can spot whether your baseline cardiovascular load shifts with consumption.
 
 **Home Screen & Lock Screen Widgets**
 

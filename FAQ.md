@@ -693,6 +693,49 @@ Then it buckets your days by caffeine amount and calculates average sleep for ea
 
 **Pro tip:** Use the insight to set your daily caffeine budget. If your data shows sleep drops above 200mg, that's YOUR number—regardless of what guidelines say.
 
+### How does Resting Heart Rate Correlation work? (Pro)
+
+New in 5.7. Same idea as Sleep Correlation, but for your cardiovascular baseline.
+
+**The hypothesis it tests:**
+
+Caffeine is a stimulant. On average, it nudges heart rate up. But "on average" doesn't tell you what it does to YOUR resting heart rate, day after day. Resting HR Correlation answers that with your own data.
+
+**What it calculates:**
+
+The feature cross-references two data streams:
+1. Your logged caffeine (from this app)
+2. Your resting heart rate (from Apple Health, typically captured by Apple Watch overnight)
+
+Then it buckets your days by caffeine amount and shows the average resting HR for each bucket:
+
+| Daily Caffeine | Your Avg Resting HR | Sample Size |
+|----------------|---------------------|-------------|
+| 0-100mg | 58 bpm | 12 days |
+| 100-200mg | 60 bpm | 28 days |
+| 200-300mg | 62 bpm | 35 days |
+| 300mg+ | 65 bpm | 15 days |
+
+**Interpreting your results:**
+
+- **Clear upward trend:** Higher caffeine days correlate with a higher resting HR baseline
+- **Flat across buckets:** Your cardiovascular system shrugs off caffeine within the range you consume
+- **Step change above a threshold:** Your body tolerates caffeine up to a point, then resting HR jumps
+
+**Why resting HR (not active HR)?**
+
+Active heart rate jumps for a hundred reasons (workout, stairs, stress). Resting HR is captured during sleep or long quiet periods and is one of the cleanest single-number indicators of recovery and cardiovascular load. Trends in resting HR are what athletes and longevity researchers watch closely.
+
+**Setup requirements:**
+1. Apple Watch (or other Apple Health source that writes resting HR)
+2. Apple Health "Heart Rate" / "Resting Heart Rate" read permission for Mindful Coffee
+3. At least 2-3 weeks of consistent caffeine logging
+4. Some variation in daily intake (same amount every day = no correlation possible)
+
+**Privacy:** Same as Sleep Correlation — all calculation happens on-device. Your heart rate data never leaves your iPhone.
+
+**Pro feature:** Resting HR Correlation Analysis is a Pro feature. Sleep Correlation is included for everyone.
+
 ### How does HealthKit integration work? (Pro)
 
 Apple's HealthKit is the central nervous system of health data on iPhone. Mindful Coffee connects to it for bidirectional data flow.
@@ -714,6 +757,7 @@ Every drink you log creates a timestamped entry in Apple Health. This means:
 | Data Type | Use Case |
 |-----------|----------|
 | Sleep Analysis | Powers the Sleep Correlation feature |
+| Resting Heart Rate | Powers the Resting HR Correlation feature (Pro, 5.7+) |
 | Caffeine (from other apps) | One-time import from Starbucks app, etc. |
 
 **The magic of the ecosystem:**
@@ -857,6 +901,34 @@ This feature requires specific conditions to work.
 **Still not working?**
 
 Try revoking and re-granting Health permissions. Sometimes the iOS permission system gets stuck.
+
+### Resting HR correlation shows no data (Pro)
+
+Similar troubleshooting to Sleep Correlation, with a few extras specific to heart-rate data.
+
+**Requirements checklist:**
+
+1. **Resting heart rate exists in Apple Health**
+   - Open the Health app → Browse → Heart → Resting Heart Rate
+   - Resting HR is normally written by Apple Watch after a few nights of wear
+   - No Apple Watch and no third-party source = no resting HR to correlate
+
+2. **Mindful Coffee has permission to read it**
+   - Settings → Privacy & Security → Health → Mindful Coffee
+   - "Heart Rate" / "Resting Heart Rate" must be enabled
+
+3. **Sufficient data volume**
+   - Need at least 14 days of paired data (caffeine + resting HR for the same day)
+   - More data = more reliable correlations
+
+4. **Variation in consumption**
+   - If you drink exactly the same amount every day, there is nothing to correlate against
+
+**Still not working?**
+
+- Wear your Apple Watch for at least 3-4 nights so Apple has enough data to calculate a daily resting HR baseline
+- Make sure Sleep Tracking or background heart-rate sampling is enabled on the watch
+- Revoke and re-grant Health permissions if values look stuck
 
 ### The app isn't sending reminders
 
