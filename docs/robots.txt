@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aloth.github.io/mindful-coffee/sitemap.xml
