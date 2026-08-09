@@ -593,6 +593,21 @@ Si tomas café justo en ese pico:
 **Personalización:**  
 No todo el mundo sigue el patrón estándar. Madrugadores, noctámbulos y trabajadores por turnos pueden tener ritmos distintos. Puedes ajustar la hora del pico y la forma de la curva para que se parezca más a tu realidad.
 
+### ¿De dónde sale mi hora de despertar?
+
+Si concedes acceso a los datos de sueño de Apple Health, Mindful Coffee deduce tu hora habitual de despertar automáticamente. No hay ningún paso de configuración para esto.
+
+**Es una mediana, no la alarma de esta mañana.**
+
+La app observa hasta **14 noches** de datos de sueño y toma la mediana. Esa diferencia importa más de lo que parece: un vuelo temprano, un fin de semana durmiendo de más o una noche con el reloj en el cargador no deberían redibujar toda tu curva de cortisol. La mediana ignora esos valores atípicos y refleja el ritmo que realmente mantienes.
+
+**¿Y si la hora detectada no cuadra?**
+- Puedes sobrescribirla manualmente en Ajustes y fijar una hora concreta.
+- Si no tienes datos de sueño en Health, o no has dado acceso, la app usa un valor predeterminado razonable hasta que definas el tuyo.
+- Quienes trabajan a turnos o tienen horarios realmente irregulares suelen obtener mejores resultados con un valor manual: una mediana sobre horas muy dispersas no describe la mañana real de nadie.
+
+Como el modelo de cortisol se apoya en esta hora, conviene revisarla al configurar la app.
+
 ### ¿Cómo funciona exactamente el modelo de cortisol? (La ciencia)
 
 Mindful Coffee utiliza un **sofisticado modelo matemático de dos fases** para simular el ritmo de cortisol de tu cuerpo a lo largo del día. No es un gráfico estático — es un cálculo dinámico que se actualiza en tiempo real según tu hora de despertar y tu consumo de cafeína.
@@ -778,6 +793,8 @@ La FC activa sube por mil razones (deporte, escaleras, estrés). La FC en reposo
 ### ¿Cómo funciona la integración con HealthKit? (Pro)
 
 HealthKit es el “sistema nervioso central” de los datos de salud en el iPhone. Mindful Coffee se conecta a él en las dos direcciones.
+
+**Todas las vías de registro alimentan la misma imagen.** Las bebidas registradas en la app, desde el Brew Log, en el Apple Watch, importadas de Apple Health o cargadas por CSV terminan en un único conjunto de datos. Gráficos, widgets, complicaciones y correlaciones leen de esa misma fuente, así que da igual dónde lo hayas registrado.
 
 **Lo que escribe la app:**
 

@@ -563,6 +563,21 @@ Here's the insight: if you drink coffee during this peak, caffeine competes with
 
 **Result:** You use less caffeine for the same alertness—and may even reduce your tolerance over time.
 
+### Where does my wake time come from?
+
+If you grant access to Apple Health sleep data, Mindful Coffee derives your typical wake time automatically. There is no setup step for this.
+
+**It is a median, not this morning's alarm.**
+
+The app looks at up to **14 nights** of sleep data and takes the median wake time. That distinction matters more than it sounds: one early flight, one weekend lie-in, or one night the watch was on the charger should not redraw your entire cortisol curve. A median ignores those outliers and tracks the rhythm you actually keep.
+
+**What if the detected time looks off?**
+- You can always override it manually in Settings and pin a fixed wake time.
+- If you have no sleep data in Health, or you have not granted access, the app falls back to a sensible default until you set one yourself.
+- Shift workers and people with genuinely irregular schedules usually get better results from a manual value, since a median across scattered wake times describes nobody's actual morning.
+
+Because the cortisol model keys off this time, it is worth a glance when you first set things up.
+
 ### How does the Cortisol Model actually work? (The Science)
 
 Mindful Coffee uses a **sophisticated two-phase mathematical model** to simulate your body's cortisol rhythm throughout the day. This isn't just a static chart—it's a dynamic calculation that updates in real-time based on your wake time and caffeine intake.
@@ -739,6 +754,8 @@ Active heart rate jumps for a hundred reasons (workout, stairs, stress). Resting
 ### How does HealthKit integration work? (Pro)
 
 Apple's HealthKit is the central nervous system of health data on iPhone. Mindful Coffee connects to it for bidirectional data flow.
+
+**Every logging surface feeds the same picture.** Drinks logged in the app, from the Brew Log, on Apple Watch, imported from Apple Health, or brought in via CSV all land in one dataset. Your charts, widgets, complications and correlations read from that single source, so it does not matter where you logged something.
 
 **What gets written (automatically):**
 

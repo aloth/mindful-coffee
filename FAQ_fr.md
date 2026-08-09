@@ -593,6 +593,21 @@ Si vous buvez du café pendant ce pic :
 **Personnalisation :**  
 Tout le monde n'a pas un rythme "de manuel scolaire". Les lève‑tôt, couche‑tard et travailleurs de nuit ont des courbes différentes. Vous pouvez donc ajuster le timing et l'amplitude des pics pour coller à votre réalité.
 
+### D'où vient mon heure de réveil ?
+
+Si vous autorisez l'accès aux données de sommeil d'Apple Health, Mindful Coffee déduit automatiquement votre heure de réveil habituelle. Aucune étape de configuration n'est nécessaire.
+
+**C'est une médiane, pas l'alarme de ce matin.**
+
+L'app examine jusqu'à **14 nuits** de données de sommeil et en retient la médiane. Cette nuance compte plus qu'il n'y paraît : un vol matinal, une grasse matinée du week-end ou une nuit où la montre était en charge ne doivent pas redessiner toute votre courbe de cortisol. Une médiane ignore ces valeurs aberrantes et reflète le rythme que vous suivez réellement.
+
+**Et si l'heure détectée semble fausse ?**
+- Vous pouvez toujours la remplacer manuellement dans les Réglages et fixer une heure précise.
+- Sans données de sommeil dans Health, ou sans accès accordé, l'app utilise une valeur par défaut raisonnable jusqu'à ce que vous en définissiez une.
+- Le travail posté et les horaires vraiment irréguliers donnent en général de meilleurs résultats avec une valeur manuelle : une médiane calculée sur des réveils très dispersés ne décrit le matin de personne.
+
+Comme le modèle de cortisol s'appuie sur cette heure, un coup d'œil lors de la configuration est utile.
+
 ### Comment fonctionne exactement le modèle de cortisol ? (La science)
 
 Mindful Coffee utilise un **modèle mathématique sophistiqué en deux phases** pour simuler le rythme de cortisol de votre corps tout au long de la journée. Ce n'est pas un graphique statique — c'est un calcul dynamique qui se met à jour en temps réel selon votre heure de réveil et votre consommation de caféine.
@@ -778,6 +793,8 @@ La FC active grimpe pour cent raisons (sport, escaliers, stress). La FC au repos
 ### Comment fonctionne l’intégration HealthKit ? (Pro)
 
 HealthKit est le “système nerveux central” des données de santé sur iPhone. Mindful Coffee s’y connecte dans les deux sens.
+
+**Tous les points de saisie alimentent la même vue.** Les boissons enregistrées dans l'app, depuis le Brew Log, sur l'Apple Watch, importées d'Apple Santé ou chargées via CSV aboutissent toutes dans un seul jeu de données. Graphiques, widgets, complications et corrélations lisent cette source unique : peu importe donc où vous avez fait la saisie.
 
 **Écrit automatiquement :**
 

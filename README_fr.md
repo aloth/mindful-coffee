@@ -23,7 +23,7 @@ Mindful Coffee est la seule app iOS qui réunit un véritable **carnet d'extract
 Espresso, V60, AeroPress, Chemex, presse française, moka, cold brew, ainsi que thé, matcha et Gong Fu. Notez la mouture, la dose, le ratio, le temps, la température et la note dans un flux élégant. Recettes intégrées, suggestions intelligentes pour affiner plus vite et analytique pour identifier votre meilleure tasse.
 
 ### 🧬 Modèle cortisol et caféine
-Un modèle personnel de demi-vie prédit quand la caféine sera éliminée et quand votre corps sera prêt à dormir. La vue du rythme du cortisol affiche votre courbe d'énergie naturelle pour caler votre café sur les fenêtres où il aide vraiment.
+Un modèle personnel de demi-vie prédit quand la caféine sera éliminée et quand votre corps sera prêt à dormir. La vue du rythme du cortisol affiche votre courbe d'énergie naturelle pour caler votre café sur les fenêtres où il aide vraiment. Votre heure de réveil habituelle est déduite automatiquement des données de sommeil d'Apple Santé, sous forme de médiane sur 14 nuits au maximum et non d'après un seul matin : les conseils de timing collent ainsi à votre rythme réel, sans configuration.
 
 ### ❤️ Body Insights depuis Apple Santé
 Mettez en relation votre consommation de caféine et la réaction réelle de votre corps. La corrélation avec le sommeil montre l'impact des différentes quantités quotidiennes sur la durée de sommeil. La corrélation avec la fréquence cardiaque au repos (Pro) révèle si plus de café déplace votre référence cardiovasculaire.

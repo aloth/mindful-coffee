@@ -23,7 +23,7 @@ Mindful Coffee is the only iOS app that joins a full **Brew Journal** with a per
 Espresso, V60, AeroPress, Chemex, French press, moka, cold brew, plus tea, matcha and Gong Fu. Capture grind, dose, ratio, time, temperature and rating in one elegant flow. Built-in recipes, smart suggestions to dial in faster, brew analytics to find your best cup.
 
 ### 🧬 Cortisol & Caffeine Model
-A personal half-life model predicts when caffeine clears your system and when your body is ready for sleep. The cortisol-rhythm view shows your natural energy curve so you can time coffee for the windows where it actually helps.
+A personal half-life model predicts when caffeine clears your system and when your body is ready for sleep. The cortisol-rhythm view shows your natural energy curve so you can time coffee for the windows where it actually helps. Your typical wake time is derived automatically from Apple Health sleep data - a median across up to 14 nights, not a single morning - so the timing advice fits your real rhythm without any setup.
 
 ### ❤️ Body Insights from Apple Health
 Cross-reference your caffeine intake with how your body actually responds. Sleep Correlation shows the duration impact of different daily intake levels. Resting Heart Rate Correlation (Pro) reveals whether more coffee nudges your cardiovascular baseline.
