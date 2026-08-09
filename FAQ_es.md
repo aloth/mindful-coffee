@@ -682,9 +682,9 @@ Cuando está activada, el gráfico muestra tres zonas:
 
 **Ventanas óptimas para el café:**
 
-Según tu hora de despertar y de acostarte, la app calcula ventanas óptimas personalizadas. Para alguien que despierta a las 7:30:
-- **Primera ventana: 9:30–11:30** – Después de que baje la CAR, antes del almuerzo
-- **Segunda ventana: 13:30–15:30** – Bajón post-almuerzo, pero suficientemente temprano para el sueño
+Según tu hora de despertar y de acostarte, la app calcula ventanas óptimas personalizadas. Para alguien que despierta a las 6:45:
+- **Primera ventana: 8:45–10:45** – Después de que baje la CAR, antes del almuerzo
+- **Segunda ventana: 12:45–14:45** – Bajón post-almuerzo, pero suficientemente temprano para el sueño
 
 Estas ventanas se ajustan automáticamente según TU hora de despertar — no consejos genéricos.
 

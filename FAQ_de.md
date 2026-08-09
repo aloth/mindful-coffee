@@ -639,9 +639,9 @@ Wenn aktiviert, zeigt das Diagramm drei Zonen:
 
 **Optimale Kaffeefenster:**
 
-Basierend auf deiner Aufwach- und Schlafenszeit berechnet die App personalisierte optimale Fenster. Für jemanden, der um 7:30 Uhr aufwacht:
-- **Erstes Fenster: 9:30–11:30 Uhr** – Nach Abklingen der CAR, vor dem Mittagessen
-- **Zweites Fenster: 13:30–15:30 Uhr** – Nach-Mittagstief, aber früh genug für guten Schlaf
+Basierend auf deiner Aufwach- und Schlafenszeit berechnet die App personalisierte optimale Fenster. Für jemanden, der um 6:45 Uhr aufwacht:
+- **Erstes Fenster: 8:45–10:45 Uhr** – Nach Abklingen der CAR, vor dem Mittagessen
+- **Zweites Fenster: 12:45–14:45 Uhr** – Nach-Mittagstief, aber früh genug für guten Schlaf
 
 Diese Fenster verschieben sich automatisch basierend auf DEINER Aufwachzeit – keine pauschalen Ratschläge.
 

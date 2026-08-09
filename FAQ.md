@@ -652,9 +652,9 @@ When enabled, the chart displays three zones:
 
 **Optimal Coffee Windows:**
 
-Based on your wake time and bedtime, the app calculates personalized optimal windows. For someone waking at 7:30 AM:
-- **First window: 9:30-11:30 AM** – After CAR subsides, before lunch
-- **Second window: 1:30-3:30 PM** – Post-lunch dip, but early enough for sleep
+Based on your wake time and bedtime, the app calculates personalized optimal windows. For someone waking at 6:45 AM:
+- **First window: 8:45-10:45 AM** – After CAR subsides, before lunch
+- **Second window: 12:45-2:45 PM** – Post-lunch dip, but early enough for sleep
 
 These windows shift automatically based on YOUR wake time—not generic advice.
 

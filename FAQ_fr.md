@@ -682,9 +682,9 @@ Lorsqu'elle est activée, le graphique affiche trois zones :
 
 **Fenêtres café optimales :**
 
-Selon votre heure de réveil et de coucher, l'application calcule des fenêtres optimales personnalisées. Pour quelqu'un qui se réveille à 7h30 :
-- **Première fenêtre : 9h30–11h30** – Après la fin de la CAR, avant le déjeuner
-- **Deuxième fenêtre : 13h30–15h30** – Creux post-déjeuner, mais assez tôt pour le sommeil
+Selon votre heure de réveil et de coucher, l'application calcule des fenêtres optimales personnalisées. Pour quelqu'un qui se réveille à 6h45 :
+- **Première fenêtre : 8h45–10h45** – Après la fin de la CAR, avant le déjeuner
+- **Deuxième fenêtre : 12h45–14h45** – Creux post-déjeuner, mais assez tôt pour le sommeil
 
 Ces fenêtres se décalent automatiquement selon VOTRE heure de réveil — pas des conseils génériques.
 
