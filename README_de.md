@@ -107,7 +107,7 @@ Vollständige [Datenschutzerklärung lesen](https://github.com/aloth/mindful-cof
 
 ## Forschungs-Kooperation
 
-Wenn du als Forscher:in oder Studierende:r in Chronobiologie, Schlafforschung oder verwandten Bereichen arbeitest, melde dich unter `support+mindfulcoffee@alexloth.com`.
+Wenn du als Forscher:in oder Studierende:r in Chronobiologie, Schlafforschung oder verwandten Bereichen arbeitest, melde dich unter `support@alexloth.com`.
 
 ## Feedback
 

@@ -107,7 +107,7 @@ HealthKit 将咖啡因写入「健康」应用，并读取睡眠和静息心率�
 
 ## 研究合作
 
-如果你是从事时间生物学、睡眠科学或相关领域的研究者或学生，欢迎邮件至 `support+mindfulcoffee@alexloth.com`。
+如果你是从事时间生物学、睡眠科学或相关领域的研究者或学生，欢迎邮件至 `support@alexloth.com`。
 
 ## 反馈
 

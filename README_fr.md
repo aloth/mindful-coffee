@@ -107,7 +107,7 @@ Consultez la [politique de confidentialité complète](https://github.com/aloth/
 
 ## Collaboration de recherche
 
-Vous êtes chercheur ou étudiant en chronobiologie, science du sommeil ou domaine connexe ? Écrivez à `support+mindfulcoffee@alexloth.com`.
+Vous êtes chercheur ou étudiant en chronobiologie, science du sommeil ou domaine connexe ? Écrivez à `support@alexloth.com`.
 
 ## Retours
 

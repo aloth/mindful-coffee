@@ -107,7 +107,7 @@ Lee la [política de privacidad completa](https://github.com/aloth/mindful-coffe
 
 ## Colaboración en investigación
 
-Si eres investigador o estudiante en cronobiología, ciencia del sueño o áreas afines, escribe a `support+mindfulcoffee@alexloth.com`.
+Si eres investigador o estudiante en cronobiología, ciencia del sueño o áreas afines, escribe a `support@alexloth.com`.
 
 ## Feedback
 
