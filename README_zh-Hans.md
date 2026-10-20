@@ -1,4 +1,4 @@
-🇺🇸 [English](README.md) | 🇩🇪 [Deutsch](README_de.md) | 🇪🇸 [Español](README_es.md) | 🇫🇷 [Français](README_fr.md) | 🇯🇵 [日本語](README_ja.md) | 🇨🇳 **中文**
+🇺🇸 [English](README.md) | 🇩🇪 [Deutsch](README_de.md) | 🇪🇸 [Español](README_es.md) | 🇫🇷 [Français](README_fr.md) | 🇮🇹 [Italiano](README_it.md) | 🇧🇷 [Português](README_pt-BR.md) | 🇳🇱 [Nederlands](README_nl.md) | 🇸🇪 [Svenska](README_sv.md) | 🇯🇵 [日本語](README_ja.md) | 🇰🇷 [한국어](README_ko.md) | 🇨🇳 **简体中文** | 🇹🇼 [繁體中文](README_zh-Hant.md)
 
 # Mindful Coffee — 适用于 iPhone、iPad 和 Mac 的咖啡因追踪 & 冲煮日志
 
@@ -99,9 +99,9 @@ HealthKit 将咖啡因写入「健康」应用，并读取睡眠和静息心率�
 
 ## 资源
 
-- 📖 [**常见问题**](./FAQ_zh-Hans.md) — 咖啡因科学、应用功能、问题排查 · 也有 [English](./FAQ.md) · [Deutsch](./FAQ_de.md) · [Español](./FAQ_es.md) · [Français](./FAQ_fr.md) · [日本語](./FAQ_ja.md)
+- 📖 [**常见问题**](./FAQ_zh-Hans.md) — 咖啡因科学、应用功能、问题排查 · 也有 [English](./FAQ.md) · [Deutsch](./FAQ_de.md) · [Español](./FAQ_es.md) · [Français](./FAQ_fr.md) · [Italiano](./FAQ_it.md) · [Português](./FAQ_pt-BR.md) · [Nederlands](./FAQ_nl.md) · [Svenska](./FAQ_sv.md) · [日本語](./FAQ_ja.md) · [한국어](./FAQ_ko.md) · [繁體中文](./FAQ_zh-Hant.md)
 - 🔬 [**研究背景**](./RESEARCH_BACKGROUND.md) — 皮质醇模型背后的科学
-- 🌍 **支持语言** — 完整本地化为英语、德语、西班牙语、法语、日语和简体中文
+- 🌍 **支持语言** — 完整本地化为英语、德语、西班牙语、法语、意大利语、葡萄牙语（巴西）、荷兰语、瑞典语、日语、韩语、简体中文和繁体中文
 - 🌐 [**官方网站**](http://mindfulcoffee.alexloth.com)
 - 🧘 **相关应用** — [Mindful Body](https://github.com/aloth/mindful-body) · [Trackless Links](https://github.com/aloth/trackless-links)
 

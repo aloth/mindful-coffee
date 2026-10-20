@@ -1,4 +1,4 @@
-🇺🇸 [English](FAQ.md) | 🇩🇪 **Deutsch** | 🇪🇸 [Español](FAQ_es.md) | 🇫🇷 [Français](FAQ_fr.md) | 🇯🇵 [日本語](FAQ_ja.md) | 🇨🇳 [中文](FAQ_zh-Hans.md)
+🇺🇸 [English](FAQ.md) | 🇩🇪 **Deutsch** | 🇪🇸 [Español](FAQ_es.md) | 🇫🇷 [Français](FAQ_fr.md) | 🇮🇹 [Italiano](FAQ_it.md) | 🇧🇷 [Português](FAQ_pt-BR.md) | 🇳🇱 [Nederlands](FAQ_nl.md) | 🇸🇪 [Svenska](FAQ_sv.md) | 🇯🇵 [日本語](FAQ_ja.md) | 🇰🇷 [한국어](FAQ_ko.md) | 🇨🇳 [简体中文](FAQ_zh-Hans.md) | 🇹🇼 [繁體中文](FAQ_zh-Hant.md)
 
 # Mindful Coffee – Häufig gestellte Fragen (FAQ)
 
@@ -82,6 +82,12 @@ Unterstützte Familien: `.accessoryCircular`, `.accessoryRectangular`, `.accesso
 Einfach **auf die Komplikation tippen**. Eine einseitige Eintragsansicht öffnet sich mit deinem **Standardgetränk** vorausgefüllt. Drehe die **Digital Crown**, um die mg-Menge feinzujustieren, und tippe dann auf **Eintragen**. Fertig.
 
 Wenn du lieber ein anderes Getränk wählst, funktioniert die normale Mindful Coffee Watch-App weiterhin — das Tippen auf die Komplikation ist der Express-Weg für deinen Standard.
+
+### Erscheinen meine eigenen Getränke auf der Apple Watch?
+
+Ja. Seit Version 6.2.1 zeigt die Uhr denselben Getränkekatalog wie dein iPhone, auch deine **eigenen Getränke** mit Name und Koffeinmenge. Änderungen auf dem iPhone kommen auch dann auf der Uhr an, wenn sie gerade nicht verbunden ist; sie holt sie beim nächsten Abgleich nach.
+
+Du kannst auf der Uhr außerdem **erfassen, ohne die iPhone-App zu öffnen**. Ist das iPhone außer Reichweite, wird der Eintrag gespeichert und übertragen, sobald beide Geräte wieder verbunden sind.
 
 ### Wie stelle ich mein Standardgetränk ein?
 
@@ -473,6 +479,10 @@ Die Sleep-Insights-Karte schließt diese Lücke. Du siehst zum Beispiel:
 3. Passe den heutigen Koffeinkonsum entsprechend an.
 
 So wird aus Koffein von einem Automatismus eine bewusste Stellschraube.
+
+### Wo finde ich meinen Fortschrittsbericht? (Pro)
+
+Öffne den **Verlauf**. Unter der Heatmap findest du die Zeile **Fortschrittsbericht**. Darüber teilst du eine Zusammenfassung deines Konsums als PDF oder CSV. Der Bericht ist weiterhin auch über das Teilen-Symbol oben im Verlauf erreichbar.
 
 ### Wie funktioniert die gruppierte Verlaufansicht?
 

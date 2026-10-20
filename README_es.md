@@ -1,4 +1,4 @@
-🇺🇸 [English](README.md) | 🇩🇪 [Deutsch](README_de.md) | 🇪🇸 **Español** | 🇫🇷 [Français](README_fr.md) | 🇯🇵 [日本語](README_ja.md) | 🇨🇳 [中文](README_zh-Hans.md)
+🇺🇸 [English](README.md) | 🇩🇪 [Deutsch](README_de.md) | 🇪🇸 **Español** | 🇫🇷 [Français](README_fr.md) | 🇮🇹 [Italiano](README_it.md) | 🇧🇷 [Português](README_pt-BR.md) | 🇳🇱 [Nederlands](README_nl.md) | 🇸🇪 [Svenska](README_sv.md) | 🇯🇵 [日本語](README_ja.md) | 🇰🇷 [한국어](README_ko.md) | 🇨🇳 [简体中文](README_zh-Hans.md) | 🇹🇼 [繁體中文](README_zh-Hant.md)
 
 # Mindful Coffee — Tracker de cafeína y diario de extracción para iPhone, iPad y Mac
 
@@ -99,9 +99,9 @@ Lee la [política de privacidad completa](https://github.com/aloth/mindful-coffe
 
 ## Recursos
 
-- 📖 [**FAQ**](./FAQ_es.md) — ciencia de la cafeína, funciones de la app, solución de problemas · también en [English](./FAQ.md) · [Deutsch](./FAQ_de.md) · [Français](./FAQ_fr.md) · [日本語](./FAQ_ja.md) · [简体中文](./FAQ_zh-Hans.md)
+- 📖 [**FAQ**](./FAQ_es.md) — ciencia de la cafeína, funciones de la app, solución de problemas · también en [English](./FAQ.md) · [Deutsch](./FAQ_de.md) · [Français](./FAQ_fr.md) · [Italiano](./FAQ_it.md) · [Português](./FAQ_pt-BR.md) · [Nederlands](./FAQ_nl.md) · [Svenska](./FAQ_sv.md) · [日本語](./FAQ_ja.md) · [한국어](./FAQ_ko.md) · [简体中文](./FAQ_zh-Hans.md) · [繁體中文](./FAQ_zh-Hant.md)
 - 🔬 [**Base científica**](./RESEARCH_BACKGROUND.md) — la ciencia detrás del modelo de cortisol
-- 🌍 **Idiomas** — totalmente localizada en inglés, alemán, español, francés, japonés y chino simplificado
+- 🌍 **Idiomas** — totalmente localizada en inglés, alemán, español, francés, italiano, portugués (Brasil), neerlandés, sueco, japonés, coreano, chino simplificado y chino tradicional
 - 🌐 [**Sitio oficial**](http://mindfulcoffee.alexloth.com)
 - 🧘 **Relacionados** — [Mindful Body](https://github.com/aloth/mindful-body) · [Trackless Links](https://github.com/aloth/trackless-links)
 

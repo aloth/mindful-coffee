@@ -1,4 +1,4 @@
-🇺🇸 [English](FAQ.md) | 🇩🇪 [Deutsch](FAQ_de.md) | 🇪🇸 [Español](FAQ_es.md) | 🇫🇷 [Français](FAQ_fr.md) | 🇯🇵 **日本語** | 🇨🇳 [中文](FAQ_zh-Hans.md)
+🇺🇸 [English](FAQ.md) | 🇩🇪 [Deutsch](FAQ_de.md) | 🇪🇸 [Español](FAQ_es.md) | 🇫🇷 [Français](FAQ_fr.md) | 🇮🇹 [Italiano](FAQ_it.md) | 🇧🇷 [Português](FAQ_pt-BR.md) | 🇳🇱 [Nederlands](FAQ_nl.md) | 🇸🇪 [Svenska](FAQ_sv.md) | 🇯🇵 **日本語** | 🇰🇷 [한국어](FAQ_ko.md) | 🇨🇳 [简体中文](FAQ_zh-Hans.md) | 🇹🇼 [繁體中文](FAQ_zh-Hant.md)
 
 # Mindful Coffee – よくある質問 (FAQ)
 
@@ -86,6 +86,12 @@ Mindful Coffee では watchOS 向けに 2 つの **WidgetKit コンプリケー�
 **コンプリケーションをタップ**するだけ。**デフォルトの飲み物**が事前選択された 1 画面の記録ビューが開きます。**Digital Crown** を回して mg を微調整し、**記録** をタップ。完了。
 
 別の飲み物を選びたい場合は、通常の Mindful Coffee Watch アプリも引き続き使えます — コンプリケーションタップはデフォルト用のエクスプレスレーンです。
+
+### 自分で作ったドリンクは Apple Watch に表示されますか？
+
+はい。バージョン 6.2.1 から、Watch には iPhone と同じドリンク一覧が表示され、**カスタムドリンク**も名前とカフェイン量つきで表示されます。iPhone での変更は、その時点で Watch が接続されていなくても、次回の同期時に反映されます。
+
+また、**iPhone のアプリを開かなくても** Watch で記録できます。iPhone が近くにない場合も記録は保存され、両方のデバイスが再接続されたときに送信されます。
 
 ### デフォルトの飲み物はどう設定しますか？
 
@@ -547,6 +553,10 @@ Sleep Insights は、このタイムラグを埋めてくれます：
 3. その日のカフェイン摂取量やカットオフ時間を、前日の結果を踏まえて決める
 
 こうして、カフェインは「何となく飲むもの」から、「意識的に選ぶツール」へと変わっていきます。
+
+### 進捗レポートはどこにありますか？（Pro）
+
+**履歴**を開くと、ヒートマップの下に**進捗レポート**の項目があります。ここから摂取量のまとめを PDF または CSV で共有できます。これまでどおり、履歴画面上部の共有アイコンからも開けます。
 
 ### 「Grouped History（グループ化された履歴）」はどう役立つ？
 

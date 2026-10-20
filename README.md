@@ -1,4 +1,4 @@
-🇺🇸 **English** | 🇩🇪 [Deutsch](README_de.md) | 🇪🇸 [Español](README_es.md) | 🇫🇷 [Français](README_fr.md) | 🇯🇵 [日本語](README_ja.md) | 🇨🇳 [中文](README_zh-Hans.md)
+🇺🇸 **English** | 🇩🇪 [Deutsch](README_de.md) | 🇪🇸 [Español](README_es.md) | 🇫🇷 [Français](README_fr.md) | 🇮🇹 [Italiano](README_it.md) | 🇧🇷 [Português](README_pt-BR.md) | 🇳🇱 [Nederlands](README_nl.md) | 🇸🇪 [Svenska](README_sv.md) | 🇯🇵 [日本語](README_ja.md) | 🇰🇷 [한국어](README_ko.md) | 🇨🇳 [简体中文](README_zh-Hans.md) | 🇹🇼 [繁體中文](README_zh-Hant.md)
 
 # Mindful Coffee — Caffeine Tracker & Brew Journal for iPhone, iPad & Mac
 
@@ -99,9 +99,9 @@ Read the full [Privacy Policy](https://github.com/aloth/mindful-coffee/blob/main
 
 ## Resources
 
-- 📖 [**FAQ**](./FAQ.md) — caffeine science, app features, troubleshooting · also in [Deutsch](./FAQ_de.md) · [Español](./FAQ_es.md) · [Français](./FAQ_fr.md) · [日本語](./FAQ_ja.md) · [简体中文](./FAQ_zh-Hans.md)
+- 📖 [**FAQ**](./FAQ.md) — caffeine science, app features, troubleshooting · also in [Deutsch](./FAQ_de.md) · [Español](./FAQ_es.md) · [Français](./FAQ_fr.md) · [Italiano](./FAQ_it.md) · [Português](./FAQ_pt-BR.md) · [Nederlands](./FAQ_nl.md) · [Svenska](./FAQ_sv.md) · [日本語](./FAQ_ja.md) · [한국어](./FAQ_ko.md) · [简体中文](./FAQ_zh-Hans.md) · [繁體中文](./FAQ_zh-Hant.md)
 - 🔬 [**Research Background**](./RESEARCH_BACKGROUND.md) — the science behind cortisol modeling
-- 🌍 **Languages** — fully localized in English, German, Spanish, French, Japanese, Simplified Chinese
+- 🌍 **Languages** — fully localized in English, German, Spanish, French, Italian, Portuguese (Brazil), Dutch, Swedish, Japanese, Korean, Simplified Chinese and Traditional Chinese
 - 🌐 [**Official Website**](http://mindfulcoffee.alexloth.com)
 - 🧘 **Related** — [Mindful Body](https://github.com/aloth/mindful-body) · [Trackless Links](https://github.com/aloth/trackless-links)
 

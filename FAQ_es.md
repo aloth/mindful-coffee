@@ -1,4 +1,4 @@
-🇺🇸 [English](FAQ.md) | 🇩🇪 [Deutsch](FAQ_de.md) | 🇪🇸 **Español** | 🇫🇷 [Français](FAQ_fr.md) | 🇯🇵 [日本語](FAQ_ja.md) | 🇨🇳 [中文](FAQ_zh-Hans.md)
+🇺🇸 [English](FAQ.md) | 🇩🇪 [Deutsch](FAQ_de.md) | 🇪🇸 **Español** | 🇫🇷 [Français](FAQ_fr.md) | 🇮🇹 [Italiano](FAQ_it.md) | 🇧🇷 [Português](FAQ_pt-BR.md) | 🇳🇱 [Nederlands](FAQ_nl.md) | 🇸🇪 [Svenska](FAQ_sv.md) | 🇯🇵 [日本語](FAQ_ja.md) | 🇰🇷 [한국어](FAQ_ko.md) | 🇨🇳 [简体中文](FAQ_zh-Hans.md) | 🇹🇼 [繁體中文](FAQ_zh-Hant.md)
 
 # Mindful Coffee – Preguntas frecuentes (FAQ)
 
@@ -86,6 +86,12 @@ Familias compatibles: `.accessoryCircular`, `.accessoryRectangular`, `.accessory
 Simplemente **toca la complicación**. Se abre una pantalla de registro con tu **Bebida predeterminada** ya seleccionada. Gira la **Digital Crown** para ajustar los mg, luego toca **Registrar**. Listo.
 
 Si prefieres elegir otra bebida, la app de Mindful Coffee para Watch sigue funcionando — el toque en la complicación es la vía rápida para tu predeterminada.
+
+### ¿Aparecen mis bebidas personalizadas en el Apple Watch?
+
+Sí. Desde la versión 6.2.1 el reloj muestra el mismo catálogo de bebidas que tu iPhone, incluidas tus **bebidas personalizadas** con su nombre y cantidad de cafeína. Los cambios en el iPhone llegan al reloj aunque no esté conectado en ese momento; los recibe en la siguiente sincronización.
+
+Además puedes registrar en el reloj **sin abrir la app del iPhone**. Si el iPhone está fuera de alcance, el registro se guarda y se envía en cuanto ambos dispositivos vuelven a conectarse.
 
 ### ¿Cómo configuro mi Bebida predeterminada?
 
@@ -499,6 +505,10 @@ La relación causa–efecto se vuelve mucho más evidente.
 3. Ajusta tu consumo del día en función de lo que vas aprendiendo.
 
 Así, la cafeína deja de ser un hábito automático para convertirse en un **acto deliberado**.
+
+### ¿Dónde encuentro mi Informe de progreso? (Pro)
+
+Abre el **Historial**. Debajo del mapa de calor encontrarás la fila **Informe de progreso**, con la que puedes compartir un resumen de tu consumo en PDF o CSV. El informe sigue disponible también desde el icono de compartir en la barra del Historial.
 
 ### ¿Cómo funciona la vista "Grouped History"?
 

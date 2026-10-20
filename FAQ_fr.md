@@ -1,4 +1,4 @@
-🇺🇸 [English](FAQ.md) | 🇩🇪 [Deutsch](FAQ_de.md) | 🇪🇸 [Español](FAQ_es.md) | 🇫🇷 **Français** | 🇯🇵 [日本語](FAQ_ja.md) | 🇨🇳 [中文](FAQ_zh-Hans.md)
+🇺🇸 [English](FAQ.md) | 🇩🇪 [Deutsch](FAQ_de.md) | 🇪🇸 [Español](FAQ_es.md) | 🇫🇷 **Français** | 🇮🇹 [Italiano](FAQ_it.md) | 🇧🇷 [Português](FAQ_pt-BR.md) | 🇳🇱 [Nederlands](FAQ_nl.md) | 🇸🇪 [Svenska](FAQ_sv.md) | 🇯🇵 [日本語](FAQ_ja.md) | 🇰🇷 [한국어](FAQ_ko.md) | 🇨🇳 [简体中文](FAQ_zh-Hans.md) | 🇹🇼 [繁體中文](FAQ_zh-Hant.md)
 
 # Mindful Coffee – Foire aux questions (FAQ)
 
@@ -86,6 +86,12 @@ Familles prises en charge : `.accessoryCircular`, `.accessoryRectangular`, `.acc
 Il suffit de **toucher la complication**. Un écran d’enregistrement s’ouvre avec ta **Boisson par défaut** déjà sélectionnée. Tourne la **Digital Crown** pour ajuster les mg, puis touche **Enregistrer**. Terminé.
 
 Si tu préfères choisir une autre boisson, l’app Mindful Coffee pour Watch fonctionne toujours — le toucher de complication est la voie express pour ta boisson par défaut.
+
+### Mes boissons personnalisées apparaissent-elles sur l’Apple Watch ?
+
+Oui. Depuis la version 6.2.1, la montre affiche le même catalogue de boissons que votre iPhone, y compris vos **boissons personnalisées** avec leur nom et leur quantité de caféine. Les modifications faites sur l’iPhone arrivent sur la montre même si elle n’est pas connectée à ce moment-là ; elle les récupère à la synchronisation suivante.
+
+Vous pouvez aussi enregistrer sur la montre **sans ouvrir l’app iPhone**. Si l’iPhone est hors de portée, l’entrée est conservée et transmise dès que les deux appareils sont de nouveau connectés.
 
 ### Comment définir ma Boisson par défaut ?
 
@@ -499,6 +505,10 @@ La relation cause‑effet devient beaucoup plus claire.
 3. Ajustez votre consommation du jour en fonction de ce que vous apprenez.
 
 Ainsi, la caféine passe du statut d’“habitude automatique” à celui de **choix informé**.
+
+### Où trouver mon rapport de progression ? (Pro)
+
+Ouvrez l’**Historique**. Sous la carte thermique se trouve la ligne **Rapport de progression**, qui permet de partager un résumé de votre consommation en PDF ou CSV. Le rapport reste aussi accessible via l’icône de partage dans la barre de l’Historique.
 
 ### Comment fonctionne la vue "Grouped History" ?
 

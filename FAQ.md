@@ -1,4 +1,4 @@
-🇺🇸 **English** | 🇩🇪 [Deutsch](FAQ_de.md) | 🇪🇸 [Español](FAQ_es.md) | 🇫🇷 [Français](FAQ_fr.md) | 🇯🇵 [日本語](FAQ_ja.md) | 🇨🇳 [中文](FAQ_zh-Hans.md)
+🇺🇸 **English** | 🇩🇪 [Deutsch](FAQ_de.md) | 🇪🇸 [Español](FAQ_es.md) | 🇫🇷 [Français](FAQ_fr.md) | 🇮🇹 [Italiano](FAQ_it.md) | 🇧🇷 [Português](FAQ_pt-BR.md) | 🇳🇱 [Nederlands](FAQ_nl.md) | 🇸🇪 [Svenska](FAQ_sv.md) | 🇯🇵 [日本語](FAQ_ja.md) | 🇰🇷 [한국어](FAQ_ko.md) | 🇨🇳 [简体中文](FAQ_zh-Hans.md) | 🇹🇼 [繁體中文](FAQ_zh-Hant.md)
 
 # Mindful Coffee – Frequently Asked Questions (FAQ)
 
@@ -82,6 +82,12 @@ Supported families: `.accessoryCircular`, `.accessoryRectangular`, `.accessoryIn
 Just **tap the complication**. A one-screen logging view opens with your **Default Drink** pre-filled. Spin the **Digital Crown** to fine-tune the mg amount, then tap **Log**. Done.
 
 If you'd rather pick a different drink, the regular Mindful Coffee Watch app still works — the complication tap is the express lane for your default.
+
+### Do my custom drinks show up on Apple Watch?
+
+Yes. Since version 6.2.1 the watch shows the same drink catalog as your iPhone, including your **custom drinks** with their name and caffeine amount. Changes on the iPhone reach the watch even if it is not connected at that moment; it picks them up the next time it syncs.
+
+You can also log on the watch **without opening the iPhone app**. If the iPhone is out of reach, the entry is kept and delivered once both devices are connected again.
 
 ### How do I set my Default Drink?
 
@@ -478,6 +484,10 @@ The Sleep Insights Card closes this feedback loop. Every morning, you see:
 3. Adjust today's intake based on what you learned
 
 This transforms caffeine from "mindless habit" to "informed choice."
+
+### Where do I find my Progress Report? (Pro)
+
+Open **History**. Below the heatmap you will find the **Progress Report** row, which lets you share a PDF or CSV summary of your intake. The same report is still available from the share icon in the History toolbar.
 
 ### How does the Grouped History View work?
 

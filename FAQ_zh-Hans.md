@@ -1,4 +1,4 @@
-🇺🇸 [English](FAQ.md) | 🇩🇪 [Deutsch](FAQ_de.md) | 🇪🇸 [Español](FAQ_es.md) | 🇫🇷 [Français](FAQ_fr.md) | 🇯🇵 [日本語](FAQ_ja.md) | 🇨🇳 **中文**
+🇺🇸 [English](FAQ.md) | 🇩🇪 [Deutsch](FAQ_de.md) | 🇪🇸 [Español](FAQ_es.md) | 🇫🇷 [Français](FAQ_fr.md) | 🇮🇹 [Italiano](FAQ_it.md) | 🇧🇷 [Português](FAQ_pt-BR.md) | 🇳🇱 [Nederlands](FAQ_nl.md) | 🇸🇪 [Svenska](FAQ_sv.md) | 🇯🇵 [日本語](FAQ_ja.md) | 🇰🇷 [한국어](FAQ_ko.md) | 🇨🇳 **简体中文** | 🇹🇼 [繁體中文](FAQ_zh-Hant.md)
 
 # Mindful Coffee – 常见问题 (FAQ)
 
@@ -84,6 +84,12 @@ Mindful Coffee 为 watchOS 提供两个 **WidgetKit 复杂功能**：
 只需**轻点复杂功能**，就会弹出一个预填了**默认饮品**的单屏记录页。转动 **Digital Crown** 微调毫克数，然后点 **记录**。完成。
 
 如果你想选择另一种饮品，常规的 Mindful Coffee Watch App 仍可使用 — 复杂功能轻点是默认饮品的快捷通道。
+
+### 我的自定义饮品会显示在 Apple Watch 上吗？
+
+会。从 6.2.1 版本起，手表显示与 iPhone 相同的饮品列表，包括你的**自定义饮品**及其名称和咖啡因含量。即使手表当时未连接，iPhone 上的更改也会在下次同步时同步到手表。
+
+你还可以**无需打开 iPhone App** 直接在手表上记录。如果 iPhone 不在附近，记录会先保存，待两台设备重新连接后再同步。
 
 ### 如何设置默认饮品？
 
@@ -491,6 +497,10 @@ Streaks 利用了一个很强大的心理效应：**厌恶失去 (loss aversion)
 3. 根据这些模式，调整今天的摄入量或时间
 
 这样一来，咖啡因就不再是“下意识习惯”，而是一种**有数据支持的选择**。
+
+### 在哪里找到进度报告？（Pro）
+
+打开**历史记录**，在热力图下方可以看到**进度报告**一栏，可将摄入汇总以 PDF 或 CSV 格式分享。也可以像以前一样，通过历史记录顶部的分享图标打开。
 
 ### 「分组历史视图」(Grouped History) 是怎么工作的？
 

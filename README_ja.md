@@ -1,4 +1,4 @@
-🇺🇸 [English](README.md) | 🇩🇪 [Deutsch](README_de.md) | 🇪🇸 [Español](README_es.md) | 🇫🇷 [Français](README_fr.md) | 🇯🇵 **日本語** | 🇨🇳 [中文](README_zh-Hans.md)
+🇺🇸 [English](README.md) | 🇩🇪 [Deutsch](README_de.md) | 🇪🇸 [Español](README_es.md) | 🇫🇷 [Français](README_fr.md) | 🇮🇹 [Italiano](README_it.md) | 🇧🇷 [Português](README_pt-BR.md) | 🇳🇱 [Nederlands](README_nl.md) | 🇸🇪 [Svenska](README_sv.md) | 🇯🇵 **日本語** | 🇰🇷 [한국어](README_ko.md) | 🇨🇳 [简体中文](README_zh-Hans.md) | 🇹🇼 [繁體中文](README_zh-Hant.md)
 
 # Mindful Coffee — iPhone・iPad・Mac 用カフェイントラッカー & 抽出ジャーナル
 
@@ -99,9 +99,9 @@ HealthKit でカフェインを Apple ヘルスケアに書き込み、睡眠と
 
 ## リソース
 
-- 📖 [**FAQ**](./FAQ_ja.md) — カフェインの科学、アプリの機能、トラブルシューティング · ほかに [English](./FAQ.md) · [Deutsch](./FAQ_de.md) · [Español](./FAQ_es.md) · [Français](./FAQ_fr.md) · [简体中文](./FAQ_zh-Hans.md)
+- 📖 [**FAQ**](./FAQ_ja.md) — カフェインの科学、アプリの機能、トラブルシューティング · ほかに [English](./FAQ.md) · [Deutsch](./FAQ_de.md) · [Español](./FAQ_es.md) · [Français](./FAQ_fr.md) · [Italiano](./FAQ_it.md) · [Português](./FAQ_pt-BR.md) · [Nederlands](./FAQ_nl.md) · [Svenska](./FAQ_sv.md) · [한국어](./FAQ_ko.md) · [简体中文](./FAQ_zh-Hans.md) · [繁體中文](./FAQ_zh-Hant.md)
 - 🔬 [**研究の背景**](./RESEARCH_BACKGROUND.md) — コルチゾールモデルの科学
-- 🌍 **対応言語** — 英語・ドイツ語・スペイン語・フランス語・日本語・簡体中国語に完全ローカライズ
+- 🌍 **対応言語** — 英語・ドイツ語・スペイン語・フランス語・イタリア語・ポルトガル語（ブラジル）・オランダ語・スウェーデン語・日本語・韓国語・簡体中国語・繁体中国語に完全ローカライズ
 - 🌐 [**公式サイト**](http://mindfulcoffee.alexloth.com)
 - 🧘 **関連アプリ** — [Mindful Body](https://github.com/aloth/mindful-body) · [Trackless Links](https://github.com/aloth/trackless-links)
 
