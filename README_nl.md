@@ -35,7 +35,7 @@ Complicaties voor Cafeïne nu en Bedtijdprognose op elke moderne wijzerplaat. Ti
 Apple Intelligence levert persoonlijk commentaar op je cafeïnegebruik dat zich aanpast aan je energieniveau, het tijdstip van de dag en je slaappatroon. De onderzoeksbasis voor de AI is het [JudgeGPT-project](https://github.com/aloth/JudgeGPT). Niets verlaat je apparaat.
 
 ### 🔒 Apple-integratie en privacy
-De HealthKit-synchronisatie schrijft cafeïne naar Apple Gezondheid en leest je slaap en rusthartslag uit. iCloud-synchronisatie tussen iPhone, iPad en Mac. CSV-export, zodat je gegevens volledig van jou blijven. Alle berekeningen en AI draaien lokaal: geen accounts, geen servers, geen telemetrie.
+De HealthKit-synchronisatie schrijft cafeïne naar Apple Gezondheid en leest je slaap en rusthartslag uit. Optionele iCloud-synchronisatie tussen iPhone, iPad en Mac via je eigen iCloud. CSV-export, zodat je gegevens volledig van jou blijven. Alle berekeningen en AI draaien lokaal. Geen account, geen advertenties, geen tracking en geen analysetools van derden; aankopen worden verwerkt door Apple en RevenueCat.
 
 ## Pro-functies
 
@@ -93,7 +93,7 @@ Stem gevoeligheid, halfwaardetijd, slaapdrempels en cortisolparameters af, zodat
 
 ## Privacy voorop
 
-Je gegevens blijven op je apparaat of worden veilig gesynchroniseerd via je persoonlijke iCloud. Alle consumptiegegevens worden lokaal opgeslagen met SwiftData, voor toegang tot HealthKit is je uitdrukkelijke toestemming nodig en **alle berekeningen, analyses en AI-inzichten worden volledig op je apparaat uitgevoerd**: er wordt nooit iets naar een server gestuurd.
+Je gegevens blijven op je apparaat of worden veilig gesynchroniseerd via je persoonlijke iCloud. Alle consumptiegegevens worden lokaal opgeslagen met SwiftData, voor toegang tot HealthKit is je uitdrukkelijke toestemming nodig en **alle berekeningen, analyses en AI-inzichten worden volledig op je apparaat uitgevoerd**. Je cafeïnelog en gezondheidsgegevens worden nooit naar ons of naar derden gestuurd.
 
 Lees het volledige [privacybeleid](https://github.com/aloth/mindful-coffee/blob/main/privacy_policy.md).
 

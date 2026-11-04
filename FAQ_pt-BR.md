@@ -774,7 +774,6 @@ O HealthKit da Apple é o sistema nervoso central dos dados de saúde no iPhone.
 | Tipo de dado | Detalhes |
 |-----------|---------|
 | Cafeína | Quantidade em mg por bebida |
-| Água/Líquidos | Volume em ml (para monitorar a hidratação) |
 
 Cada bebida que você registra cria uma entrada com data e hora no app Saúde. Isso significa que:
 - Outros apps podem ver a sua ingestão de cafeína
@@ -787,7 +786,8 @@ Cada bebida que você registra cria uma entrada com data e hora no app Saúde. I
 |-----------|----------|
 | Análise do Sono | Alimenta o recurso de Correlação com o Sono |
 | Frequência Cardíaca em Repouso | Alimenta o recurso de Correlação com a FC em repouso (Pro) |
-| Cafeína (de outros apps) | Importação única do app da Starbucks, etc. |
+| Cafeína (de outros apps) | Importa a cafeína registrada por outros apps (opcional) |
+| Treinos | Sugere o melhor horário para a cafeína em torno dos seus treinos |
 
 **A mágica do ecossistema:**
 
@@ -1193,7 +1193,7 @@ O Mindful Coffee foi projetado para que coletar os seus dados não seja apenas c
 
 | Tipo de dado | Onde fica | Quem pode acessar |
 |-----------|----------------|----------------|
-| Seus registros de consumo | Somente no seu dispositivo | Só você |
+| Seus registros de consumo | No seu dispositivo, ou no seu próprio iCloud se você ativar a sincronização (desativada por padrão) | Só você |
 | Suas configurações | Somente no seu dispositivo | Só você |
 | Dados do HealthKit | Compartimento criptografado da Apple | Apps que você autorizar |
 | Dados analíticos | Não existem | Ninguém |
@@ -1216,7 +1216,7 @@ Você pode exportar todos os seus dados para CSV a qualquer momento. Os dados s�
 
 **Sem anúncios, nunca:**
 
-Apps sustentados por anúncios têm incentivo para rastrear você (mais dados = anúncios mais direcionados). Nós usamos um modelo premium simples. Você paga pelos recursos Pro; nós os oferecemos. Nenhum terceiro envolvido.
+Apps sustentados por anúncios têm incentivo para rastrear você (mais dados = anúncios mais direcionados). Nós usamos um modelo premium simples. Você paga pelos recursos Pro; nós os oferecemos. As compras são processadas pela Apple e pela RevenueCat; a RevenueCat nunca recebe o seu registro de cafeína nem os seus dados de saúde.
 
 **A nossa promessa de privacidade:**
 

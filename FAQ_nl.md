@@ -774,7 +774,6 @@ Apples HealthKit is het centrale zenuwstelsel van gezondheidsgegevens op de iPho
 | Gegevenstype | Details |
 |-----------|---------|
 | Cafeïne | Hoeveelheid in mg per drankje |
-| Water/vocht | Volume in ml (om je vochtinname bij te houden) |
 
 Elk drankje dat je logt, maakt een item met tijdstempel aan in Apple Gezondheid. Dat betekent:
 - Andere apps kunnen je cafeïne-inname zien
@@ -787,7 +786,8 @@ Elk drankje dat je logt, maakt een item met tijdstempel aan in Apple Gezondheid.
 |-----------|----------|
 | Slaapanalyse | Voedt de functie Slaapcorrelatie |
 | Rusthartslag | Voedt de functie voor de correlatie met je rusthartslag (Pro) |
-| Cafeïne (uit andere apps) | Eenmalige import uit bijvoorbeeld de Starbucks-app |
+| Cafeïne (uit andere apps) | Importeert cafeïne die andere apps hebben gelogd (optioneel) |
+| Workouts | Stelt cafeïnetiming rond je trainingen voor |
 
 **De kracht van het ecosysteem:**
 
@@ -1193,7 +1193,7 @@ Mindful Coffee is zo ontworpen dat het verzamelen van je gegevens niet alleen te
 
 | Gegevenstype | Waar het staat | Wie er toegang toe heeft |
 |-----------|----------------|----------------|
-| Je consumptielogs | Alleen op je apparaat | Alleen jij |
+| Je consumptielogs | Op je apparaat, of in je eigen iCloud als je synchronisatie aanzet (standaard uit) | Alleen jij |
 | Je instellingen | Alleen op je apparaat | Alleen jij |
 | HealthKit-gegevens | Apples versleutelde, afgeschermde opslag | Apps die jij toestemming geeft |
 | Analysegegevens | Bestaan niet | Niemand |
@@ -1216,7 +1216,7 @@ Je kunt al je gegevens op elk moment naar CSV exporteren. Het zijn JOUW gegevens
 
 **Nooit advertenties:**
 
-Apps die op advertenties draaien, hebben er belang bij je te volgen (meer gegevens = gerichtere advertenties). Wij kiezen in plaats daarvan voor een eenvoudig premiummodel. Jij betaalt voor Pro-functies, wij leveren ze. Er komen geen derden aan te pas.
+Apps die op advertenties draaien, hebben er belang bij je te volgen (meer gegevens = gerichtere advertenties). Wij kiezen in plaats daarvan voor een eenvoudig premiummodel. Jij betaalt voor Pro-functies, wij leveren ze. Aankopen worden verwerkt door Apple en RevenueCat; RevenueCat ontvangt nooit je cafeïnelog of gezondheidsgegevens.
 
 **Onze privacybelofte:**
 

@@ -35,7 +35,7 @@ Complicazioni «Caffeina ora» e «Previsione sonno» su tutti i quadranti moder
 Apple Intelligence genera commenti personalizzati sulla caffeina che si adattano ai tuoi livelli di energia, al momento della giornata e alle tue abitudini di sonno. La base di ricerca sull'AI è il [progetto JudgeGPT](https://github.com/aloth/JudgeGPT). Nulla lascia il tuo dispositivo.
 
 ### 🔒 Integrazione con Apple e privacy
-La sincronizzazione con HealthKit scrive la caffeina in Apple Salute e legge i dati sul sonno e sulla frequenza cardiaca a riposo. Sincronizzazione iCloud tra iPhone, iPad e Mac. Esportazione CSV per avere il pieno controllo dei tuoi dati. Tutti i calcoli e l'AI vengono eseguiti in locale: niente account, niente server, niente telemetria.
+La sincronizzazione con HealthKit scrive la caffeina in Apple Salute e legge i dati sul sonno e sulla frequenza cardiaca a riposo. Sincronizzazione iCloud facoltativa tra iPhone, iPad e Mac tramite il tuo iCloud personale. Esportazione CSV per avere il pieno controllo dei tuoi dati. Tutti i calcoli e l'AI vengono eseguiti in locale. Niente account, niente pubblicità, niente tracciamento, niente analisi di terze parti; gli acquisti sono gestiti da Apple e RevenueCat.
 
 ## Funzioni Pro
 
@@ -93,7 +93,7 @@ Regola sensibilità, emivita, soglie del sonno e parametri del cortisolo per un 
 
 ## Privacy prima di tutto
 
-I tuoi dati restano sul tuo dispositivo oppure si sincronizzano in modo sicuro tramite il tuo iCloud personale. Tutti i dati di consumo sono archiviati in locale con SwiftData, l'accesso a HealthKit richiede la tua autorizzazione esplicita e **tutti i calcoli, le analisi e gli Insight AI vengono eseguiti interamente sul dispositivo**: nulla viene mai inviato a un server.
+I tuoi dati restano sul tuo dispositivo oppure si sincronizzano in modo sicuro tramite il tuo iCloud personale. Tutti i dati di consumo sono archiviati in locale con SwiftData, l'accesso a HealthKit richiede la tua autorizzazione esplicita e **tutti i calcoli, le analisi e gli Insight AI vengono eseguiti interamente sul dispositivo**. Il tuo registro della caffeina e i tuoi dati sanitari non vengono mai inviati a noi né a terzi.
 
 Leggi l'[informativa sulla privacy completa](https://github.com/aloth/mindful-coffee/blob/main/privacy_policy.md).
 

@@ -35,7 +35,7 @@ Complicaciones "Cafeína ahora" y "Pronóstico de sueño" en cualquier esfera mo
 Apple Intelligence genera comentarios personalizados sobre tu cafeína que se adaptan a tu nivel de energía, hora del día y patrones de sueño. La base de investigación es el [proyecto JudgeGPT](https://github.com/aloth/JudgeGPT). Nada sale de tu dispositivo.
 
 ### 🔒 Integración con Apple y privacidad
-HealthKit escribe la cafeína en Apple Health y lee los datos de sueño y de frecuencia cardíaca en reposo. iCloud sincroniza entre iPhone, iPad y Mac. Exportación a CSV para que tus datos sigan siendo tuyos. Todos los cálculos y la IA se ejecutan localmente: sin cuentas, sin servidores, sin telemetría.
+HealthKit escribe la cafeína en Apple Health y lee los datos de sueño y de frecuencia cardíaca en reposo. Sincronización opcional con iCloud entre iPhone, iPad y Mac a través de tu propio iCloud. Exportación a CSV para que tus datos sigan siendo tuyos. Todos los cálculos y la IA se ejecutan localmente. Sin cuenta, sin anuncios, sin rastreo y sin analítica de terceros; las compras las procesan Apple y RevenueCat.
 
 ## Funciones Pro
 
@@ -93,7 +93,7 @@ Ajusta sensibilidad, vida media, umbrales de sueño y parámetros de cortisol pa
 
 ## Privacidad primero
 
-Tus datos se quedan en tu dispositivo o se sincronizan de forma segura mediante tu iCloud personal. Todos los datos de consumo se almacenan localmente con SwiftData, el acceso a HealthKit requiere tu permiso explícito y **todos los cálculos, análisis e Insights con IA se ejecutan completamente en el dispositivo**: nada se envía nunca a un servidor.
+Tus datos se quedan en tu dispositivo o se sincronizan de forma segura mediante tu iCloud personal. Todos los datos de consumo se almacenan localmente con SwiftData, el acceso a HealthKit requiere tu permiso explícito y **todos los cálculos, análisis e Insights con IA se ejecutan completamente en el dispositivo**. Tu registro de cafeína y tus datos de salud nunca se envían a nosotros ni a terceros.
 
 Lee la [política de privacidad completa](https://github.com/aloth/mindful-coffee/blob/main/privacy_policy.md).
 

@@ -35,7 +35,7 @@ Komplikationerna Koffein nu och Läggtidsprognos på alla moderna urtavlor. Tryc
 Apple Intelligence står bakom personliga koffeinkommentarer som anpassas efter din energinivå, tid på dygnet och dina sömnmönster. Den AI-forskning som ligger till grund är [JudgeGPT-projektet](https://github.com/aloth/JudgeGPT). Ingenting lämnar din enhet.
 
 ### 🔒 Apple-integration och integritet
-HealthKit-synk skriver koffein till Apple Hälsa och läser sömn och vilopuls. iCloud-synk mellan iPhone, iPad och Mac. CSV-export så att du äger all din data. Alla beräkningar och all AI körs lokalt: inga konton, inga servrar, ingen telemetri.
+HealthKit-synk skriver koffein till Apple Hälsa och läser sömn och vilopuls. Valfri iCloud-synk mellan iPhone, iPad och Mac via ditt eget iCloud. CSV-export så att du äger all din data. Alla beräkningar och all AI körs lokalt. Inget konto, inga annonser, ingen spårning och ingen analys från tredje part; köp hanteras av Apple och RevenueCat.
 
 ## Pro-funktioner
 
@@ -93,7 +93,7 @@ Finjustera känslighet, halveringstid, sömntrösklar och kortisolparametrar, s�
 
 ## Integritet först
 
-Dina data stannar på din enhet eller synkas säkert via ditt personliga iCloud. All konsumtionsdata lagras lokalt med SwiftData, åtkomst till HealthKit kräver ditt uttryckliga tillstånd och **alla beräkningar, analyser och AI-insikter körs helt och hållet på enheten**. Ingenting skickas någonsin till en server.
+Dina data stannar på din enhet eller synkas säkert via ditt personliga iCloud. All konsumtionsdata lagras lokalt med SwiftData, åtkomst till HealthKit kräver ditt uttryckliga tillstånd och **alla beräkningar, analyser och AI-insikter körs helt och hållet på enheten**. Din koffeinlogg och dina hälsodata skickas aldrig till oss eller till tredje part.
 
 Läs hela [integritetspolicyn](https://github.com/aloth/mindful-coffee/blob/main/privacy_policy.md).
 

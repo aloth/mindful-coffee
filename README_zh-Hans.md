@@ -35,7 +35,7 @@ Espresso、V60、爱乐压、Chemex、法压、摩卡壶、冷萃，以及茶、
 Apple Intelligence 提供个性化的咖啡因点评，根据你的精力水平、时段与睡眠模式自动调整。AI 研究基础来自 [JudgeGPT 项目](https://github.com/aloth/JudgeGPT)。所有数据都不会离开你的设备。
 
 ### 🔒 Apple 生态整合与隐私
-HealthKit 将咖啡因写入「健康」应用，并读取睡眠和静息心率数据。iCloud 在 iPhone、iPad 与 Mac 之间同步。CSV 导出让数据完全归你所有。所有计算与 AI 都在本地运行 — 不需要账号，不连服务器，没有遥测。
+HealthKit 将咖啡因写入「健康」应用，并读取睡眠和静息心率数据。可选的 iCloud 同步通过你自己的 iCloud 在 iPhone、iPad 与 Mac 之间同步。CSV 导出让数据完全归你所有。所有计算与 AI 都在本地运行。无需账号，没有广告，没有追踪，没有第三方分析；购买由 Apple 和 RevenueCat 处理。
 
 ## Pro 功能
 
@@ -93,7 +93,7 @@ HealthKit 将咖啡因写入「健康」应用，并读取睡眠和静息心率�
 
 ## 隐私优先
 
-你的数据始终留在设备上，或通过你的个人 iCloud 安全同步。所有摄入数据都通过 SwiftData 本地存储，HealthKit 访问需要你明确授权，**所有计算、分析与 AI 洞察都完全在设备上运行** — 任何数据都不会发送到服务器。
+你的数据始终留在设备上，或通过你的个人 iCloud 安全同步。所有摄入数据都通过 SwiftData 本地存储，HealthKit 访问需要你明确授权，**所有计算、分析与 AI 洞察都完全在设备上运行**。你的咖啡因记录和健康数据绝不会发送给我们或任何第三方。
 
 阅读完整的[隐私政策](https://github.com/aloth/mindful-coffee/blob/main/privacy_policy.md)。
 

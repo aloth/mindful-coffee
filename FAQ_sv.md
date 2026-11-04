@@ -774,7 +774,6 @@ Apples HealthKit är det centrala nervsystemet för hälsodata på iPhone. Mindf
 | Datatyp | Detaljer |
 |-----------|---------|
 | Koffein | Mängd i mg per dryck |
-| Vatten/vätska | Volym i ml (för vätskespårning) |
 
 Varje dryck du loggar skapar en post med tidsstämpel i Apple Hälsa. Det innebär att:
 - Andra appar kan se ditt koffeinintag
@@ -787,7 +786,8 @@ Varje dryck du loggar skapar en post med tidsstämpel i Apple Hälsa. Det inneb�
 |-----------|----------|
 | Sömnanalys | Driver funktionen Sömnkorrelation |
 | Vilopuls | Driver funktionen Vilopulskorrelation (Pro) |
-| Koffein (från andra appar) | Engångsimport från Starbucks-appen m.fl. |
+| Koffein (från andra appar) | Importerar koffein som andra appar har loggat (valfritt) |
+| Träningspass | Föreslår koffeintajming kring din träning |
 
 **Ekosystemets magi:**
 
@@ -1193,7 +1193,7 @@ Mindful Coffee är utformad så att det inte bara strider mot vår policy att sa
 
 | Datatyp | Var den finns | Vem som har åtkomst |
 |-----------|----------------|----------------|
-| Dina konsumtionsloggar | Bara på din enhet | Bara du |
+| Dina konsumtionsloggar | På din enhet, eller i ditt eget iCloud om du slår på synkning (av som standard) | Bara du |
 | Dina inställningar | Bara på din enhet | Bara du |
 | HealthKit-data | Apples krypterade silo | Appar som du ger tillåtelse |
 | Analysdata | Finns inte | Ingen |
@@ -1216,7 +1216,7 @@ Du kan exportera all din data till CSV när som helst. Det är DIN data. Ta med 
 
 **Aldrig några annonser:**
 
-Annonsfinansierade appar har incitament att spåra dig (mer data = bättre annonsmålgruppering). Vi använder i stället en enkel premiummodell. Du betalar för Pro-funktionerna, vi tillhandahåller dem. Inga tredje parter inblandade.
+Annonsfinansierade appar har incitament att spåra dig (mer data = bättre annonsmålgruppering). Vi använder i stället en enkel premiummodell. Du betalar för Pro-funktionerna, vi tillhandahåller dem. Köp hanteras av Apple och RevenueCat; RevenueCat får aldrig din koffeinlogg eller dina hälsodata.
 
 **Vårt integritetslöfte:**
 

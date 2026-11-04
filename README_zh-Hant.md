@@ -35,7 +35,7 @@ Mindful Coffee 是唯一一款將完整的**沖煮日誌**、個人代謝咖啡�
 Apple Intelligence 會產生個人化的咖啡因評論，並依你的精力狀態、一天中的時段與睡眠模式調整內容。AI 研究基礎來自 [JudgeGPT 專案](https://github.com/aloth/JudgeGPT)。任何資料都不會離開你的裝置。
 
 ### 🔒 Apple 整合與隱私
-HealthKit 同步會將咖啡因寫入「健康」App，並讀取睡眠與靜止心率資料。iCloud 可在 iPhone、iPad 與 Mac 之間同步。CSV 匯出讓你完全擁有自己的資料。所有運算與 AI 都在本機執行：沒有帳號、沒有伺服器、沒有遙測。
+HealthKit 同步會將咖啡因寫入「健康」App，並讀取睡眠與靜止心率資料。選用的 iCloud 同步會透過你自己的 iCloud 在 iPhone、iPad 與 Mac 之間同步。CSV 匯出讓你完全擁有自己的資料。所有運算與 AI 都在本機執行。沒有帳號、沒有廣告、沒有追蹤，也沒有第三方分析；購買由 Apple 與 RevenueCat 處理。
 
 ## Pro 功能
 
@@ -93,7 +93,7 @@ HealthKit 同步會將咖啡因寫入「健康」App，並讀取睡眠與靜止�
 
 ## 隱私優先
 
-你的資料會留在你的裝置上，或透過你個人的 iCloud 安全同步。所有攝取資料都以 SwiftData 儲存在本機，存取 HealthKit 需要你明確授權，而且**所有運算、分析與 AI 洞察都完全在裝置端執行**，不會有任何資料傳送到伺服器。
+你的資料會留在你的裝置上，或透過你個人的 iCloud 安全同步。所有攝取資料都以 SwiftData 儲存在本機，存取 HealthKit 需要你明確授權，而且**所有運算、分析與 AI 洞察都完全在裝置端執行**。你的咖啡因記錄與健康資料絕不會傳送給我們或任何第三方。
 
 閱讀完整的[隱私權政策](https://github.com/aloth/mindful-coffee/blob/main/privacy_policy.md)。
 

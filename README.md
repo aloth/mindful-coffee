@@ -35,7 +35,7 @@ Caffeine Now and Bedtime Prognosis complications on every modern watch face. Tap
 Apple Intelligence powers personalized caffeine commentary that adapts to your energy levels, time of day, and sleep patterns. The AI research foundation is the [JudgeGPT project](https://github.com/aloth/JudgeGPT). Nothing leaves your device.
 
 ### 🔒 Apple Integration & Privacy
-HealthKit sync writes caffeine to Apple Health and reads sleep and resting heart rate. iCloud sync across iPhone, iPad and Mac. CSV export for full data ownership. All calculations and AI run locally — no accounts, no servers, no telemetry.
+HealthKit sync writes caffeine to Apple Health and reads sleep and resting heart rate. Optional iCloud sync across iPhone, iPad and Mac through your own private iCloud. CSV export for full data ownership. All calculations and AI run locally. No account, no ads, no tracking, no third-party analytics; purchases are processed by Apple and RevenueCat.
 
 ## Pro Features
 
@@ -93,7 +93,7 @@ Tune sensitivity, half-life, sleep thresholds and cortisol parameters for tracki
 
 ## Privacy First
 
-Your data stays on your device or syncs securely via your personal iCloud. All consumption data is stored locally with SwiftData, HealthKit access requires explicit permission, and **all calculations, analysis and AI insights run entirely on-device** — nothing is ever sent to a server.
+Your data stays on your device or syncs securely via your personal iCloud. All consumption data is stored locally with SwiftData, HealthKit access requires explicit permission, and **all calculations, analysis and AI insights run entirely on-device**. Your caffeine log and health data are never sent to us or to any third party.
 
 Read the full [Privacy Policy](https://github.com/aloth/mindful-coffee/blob/main/privacy_policy.md).
 

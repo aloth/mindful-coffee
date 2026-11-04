@@ -35,7 +35,7 @@ Complicações Cafeína agora e Previsão de sono em todos os mostradores modern
 O Apple Intelligence gera comentários personalizados sobre a sua cafeína, que se adaptam aos seus níveis de energia, ao horário do dia e aos seus padrões de sono. A base de pesquisa em IA é o [projeto JudgeGPT](https://github.com/aloth/JudgeGPT). Nada sai do seu dispositivo.
 
 ### 🔒 Integração com a Apple e privacidade
-A sincronização com o HealthKit grava a cafeína no Apple Saúde e lê os dados de sono e de frequência cardíaca em repouso. Sincronização com iCloud entre iPhone, iPad e Mac. Exportação em CSV para que seus dados continuem sendo seus. Todos os cálculos e a IA rodam localmente: sem contas, sem servidores, sem telemetria.
+A sincronização com o HealthKit grava a cafeína no Apple Saúde e lê os dados de sono e de frequência cardíaca em repouso. Sincronização opcional com iCloud entre iPhone, iPad e Mac pelo seu próprio iCloud. Exportação em CSV para que seus dados continuem sendo seus. Todos os cálculos e a IA rodam localmente. Sem conta, sem anúncios, sem rastreamento e sem análises de terceiros; as compras são processadas pela Apple e pela RevenueCat.
 
 ## Recursos Pro
 
@@ -93,7 +93,7 @@ Ajuste sensibilidade, meia-vida, limites de sono e parâmetros de cortisol para 
 
 ## Privacidade em primeiro lugar
 
-Seus dados ficam no seu dispositivo ou são sincronizados com segurança pelo seu iCloud pessoal. Todos os dados de consumo são armazenados localmente com SwiftData, o acesso ao HealthKit exige sua permissão explícita e **todos os cálculos, análises e Insights de IA rodam inteiramente no dispositivo**: nada é enviado a um servidor, nunca.
+Seus dados ficam no seu dispositivo ou são sincronizados com segurança pelo seu iCloud pessoal. Todos os dados de consumo são armazenados localmente com SwiftData, o acesso ao HealthKit exige sua permissão explícita e **todos os cálculos, análises e Insights de IA rodam inteiramente no dispositivo**. Seu registro de cafeína e seus dados de saúde nunca são enviados para nós nem para terceiros.
 
 Leia a [Política de Privacidade](https://github.com/aloth/mindful-coffee/blob/main/privacy_policy.md) completa.
 

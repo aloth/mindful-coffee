@@ -749,7 +749,6 @@ Apple HealthKit ist das zentrale Nervensystem für Gesundheitsdaten auf dem iPho
 | Datentyp | Inhalt |
 |----------|--------|
 | Koffein | Menge in mg pro Getränk |
-| Flüssigkeit | Volumen in ml (für deine Trinkbilanz) |
 
 Jeder Eintrag in Mindful Coffee erzeugt einen passenden Datensatz in Apple Health. So können auch andere Apps (oder dein Arzt, falls du Daten teilst) deine Koffeinwerte sehen.
 
@@ -759,7 +758,8 @@ Jeder Eintrag in Mindful Coffee erzeugt einen passenden Datensatz in Apple Healt
 |----------|-----------|
 | Schlafanalyse | Grundlage für Sleep-Correlation-Insights |
 | Ruheherzfrequenz | Grundlage für die Resting-HR-Korrelation (Pro) |
-| Koffein anderer Apps | Optionaler Import von z. B. Ketten-Apps |
+| Koffein anderer Apps | Import von Koffein, das andere Apps erfasst haben (optional) |
+| Workouts | Koffein-Timing rund um dein Training |
 
 **Warum das spannend ist:**
 - Du siehst Koffein zusammen mit Puls, Schlaf und anderen Metriken.
@@ -1108,7 +1108,7 @@ Mindful Coffee ist so gebaut, dass wir deine Daten technisch gar nicht erst samm
 
 | Datentyp | Speicherort | Zugriff |
 |---------|-------------|---------|
-| Konsumhistorie | nur lokal auf deinem Gerät | nur du |
+| Konsumhistorie | auf deinem Gerät oder, wenn du die Synchronisierung einschaltest (standardmäßig aus), in deiner eigenen iCloud | nur du |
 | Einstellungen | nur lokal auf deinem Gerät | nur du |
 | HealthKit-Daten | verschlüsselter HealthKit-Speicher | nur Apps, denen du explizit Zugriff gibst |
 | Analytics/Tracking | existiert nicht | niemand |
@@ -1131,7 +1131,7 @@ Wenn du Mindful Coffee Zugriff auf HealthKit gibst, erlaubst du damit den Zugrif
 
 **Keine Werbung, kein Tracking:**
 
-Wir finanzieren Pro-Funktionen über einen klassischen Kauf – nicht über Werbung. Es gibt keine versteckten Tracker und keine Weitergabe an Dritte.
+Wir finanzieren Pro-Funktionen über einen klassischen Kauf – nicht über Werbung. Es gibt keine versteckten Tracker. Käufe wickeln Apple und RevenueCat ab; RevenueCat erhält weder dein Koffein-Log noch Gesundheitsdaten.
 
 **Kurz gesagt:**
 

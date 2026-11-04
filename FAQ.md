@@ -772,7 +772,6 @@ Apple's HealthKit is the central nervous system of health data on iPhone. Mindfu
 | Data Type | Details |
 |-----------|---------|
 | Caffeine | Amount in mg per drink |
-| Water/Fluids | Volume in ml (for hydration tracking) |
 
 Every drink you log creates a timestamped entry in Apple Health. This means:
 - Other apps can see your caffeine intake
@@ -785,7 +784,8 @@ Every drink you log creates a timestamped entry in Apple Health. This means:
 |-----------|----------|
 | Sleep Analysis | Powers the Sleep Correlation feature |
 | Resting Heart Rate | Powers the Resting HR Correlation feature (Pro) |
-| Caffeine (from other apps) | One-time import from Starbucks app, etc. |
+| Caffeine (from other apps) | Imports caffeine logged by other apps (optional setting) |
+| Workouts | Suggests caffeine timing around your training |
 
 **The magic of the ecosystem:**
 
@@ -1191,7 +1191,7 @@ Mindful Coffee is designed so that collecting your data isn't just against our p
 
 | Data Type | Where It Lives | Who Can Access |
 |-----------|----------------|----------------|
-| Your consumption logs | On your device only | Only you |
+| Your consumption logs | On your device, or in your own iCloud if you turn on sync (off by default) | Only you |
 | Your settings | On your device only | Only you |
 | HealthKit data | Apple's encrypted silo | Apps you permit |
 | Analytics | Doesn't exist | Nobody |
@@ -1214,7 +1214,7 @@ You can export all your data to CSV anytime. This is YOUR data. Take it anywhere
 
 **No ads, ever:**
 
-Ad-supported apps are incentivized to track you (more data = better ad targeting). We use a straightforward premium model instead. You pay for Pro features; we provide them. No third parties involved.
+Ad-supported apps are incentivized to track you (more data = better ad targeting). We use a straightforward premium model instead. You pay for Pro features; we provide them. Purchases are processed by Apple and RevenueCat; RevenueCat never receives your caffeine log or health data.
 
 **Our privacy promise:**
 

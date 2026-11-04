@@ -811,7 +811,6 @@ HealthKit es el “sistema nervioso central” de los datos de salud en el iPhon
 | Tipo de dato | Detalle |
 |--------------|---------|
 | Cafeína | Cantidad en mg por bebida |
-| Agua / líquidos | Volumen en ml (para hidratación) |
 
 Cada bebida registrada crea una entrada con hora en Apple Health:
 - Otras apps pueden ver tu cafeína.
@@ -824,7 +823,8 @@ Cada bebida registrada crea una entrada con hora en Apple Health:
 |--------------|-----|
 | Análisis del sueño | Alimenta Sleep Correlation |
 | Frecuencia cardíaca en reposo | Alimenta la correlación con la FC en reposo (Pro) |
-| Cafeína (otras apps) | Importación puntual (por ejemplo, de apps de cadenas de café) |
+| Cafeína (otras apps) | Importa la cafeína registrada por otras apps (opcional) |
+| Entrenamientos | Sugiere cuándo tomar cafeína en torno a tus entrenamientos |
 
 **Ventajas del ecosistema:**
 
@@ -1229,7 +1229,7 @@ Mindful Coffee está pensada para que sea **técnicamente imposible** recolectar
 
 | Tipo de dato | Dónde vive | Quién accede |
 |--------------|-----------|--------------|
-| Tus registros de consumo | Solo en tu dispositivo | Tú |
+| Tus registros de consumo | En tu dispositivo, o en tu propio iCloud si activas la sincronización (desactivada por defecto) | Tú |
 | Tus ajustes | Solo en tu dispositivo | Tú |
 | Datos de HealthKit | Silo cifrado de Apple | Apps con permiso |
 | Analytics / tracking | No existen | Nadie |
@@ -1262,6 +1262,7 @@ Las apps basadas en anuncios tienen incentivos para rastrearte (más datos = mej
 - Pagas por las funciones Pro.
 - Nosotros las ofrecemos.
 - Sin SDKs publicitarios ni rastreo de terceros.
+- Las compras las procesan Apple y RevenueCat; RevenueCat nunca recibe tu registro de cafeína ni tus datos de salud.
 
 **Nuestro compromiso:**
 

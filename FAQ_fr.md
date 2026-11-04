@@ -811,7 +811,6 @@ HealthKit est le “système nerveux central” des données de santé sur iPhon
 | Type de données | Détails |
 |-----------------|---------|
 | Caféine | Quantité en mg par boisson |
-| Eau / Liquides | Volume en ml (pour l’hydratation) |
 
 Chaque boisson enregistrée crée une entrée horodatée dans Apple Health :
 - D’autres apps peuvent voir votre caféine.
@@ -824,7 +823,8 @@ Chaque boisson enregistrée crée une entrée horodatée dans Apple Health :
 |-----------------|------------|
 | Analyse du sommeil | Alimente les Sleep Correlation Insights |
 | Fréquence cardiaque au repos | Alimente la corrélation avec la FC au repos (Pro) |
-| Caféine (autres apps) | Import ponctuel (ex. certaines apps de chaînes de café) |
+| Caféine (autres apps) | Importe la caféine enregistrée par d'autres apps (option) |
+| Entraînements | Suggère le bon moment pour la caféine autour de vos entraînements |
 
 **Avantages de l’écosystème :**
 
@@ -1229,7 +1229,7 @@ Mindful Coffee est conçue pour qu’il soit **techniquement impossible** de col
 
 | Type de données | Où elles vivent | Qui y a accès |
 |-----------------|-----------------|--------------|
-| Vos journaux de consommation | Sur votre appareil uniquement | Vous |
+| Vos journaux de consommation | Sur votre appareil, ou dans votre propre iCloud si vous activez la synchronisation (désactivée par défaut) | Vous |
 | Vos réglages | Sur votre appareil uniquement | Vous |
 | Données HealthKit | Silo chiffré d’Apple | Apps autorisées |
 | Analytics / tracking | N’existent pas | Personne |
@@ -1262,6 +1262,7 @@ Les apps financées par la publicité ont intérêt à suivre vos comportements.
 - Vous payez pour les fonctionnalités Pro.
 - Nous fournissons ces fonctionnalités.
 - Sans SDK publicitaire, sans tracking tierce partie.
+- Les achats sont traités par Apple et RevenueCat ; RevenueCat ne reçoit jamais votre journal de caféine ni vos données de santé.
 
 **Notre engagement :**
 

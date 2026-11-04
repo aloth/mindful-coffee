@@ -35,7 +35,7 @@ Komplikationen für „Koffein jetzt“ und Schlafprognose auf allen modernen Zi
 Apple Intelligence liefert personalisierte Koffein-Kommentare, die sich an dein Energieniveau, die Tageszeit und deine Schlafmuster anpassen. Die Forschungsgrundlage ist das [JudgeGPT-Projekt](https://github.com/aloth/JudgeGPT). Nichts verlässt dein Gerät.
 
 ### 🔒 Apple-Integration & Datenschutz
-HealthKit-Sync schreibt Koffein in Apple Health und liest Schlaf- und Ruheherzfrequenz-Daten. iCloud-Sync zwischen iPhone, iPad und Mac. CSV-Export für volle Datenhoheit. Alle Berechnungen und KI laufen lokal — keine Konten, keine Server, keine Telemetrie.
+HealthKit-Sync schreibt Koffein in Apple Health und liest Schlaf- und Ruheherzfrequenz-Daten. Optionaler iCloud-Sync zwischen iPhone, iPad und Mac über deine eigene iCloud. CSV-Export für volle Datenhoheit. Alle Berechnungen und KI laufen lokal. Kein Konto, keine Werbung, kein Tracking, keine Analyse-Tools von Drittanbietern; Käufe wickeln Apple und RevenueCat ab.
 
 ## Pro-Funktionen
 
@@ -93,7 +93,7 @@ Stelle Empfindlichkeit, Halbwertszeit, Schlafschwellen und Cortisol-Parameter so
 
 ## Datenschutz zuerst
 
-Deine Daten bleiben auf deinem Gerät oder synchronisieren sicher über deine persönliche iCloud. Alle Konsumdaten werden lokal mit SwiftData gespeichert, HealthKit-Zugriff erfordert deine ausdrückliche Erlaubnis, und **alle Berechnungen, Analysen und KI-Insights laufen vollständig on-device** — nichts wird je an einen Server gesendet.
+Deine Daten bleiben auf deinem Gerät oder synchronisieren sicher über deine persönliche iCloud. Alle Konsumdaten werden lokal mit SwiftData gespeichert, HealthKit-Zugriff erfordert deine ausdrückliche Erlaubnis, und **alle Berechnungen, Analysen und KI-Insights laufen vollständig on-device**. Dein Koffein-Log und deine Gesundheitsdaten werden nie an uns oder an Dritte gesendet.
 
 Vollständige [Datenschutzerklärung lesen](https://github.com/aloth/mindful-coffee/blob/main/privacy_policy.md).
 

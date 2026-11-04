@@ -35,7 +35,7 @@ Mindful Coffee는 본격적인 **추출 일지**에 개인 대사 맞춤형 카�
 Apple Intelligence가 에너지 수준, 시간대, 수면 패턴에 맞춘 개인화된 카페인 코멘트를 만들어 줘요. AI 연구의 기반은 [JudgeGPT 프로젝트](https://github.com/aloth/JudgeGPT)예요. 어떤 데이터도 기기 밖으로 나가지 않아요.
 
 ### 🔒 Apple 연동 & 개인정보 보호
-HealthKit 동기화로 카페인을 Apple 건강에 기록하고, 수면과 안정 시 심박수를 읽어 와요. iCloud로 iPhone, iPad, Mac 사이에서 동기화돼요. CSV 내보내기로 데이터를 온전히 소유할 수 있어요. 모든 계산과 AI는 로컬에서 실행돼요. 계정도, 서버도, 원격 측정도 없어요.
+HealthKit 동기화로 카페인을 Apple 건강에 기록하고, 수면과 안정 시 심박수를 읽어 와요. 선택 사항인 iCloud 동기화로 내 iCloud를 통해 iPhone, iPad, Mac 사이에서 동기화돼요. CSV 내보내기로 데이터를 온전히 소유할 수 있어요. 모든 계산과 AI는 로컬에서 실행돼요. 계정, 광고, 추적, 타사 분석 도구가 없으며, 구입은 Apple과 RevenueCat이 처리해요.
 
 ## Pro 기능
 
@@ -93,7 +93,7 @@ HealthKit 동기화로 카페인을 Apple 건강에 기록하고, 수면과 안�
 
 ## 개인정보 보호 우선
 
-데이터는 기기에 머물거나 개인 iCloud를 통해 안전하게 동기화돼요. 모든 섭취 데이터는 SwiftData로 기기에 저장되고, HealthKit에 접근하려면 명시적인 허용이 필요하며, **모든 계산, 분석, AI 인사이트는 전적으로 기기 내에서 실행돼요**. 서버로 전송되는 데이터는 하나도 없어요.
+데이터는 기기에 머물거나 개인 iCloud를 통해 안전하게 동기화돼요. 모든 섭취 데이터는 SwiftData로 기기에 저장되고, HealthKit에 접근하려면 명시적인 허용이 필요하며, **모든 계산, 분석, AI 인사이트는 전적으로 기기 내에서 실행돼요**. 카페인 기록과 건강 데이터는 저희에게도, 제3자에게도 절대 전송되지 않아요.
 
 전체 [개인정보 처리방침](https://github.com/aloth/mindful-coffee/blob/main/privacy_policy.md)을 확인해 보세요.
 
