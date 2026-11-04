@@ -20,7 +20,7 @@ Mindful Coffee est la seule app iOS qui réunit un véritable **carnet d'extract
 ## Points forts
 
 ### ☕ Carnet d'extraction
-Espresso, V60, AeroPress, Chemex, presse française, moka, cold brew, ainsi que thé, matcha et Gong Fu. Notez la mouture, la dose, le ratio, le temps, la température et la note dans un flux élégant. Recettes intégrées, suggestions intelligentes pour affiner plus vite et analytique pour identifier votre meilleure tasse.
+Espresso, V60, AeroPress, Chemex, presse française, moka, cold brew, ainsi que thé, matcha et Gong Fu. Notez la mouture, la dose, le ratio, le temps, la température et la note dans un flux élégant. Recettes intégrées, suggestions intelligentes pour affiner plus vite et analytique pour identifier votre meilleure tasse. Une nouvelle extraction reprend votre dernière extraction de la même méthode, la dose, le ratio et l'eau (ou le rendement) se calculent mutuellement, et le chronomètre continue de tourner pendant que vous faites défiler l'écran et enregistre le temps de bloom ou de pré-infusion d'un seul toucher.
 
 ### 🧬 Modèle cortisol et caféine
 Un modèle personnel de demi-vie prédit quand la caféine sera éliminée et quand votre corps sera prêt à dormir. La vue du rythme du cortisol affiche votre courbe d'énergie naturelle pour caler votre café sur les fenêtres où il aide vraiment. Votre heure de réveil habituelle est déduite automatiquement des données de sommeil d'Apple Santé, sous forme de médiane sur 14 nuits au maximum et non d'après un seul matin : les conseils de timing collent ainsi à votre rythme réel, sans configuration.
@@ -28,8 +28,8 @@ Un modèle personnel de demi-vie prédit quand la caféine sera éliminée et qu
 ### ❤️ Body Insights depuis Apple Santé
 Mettez en relation votre consommation de caféine et la réaction réelle de votre corps. La corrélation avec le sommeil montre l'impact des différentes quantités quotidiennes sur la durée de sommeil. La corrélation avec la fréquence cardiaque au repos (Pro) révèle si plus de café déplace votre référence cardiovasculaire.
 
-### ⌚ Apple Watch et Siri
-Complications "Caféine actuelle" et "Prévision de sommeil" sur tous les cadrans modernes. Touchez une complication pour enregistrer votre boisson par défaut en un seul écran. "Dis Siri, ajoute un café" fonctionne sans ouvrir l'app. Notifications de fenêtre cortisol au bon moment.
+### ⌚ Apple Watch, Siri et centre de contrôle
+Complications "Caféine actuelle" et "Prévision de sommeil" sur tous les cadrans modernes. Touchez une complication pour enregistrer votre boisson par défaut en un seul écran. "Dis Siri, ajoute un café" fonctionne sans ouvrir l'app. Notifications de fenêtre cortisol au bon moment. Depuis iOS 18, la commande Enregistrer un café du centre de contrôle enregistre votre boisson par défaut d'un seul toucher.
 
 ### 🤖 IA, 100 % sur l'appareil
 Apple Intelligence génère des commentaires personnalisés sur votre caféine, adaptés à votre énergie, à l'heure et à vos rythmes de sommeil. Les fondations de recherche viennent du [projet JudgeGPT](https://github.com/aloth/JudgeGPT). Rien ne quitte votre appareil.
@@ -75,7 +75,7 @@ Visualisez la relation entre votre consommation de caféine, votre durée de som
 <td width="50%">
 
 ### Saisie rapide avec prédictions intelligentes
-Enregistrez café, thé ou boisson énergisante en un instant. Voyez en temps réel l'impact prévu sur votre sommeil.
+Enregistrez café, thé ou boisson énergisante en un instant. Voyez en temps réel l'impact prévu sur votre sommeil. Touchez une entrée dans l'historique pour la modifier, ou annulez un enregistrement juste après.
 
 <img src="screenshots/coffee-tea-caffeine-logging-interface-smart-predictions.png" alt="Interface de saisie rapide de caféine" width="400"/>
 

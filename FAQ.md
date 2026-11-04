@@ -10,7 +10,7 @@ Welcome! This guide will help you understand the fascinating science of caffeine
 
 ### What is the Brew Journal?
 
-The **Brew Journal** is a Pro feature that lets you log every cup you make at home or order out: espresso, V60, AeroPress, Chemex, French press, moka pot, cold brew, plus tea, matcha and Gong Fu sessions. For each brew you can capture **grind size, dose, water ratio, brew time, temperature, pressure, pre-infusion, bloom water, TDS, and a 1-5 rating**. Over time you build a searchable history of what works — so you can replicate your best cups and skip the bad ones.
+The **Brew Journal** is a Pro feature that lets you log every cup you make at home or order out: espresso, V60, AeroPress, Chemex, French press, moka pot, cold brew, plus tea, matcha and Gong Fu sessions. For each brew you can capture **grind size, dose, water ratio, brew time, temperature, pressure, pre-infusion, bloom water, TDS, and a 1-5 rating**. Over time you build a searchable history of what works — so you can replicate your best cups and skip the bad ones. A new brew starts from your last brew of the same method, dose, ratio and water (or yield) calculate each other, and the stopwatch keeps running while you scroll and saves the bloom or pre-infusion time with one tap.
 
 ### What brewing methods are supported?
 
@@ -110,6 +110,12 @@ Mindful Coffee donates an **App Shortcut** to Siri on first launch (iOS 18+). Tr
 Siri will instantly log your **Default Drink** without opening the app — perfect when you're driving, working out, or already mid-sip.
 
 You can also assign the shortcut to the **Action Button** (iPhone 15 Pro and later) or a Home Screen widget via the Shortcuts app.
+
+### How do I log a coffee from Control Center?
+
+On iOS 18 and later, Mindful Coffee offers a **Log Coffee** control. Open Control Center, tap **+** in the top-left corner, tap **Add a Control** and pick **Log Coffee** from Mindful Coffee. You can also place it on the Lock Screen or, on iPhone models with an Action Button, assign it there.
+
+Tapping the control logs your **Default Drink** (if you have not chosen one, a 95 mg coffee). Mindful Coffee opens to save the entry and also writes it to Apple Health if writing to Apple Health is turned on.
 
 ### Where do I find today's caffeine timing windows?
 
@@ -333,12 +339,20 @@ Life happens! Here's how to handle it:
 Just log when you remember. The app uses the current time, which is usually close enough for same-day drinks.
 
 **Option 2: Add with custom timestamp**
-Go to **History** → **Add Entry** and set the exact time. Perfect for "I forgot to log my morning coffee and it's now 3 PM."
+Tap **+** in **History** (or open the **Log** tab), pick the drink and set the time under **When did you drink it?**. Perfect for "I forgot to log my morning coffee and it's now 3 PM." To fix the time of a drink you already logged, tap it in **History**.
 
 **Option 3: Let it go (occasional)**
 If you occasionally miss a drink, it's not the end of the world. One missing data point won't ruin your overall patterns. Just try to be consistent going forward.
 
 **For best accuracy:** Log within 30 minutes of consumption. The app assumes immediate absorption, so timing matters for the decay curve.
+
+### How do I edit or undo a logged drink?
+
+**Edit:** In the **History** tab, tap an entry, or swipe it to the right and tap **Edit**. On the **Edit Drink** screen you can change the drink, the caffeine amount and the time (not later than now), or remove the entry with **Delete Drink**. Tap **Save** to apply your changes.
+
+If the drink was saved to Apple Health and you change its time or caffeine amount, the app replaces the old Apple Health sample with a new one. Deleting an entry also removes its Apple Health sample. Entries imported from other apps change only in Mindful Coffee.
+
+**Undo:** Right after you log a drink in the app, a "Logged Espresso" style message with an **Undo** button appears at the bottom of the screen for about 5 seconds (10 seconds with VoiceOver). Tap **Undo** to remove the entry, including its Apple Health sample.
 
 ---
 
@@ -1180,6 +1194,10 @@ This app is especially valuable for you. Energy drinks often contain 2-3x the ca
 **Customize your drink list:**
 
 Add your specific beverages with accurate caffeine values. The app comes with common defaults, but YOUR regular drinks might differ.
+
+### How do I restore my purchase?
+
+Open the **Me** tab and tap **Restore Purchases** in the first section, below **Link Organization Subscription**. The app asks the App Store for earlier purchases on your Apple Account and then shows **Purchases Restored**, **Nothing to Restore** or **Restore Failed**. Make sure you are signed in with the Apple Account you used for the purchase.
 
 ### How does this app respect my privacy?
 

@@ -12,7 +12,7 @@ Välkommen! Den här guiden hjälper dig att förstå koffeinets fascinerande ve
 
 ### Vad är Bryggdagboken?
 
-**Bryggdagbok** är en Pro-funktion där du loggar varje kopp du gör hemma eller beställer ute: espresso, V60, AeroPress, Chemex, French press, moka-kanna, cold brew samt te-, matcha- och Gong Fu-sessioner. För varje bryggning kan du registrera **malningsgrad, dos, vattenratio, bryggtid, temperatur, tryck, förinfusion, bloom-vatten, TDS och ett betyg från 1-5**. Med tiden bygger du upp en sökbar historik över vad som fungerar, så att du kan upprepa dina bästa koppar och slippa de dåliga.
+**Bryggdagbok** är en Pro-funktion där du loggar varje kopp du gör hemma eller beställer ute: espresso, V60, AeroPress, Chemex, French press, moka-kanna, cold brew samt te-, matcha- och Gong Fu-sessioner. För varje bryggning kan du registrera **malningsgrad, dos, vattenratio, bryggtid, temperatur, tryck, förinfusion, bloom-vatten, TDS och ett betyg från 1-5**. Med tiden bygger du upp en sökbar historik över vad som fungerar, så att du kan upprepa dina bästa koppar och slippa de dåliga. En ny bryggning utgår från din senaste bryggning med samma metod, dos, ratio och vatten (eller yield) räknas ut från varandra, och stoppuret fortsätter att gå medan du scrollar och sparar bloom- eller förinfusionstiden med ett tryck.
 
 ### Vilka bryggmetoder stöds?
 
@@ -112,6 +112,12 @@ Mindful Coffee registrerar en **appgenväg** hos Siri första gången appen star
 Siri loggar direkt din **Standarddryck** utan att öppna appen. Perfekt när du kör bil, tränar eller redan sitter med koppen i handen.
 
 Du kan också koppla genvägen till **Åtgärdsknappen** (iPhone 15 Pro och senare) eller till en widget på hemskärmen via appen Genvägar.
+
+### Hur loggar jag kaffe från Kontrollcenter?
+
+Från iOS 18 erbjuder Mindful Coffee reglaget **Logga kaffe**. Öppna Kontrollcenter, tryck på **+** uppe till vänster, tryck på **Lägg till ett reglage** och välj **Logga kaffe** från Mindful Coffee. Du kan också lägga reglaget på låsskärmen eller, på iPhone-modeller med en åtgärdsknapp, koppla det till den knappen.
+
+Ett tryck på reglaget loggar din **standarddryck** (har du inte valt någon, ett kaffe på 95 mg). Mindful Coffee öppnas för att spara posten och skriver den även till Apple Hälsa om det är aktiverat.
 
 ### Var hittar jag dagens koffeinfönster?
 
@@ -335,12 +341,20 @@ Sånt händer! Så här hanterar du det:
 Logga helt enkelt när du kommer ihåg. Appen använder aktuell tid, vilket oftast är tillräckligt nära för drycker samma dag.
 
 **Alternativ 2: Lägg till med egen tidsstämpel**
-Gå till **Historik** → **Lägg till dryck** och ställ in exakt tid. Perfekt för ”jag glömde logga morgonkaffet och nu är klockan 15.00”.
+Tryck på **+** i **Historik** (eller öppna fliken **Logga**), välj drycken och ställ in tiden under **När drack du det?**. Perfekt för ”jag glömde logga morgonkaffet och nu är klockan 15.00”. Vill du ändra tiden för en dryck som redan är loggad trycker du på den i **Historik**.
 
 **Alternativ 3: Låt det vara (ibland)**
 Missar du en dryck någon gång är det inte hela världen. En enda saknad datapunkt förstör inte dina övergripande mönster. Försök bara vara konsekvent framöver.
 
 **För bästa exakthet:** Logga inom 30 minuter efter att du druckit. Appen förutsätter omedelbart upptag, så tidpunkten spelar roll för nedbrytningskurvan.
+
+### Hur redigerar eller ångrar jag en loggad dryck?
+
+**Redigera:** Tryck på en post på fliken **Historik**, eller svep den åt höger och tryck på **Redigera**. I **Redigera dryck** kan du ändra drycken, koffeinmängden och tiden (inte senare än nu), eller ta bort posten med **Radera dryck**. Tryck på **Spara** för att tillämpa ändringen.
+
+Om drycken har sparats i Apple Hälsa och du ändrar tiden eller koffeinmängden ersätter appen det gamla provet i Apple Hälsa med ett nytt. Raderar du en post försvinner den även från Apple Hälsa. Poster som importerats från andra appar ändras bara i Mindful Coffee.
+
+**Ångra:** Direkt efter att du har loggat en dryck i appen visas ett meddelande som ”Espresso loggad” längst ned med knappen **Ångra** i ungefär 5 sekunder (10 sekunder med VoiceOver). Tryck på den för att ta bort posten, även från Apple Hälsa.
 
 ---
 
@@ -1182,6 +1196,10 @@ För dig är appen särskilt värdefull. Energidrycker innehåller ofta 2-3 gån
 **Anpassa din dryckeslista:**
 
 Lägg till just dina drycker med korrekta koffeinvärden. Appen levereras med vanliga standarddrycker, men DINA vanliga drycker kan skilja sig.
+
+### Hur återställer jag mitt köp?
+
+Öppna fliken **Jag** och tryck på **Återställ köp** i första avsnittet, under **Koppla organisationsprenumeration**. Appen frågar App Store efter tidigare köp på ditt Apple-konto och visar sedan **Köp återställda**, **Inget att återställa** eller **Återställningen misslyckades**. Se till att du är inloggad med det Apple-konto som du använde vid köpet.
 
 ### Hur respekterar appen min integritet?
 

@@ -20,7 +20,7 @@ Mindful Coffee ist die einzige iOS-App, die ein vollwertiges **Brüh-Tagebuch** 
 ## Highlights
 
 ### ☕ Brüh-Tagebuch
-Espresso, V60, AeroPress, Chemex, French Press, Mokkakanne, Cold Brew, dazu Tee, Matcha und Gong Fu. Mahlgrad, Dosis, Ratio, Zeit, Temperatur und Bewertung in einem eleganten Flow festhalten. Eingebaute Rezepte, smarte Vorschläge zum schnelleren Einstellen, Brüh-Analytics für deine beste Tasse.
+Espresso, V60, AeroPress, Chemex, French Press, Mokkakanne, Cold Brew, dazu Tee, Matcha und Gong Fu. Mahlgrad, Dosis, Ratio, Zeit, Temperatur und Bewertung in einem eleganten Flow festhalten. Eingebaute Rezepte, smarte Vorschläge zum schnelleren Einstellen, Brüh-Analytics für deine beste Tasse. Ein neuer Brew startet mit den Werten deines letzten Brews derselben Methode, Dosis, Ratio und Wassermenge (bzw. Ausbeute) berechnen sich gegenseitig, und die Stoppuhr läuft beim Scrollen weiter und speichert die Bloom- oder Pre-Infusion-Zeit mit einem Tipp.
 
 ### 🧬 Cortisol- & Koffein-Modell
 Ein persönliches Halbwertszeit-Modell sagt vorher, wann das Koffein aus deinem System ist und wann dein Körper bereit für Schlaf ist. Die Cortisol-Rhythmus-Ansicht zeigt deine natürliche Energiekurve, damit du Kaffee in den Fenstern timen kannst, in denen er wirklich hilft. Deine typische Weckzeit ermittelt die App automatisch aus den Schlafdaten in Apple Health - als Median über bis zu 14 Nächte, nicht aus einem einzelnen Morgen. So passen die Timing-Empfehlungen ohne Einrichtungsaufwand zu deinem echten Rhythmus.
@@ -28,8 +28,8 @@ Ein persönliches Halbwertszeit-Modell sagt vorher, wann das Koffein aus deinem 
 ### ❤️ Body Insights aus Apple Health
 Verknüpfe deinen Koffeinkonsum damit, wie dein Körper tatsächlich reagiert. Schlaf-Korrelation zeigt den Einfluss verschiedener täglicher Mengen auf die Schlafdauer. Ruheherzfrequenz-Korrelation (Pro) zeigt, ob mehr Kaffee deine kardiovaskuläre Baseline beeinflusst.
 
-### ⌚ Apple Watch & Siri
-Komplikationen für „Koffein jetzt“ und Schlafprognose auf allen modernen Zifferblättern. Tippe eine Komplikation an, um dein Standardgetränk in einem Bildschirm einzutragen. „Hey Siri, log a coffee“ funktioniert ohne die App zu öffnen. Cortisol-Fenster-Hinweise stupsen dich zur richtigen Zeit.
+### ⌚ Apple Watch, Siri & Kontrollzentrum
+Komplikationen für „Koffein jetzt“ und Schlafprognose auf allen modernen Zifferblättern. Tippe eine Komplikation an, um dein Standardgetränk in einem Bildschirm einzutragen. „Hey Siri, log a coffee“ funktioniert ohne die App zu öffnen. Cortisol-Fenster-Hinweise stupsen dich zur richtigen Zeit. Ab iOS 18 trägt die Steuerung „Kaffee eintragen“ im Kontrollzentrum dein Standardgetränk mit einem Tipp ein.
 
 ### 🤖 KI-Insights, vollständig on-device
 Apple Intelligence liefert personalisierte Koffein-Kommentare, die sich an dein Energieniveau, die Tageszeit und deine Schlafmuster anpassen. Die Forschungsgrundlage ist das [JudgeGPT-Projekt](https://github.com/aloth/JudgeGPT). Nichts verlässt dein Gerät.
@@ -75,7 +75,7 @@ Sieh wie dein Koffeinkonsum mit Schlafdauer und Ruheherzfrequenz aus Apple Healt
 <td width="50%">
 
 ### Schnelles Loggen mit smarten Prognosen
-Trage Kaffee, Tee oder Energy-Drinks sofort ein. Sieh in Echtzeit, wie jedes Getränk deinen Schlaf beeinflussen wird.
+Trage Kaffee, Tee oder Energy-Drinks sofort ein. Sieh in Echtzeit, wie jedes Getränk deinen Schlaf beeinflussen wird. Tippe im Verlauf auf einen Eintrag, um ihn zu bearbeiten, oder widerrufe einen Eintrag direkt danach.
 
 <img src="screenshots/coffee-tea-caffeine-logging-interface-smart-predictions.png" alt="Schnelles Koffein-Logging mit Getränke-Icons, Mengen und smarten Schlafprognosen" width="400"/>
 

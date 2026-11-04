@@ -14,7 +14,7 @@ Esta guía te ayudará a entender la ciencia fascinante de la cafeína y a sacar
 
 ### ¿Qué es el Diario de cafés?
 
-El **Diario de cafés** es una función Pro que te permite registrar cada taza que preparas en casa o pides fuera: espresso, V60, AeroPress, Chemex, prensa francesa, moka, cold brew, además de té, matcha y sesiones Gong Fu. En cada extracción puedes capturar **molienda, dosis, ratio de agua, tiempo, temperatura, presión, pre-infusión, agua de bloom, TDS y una nota de 1-5**. Con el tiempo construyes un historial buscable de lo que funciona — para repetir tus mejores tazas y descartar las malas.
+El **Diario de cafés** es una función Pro que te permite registrar cada taza que preparas en casa o pides fuera: espresso, V60, AeroPress, Chemex, prensa francesa, moka, cold brew, además de té, matcha y sesiones Gong Fu. En cada extracción puedes capturar **molienda, dosis, ratio de agua, tiempo, temperatura, presión, pre-infusión, agua de bloom, TDS y una nota de 1-5**. Con el tiempo construyes un historial buscable de lo que funciona — para repetir tus mejores tazas y descartar las malas. Una nueva preparación parte de tu última preparación con el mismo método, la dosis, el ratio y el agua (o el rendimiento) se calculan entre sí, y el cronómetro sigue corriendo mientras te desplazas y guarda el tiempo de bloom o de preinfusión con un toque.
 
 ### ¿Qué métodos de extracción están soportados?
 
@@ -114,6 +114,12 @@ Mindful Coffee dona un **App Shortcut** a Siri al iniciar por primera vez (iOS 1
 Siri registrará al instante tu **Bebida predeterminada** sin abrir la app — perfecto cuando estás conduciendo, entrenando o ya con la taza en la mano.
 
 También puedes asignar el atajo al **Botón de Acción** (iPhone 15 Pro y posterior) o a un widget de pantalla de inicio mediante la app Atajos.
+
+### ¿Cómo registro un café desde el Centro de control?
+
+A partir de iOS 18, Mindful Coffee ofrece el control **Registrar café**. Abre el Centro de control, toca **+** en la esquina superior izquierda, toca **Añadir un control** y elige **Registrar café** de Mindful Coffee. También puedes ponerlo en la pantalla de bloqueo o, en los iPhone con botón de acción, asignarlo a ese botón.
+
+Al tocar el control se registra tu **Bebida predeterminada** (si no has elegido ninguna, un café de 95 mg). Mindful Coffee se abre para guardar la entrada y, si la escritura en Apple Health está activada, también la guarda allí.
 
 ### ¿Dónde encuentro los momentos de cafeína de hoy?
 
@@ -348,12 +354,20 @@ Pasa, no hay problema. Aquí tienes cómo corregirlo:
 Registra en cuanto te acuerdes. La app usará la hora actual, que suele ser suficiente si sigues en el mismo día.
 
 **Opción 2: Añadir con hora personalizada**  
-Ve a **History → Add Entry** y ajusta la hora exacta. Perfecto para “me olvidé del café de la mañana y ya son las 15:00”.
+Toca **+** en **Historia** (o abre la pestaña **Registro**), elige la bebida y ajusta la hora en **¿Cuándo te lo bebiste?**. Perfecto para “me olvidé del café de la mañana y ya son las 15:00”. Para corregir la hora de una bebida ya registrada, tócala en **Historia**.
 
 **Opción 3: Ignorarlo (ocasionalmente)**  
 Un olvido puntual no arruina tus datos. Un solo punto perdido no destroza las tendencias. Lo clave es mantener la constancia a largo plazo.
 
 **Para mayor precisión:** intenta registrar en los 30 minutos posteriores a la bebida. La app asume una absorción rápida, así que cuanto más exacto sea el momento, mejor se ajusta la curva.
+
+### ¿Cómo edito o deshago una bebida registrada?
+
+**Editar:** En la pestaña **Historia**, toca una entrada, o deslízala hacia la derecha y toca **Editar**. En **Editar bebida** puedes cambiar la bebida, la cantidad de cafeína y la hora (no posterior a ahora), o quitar la entrada con **Eliminar bebida**. Toca **Guardar** para aplicar los cambios.
+
+Si la bebida se guardó en Apple Health y cambias la hora o la cantidad de cafeína, la app sustituye la muestra anterior de Apple Health por una nueva. Al eliminar una entrada también se elimina su muestra de Apple Health. Las entradas importadas de otras apps solo cambian en Mindful Coffee.
+
+**Deshacer:** Justo después de registrar una bebida en la app aparece abajo un aviso como «Espresso registrado» con el botón **Deshacer** durante unos 5 segundos (10 segundos con VoiceOver). Al tocarlo se elimina la entrada, también su muestra de Apple Health.
 
 ---
 
@@ -1218,6 +1232,10 @@ Añade tus bebidas reales con sus valores de cafeína:
 - Tus recetas caseras.
 
 La app trae valores por defecto, pero la idea es reflejar **tu realidad**.
+
+### ¿Cómo restauro mi compra?
+
+Abre la pestaña **Yo** y toca **Restaurar compras** en la primera sección, debajo de **Vincular suscripción de organización**. La app consulta en el App Store las compras anteriores de tu cuenta de Apple y después muestra **Compras restauradas**, **No hay nada que restaurar** o **No se pudo restaurar**. Asegúrate de haber iniciado sesión con la cuenta de Apple con la que hiciste la compra.
 
 ### ¿Cómo protege la app mi privacidad?
 

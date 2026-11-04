@@ -20,7 +20,7 @@ Mindful Coffee is the only iOS app that joins a full **Brew Journal** with a per
 ## Highlights
 
 ### ☕ Brew Journal
-Espresso, V60, AeroPress, Chemex, French press, moka, cold brew, plus tea, matcha and Gong Fu. Capture grind, dose, ratio, time, temperature and rating in one elegant flow. Built-in recipes, smart suggestions to dial in faster, brew analytics to find your best cup.
+Espresso, V60, AeroPress, Chemex, French press, moka, cold brew, plus tea, matcha and Gong Fu. Capture grind, dose, ratio, time, temperature and rating in one elegant flow. Built-in recipes, smart suggestions to dial in faster, brew analytics to find your best cup. A new brew starts from your last brew of the same method, dose, ratio and water (or yield) calculate each other, and the stopwatch keeps running while you scroll and saves the bloom or pre-infusion time with one tap.
 
 ### 🧬 Cortisol & Caffeine Model
 A personal half-life model predicts when caffeine clears your system and when your body is ready for sleep. The cortisol-rhythm view shows your natural energy curve so you can time coffee for the windows where it actually helps. Your typical wake time is derived automatically from Apple Health sleep data - a median across up to 14 nights, not a single morning - so the timing advice fits your real rhythm without any setup.
@@ -28,8 +28,8 @@ A personal half-life model predicts when caffeine clears your system and when yo
 ### ❤️ Body Insights from Apple Health
 Cross-reference your caffeine intake with how your body actually responds. Sleep Correlation shows the duration impact of different daily intake levels. Resting Heart Rate Correlation (Pro) reveals whether more coffee nudges your cardiovascular baseline.
 
-### ⌚ Apple Watch & Siri
-Caffeine Now and Bedtime Prognosis complications on every modern watch face. Tap a complication to log your default drink in one screen. "Hey Siri, log a coffee" works without opening the app. Cortisol-window alerts nudge you at the right moments.
+### ⌚ Apple Watch, Siri & Control Center
+Caffeine Now and Bedtime Prognosis complications on every modern watch face. Tap a complication to log your default drink in one screen. "Hey Siri, log a coffee" works without opening the app. Cortisol-window alerts nudge you at the right moments. On iOS 18 and later, the Log Coffee control in Control Center logs your default drink with one tap.
 
 ### 🤖 AI Insights, Fully On-Device
 Apple Intelligence powers personalized caffeine commentary that adapts to your energy levels, time of day, and sleep patterns. The AI research foundation is the [JudgeGPT project](https://github.com/aloth/JudgeGPT). Nothing leaves your device.
@@ -75,7 +75,7 @@ See how caffeine intake correlates with sleep duration and resting heart rate fr
 <td width="50%">
 
 ### Quick Logging with Smart Predictions
-Log coffee, tea or energy drinks instantly. See real-time predictions of how each beverage will affect your sleep.
+Log coffee, tea or energy drinks instantly. See real-time predictions of how each beverage will affect your sleep. Tap an entry in History to edit it, or undo a log right after.
 
 <img src="screenshots/coffee-tea-caffeine-logging-interface-smart-predictions.png" alt="Quick caffeine logging interface with beverage icons, caffeine amounts, and smart sleep impact predictions" width="400"/>
 

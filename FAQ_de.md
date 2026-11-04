@@ -10,7 +10,7 @@ Willkommen! Diese FAQ hilft dir, die faszinierende Wissenschaft hinter Koffein z
 
 ### Was ist das Brüh-Tagebuch?
 
-Das **Brüh-Tagebuch** ist ein Pro-Feature, mit dem du jeden Brew zuhause oder unterwegs loggst: Espresso, V60, AeroPress, Chemex, French Press, Mokkakanne, Cold Brew, plus Tee, Matcha und Gong Fu. Pro Brew erfasst du **Mahlgrad, Dosis, Wasserverhältnis, Zeit, Temperatur, Druck, Pre-Infusion, Bloom-Wasser, TDS und eine 1-5-Bewertung**. Mit der Zeit baust du dir eine durchsuchbare Historie auf — die besten Tassen wiederholen, die schlechten überspringen.
+Das **Brüh-Tagebuch** ist ein Pro-Feature, mit dem du jeden Brew zuhause oder unterwegs loggst: Espresso, V60, AeroPress, Chemex, French Press, Mokkakanne, Cold Brew, plus Tee, Matcha und Gong Fu. Pro Brew erfasst du **Mahlgrad, Dosis, Wasserverhältnis, Zeit, Temperatur, Druck, Pre-Infusion, Bloom-Wasser, TDS und eine 1-5-Bewertung**. Mit der Zeit baust du dir eine durchsuchbare Historie auf — die besten Tassen wiederholen, die schlechten überspringen. Ein neuer Brew startet mit den Werten deines letzten Brews derselben Methode, Dosis, Ratio und Wassermenge (bzw. Ausbeute) berechnen sich gegenseitig, und die Stoppuhr läuft beim Scrollen weiter und speichert die Bloom- oder Pre-Infusion-Zeit mit einem Tipp.
 
 ### Welche Brühmethoden werden unterstützt?
 
@@ -110,6 +110,12 @@ Mindful Coffee meldet einen **App Shortcut** beim ersten Start an Siri (iOS 18+)
 Siri trägt sofort dein **Standardgetränk** ein, ohne die App zu öffnen — perfekt beim Autofahren, beim Sport oder mitten im Schluck.
 
 Du kannst den Shortcut auch der **Action-Taste** (iPhone 15 Pro und neuer) oder einem Home-Bildschirm-Widget über die Kurzbefehle-App zuweisen.
+
+### Wie trage ich einen Kaffee über das Kontrollzentrum ein?
+
+Ab iOS 18 bietet Mindful Coffee die Steuerung **Kaffee eintragen**. Öffne das Kontrollzentrum, tippe oben links auf **+**, dann auf **Steuerelement hinzufügen**, und wähle **Kaffee eintragen** von Mindful Coffee. Du kannst die Steuerung auch auf den Sperrbildschirm legen oder auf iPhones mit Aktionstaste dieser Taste zuweisen.
+
+Ein Tipp auf die Steuerung trägt dein **Standardgetränk** ein (ohne Auswahl einen Kaffee mit 95 mg). Dazu öffnet sich Mindful Coffee und speichert den Eintrag, bei aktiviertem Schreiben in Apple Health auch dort.
 
 ### Wo finde ich die heutigen Koffein-Fenster?
 
@@ -329,12 +335,20 @@ Passiert jedem – wichtig ist, wie du damit umgehst:
 Logge das Getränk, sobald es dir einfällt. Für die meisten Alltagsfälle reicht die aktuelle Uhrzeit als Näherung.
 
 **Variante 2: Mit exakter Uhrzeit eintragen**  
-Über **History → Eintrag hinzufügen** kannst du Uhrzeit und Datum präzise setzen. Praktisch, wenn du z. B. den Morgenkaffee vergessen hast und dich erst am Nachmittag erinnerst.
+Tippe im **Verlauf** auf **+** (oder öffne den Tab **Erfassen**), wähle das Getränk und stelle unter **Wann hast du es getrunken?** die Uhrzeit ein. Praktisch, wenn du z. B. den Morgenkaffee vergessen hast und dich erst am Nachmittag erinnerst. Die Uhrzeit eines bereits eingetragenen Getränks änderst du, indem du es im **Verlauf** antippst.
 
 **Variante 3: Bewusst ignorieren (Ausnahmefälle)**  
 Einzelne vergessene Getränke zerstören deine Auswertung nicht. Entscheidend ist die Regelmäßigkeit über Wochen.
 
 **Für maximale Genauigkeit:** Versuche, innerhalb von 30 Minuten nach Konsum zu loggen. Die App nimmt an, dass Koffein relativ schnell aufgenommen wird – je genauer die Zeit, desto präziser die Kurve.
+
+### Wie bearbeite oder widerrufe ich ein eingetragenes Getränk?
+
+**Bearbeiten:** Tippe im Tab **Verlauf** auf einen Eintrag, oder wische ihn nach rechts und tippe auf **Bearbeiten**. Unter **Getränk bearbeiten** änderst du Getränk, Koffeinmenge und Uhrzeit (nicht später als jetzt) oder entfernst den Eintrag mit **Getränk löschen**. Mit **Speichern** übernimmst du die Änderung.
+
+Wurde das Getränk in Apple Health gespeichert und du änderst Uhrzeit oder Koffeinmenge, ersetzt die App den alten Apple-Health-Eintrag durch einen neuen. Beim Löschen verschwindet auch der Apple-Health-Eintrag. Einträge, die aus anderen Apps importiert wurden, ändern sich nur in Mindful Coffee.
+
+**Widerrufen:** Direkt nachdem du in der App ein Getränk eingetragen hast, erscheint unten ein Hinweis wie „Espresso erfasst“ mit der Schaltfläche **Widerrufen**, etwa 5 Sekunden lang (mit VoiceOver 10 Sekunden). Ein Tipp darauf entfernt den Eintrag samt Apple-Health-Eintrag.
 
 ---
 
@@ -1097,6 +1111,10 @@ Wenn du hauptsächlich Tee trinkst, hilft dir die App, die aufsummierte Tagesmen
 Gerade hier ist Transparenz wichtig. Energy Drinks enthalten oft 2–3× so viel Koffein wie Kaffee, werden aber „nebenbei“ konsumiert. Mindful Coffee macht diese Last im Tagesverlauf sichtbar.
 
 Natürlich kannst du deine persönliche Getränkeliste in der App anpassen. Die Standardwerte sind ein Startpunkt – spannender ist, wenn du deine eigenen Lieblingsgetränke hinterlegst.
+
+### Wie stelle ich meinen Kauf wieder her?
+
+Öffne den Tab **Ich** und tippe im ersten Abschnitt unter **Organisations-Abo verknüpfen** auf **Käufe wiederherstellen**. Die App fragt beim App Store nach früheren Käufen deines Apple Accounts und zeigt danach **Käufe wiederhergestellt**, **Nichts wiederherzustellen** oder **Wiederherstellen fehlgeschlagen** an. Achte darauf, dass du mit dem Apple Account angemeldet bist, mit dem du gekauft hast.
 
 ### Wie schützt die App meine Privatsphäre?
 

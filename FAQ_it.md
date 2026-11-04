@@ -12,7 +12,7 @@ Ti diamo il benvenuto! Questa guida ti aiuterà a capire l'affascinante scienza 
 
 ### Che cos'è il Diario di preparazione?
 
-Il **Diario di preparazione** è una funzione Pro che ti permette di registrare ogni tazza che prepari a casa o che ordini fuori: espresso, V60, AeroPress, Chemex, French press, moka, cold brew, oltre a sessioni di tè, matcha e Gong Fu. Per ogni preparazione puoi annotare **macinatura, dose, rapporto acqua/caffè, tempo di estrazione, temperatura, pressione, pre-infusione, acqua di bloom, TDS e una valutazione da 1 a 5**. Col tempo costruisci una cronologia consultabile di ciò che funziona, così puoi replicare le tue tazze migliori ed evitare quelle meno riuscite.
+Il **Diario di preparazione** è una funzione Pro che ti permette di registrare ogni tazza che prepari a casa o che ordini fuori: espresso, V60, AeroPress, Chemex, French press, moka, cold brew, oltre a sessioni di tè, matcha e Gong Fu. Per ogni preparazione puoi annotare **macinatura, dose, rapporto acqua/caffè, tempo di estrazione, temperatura, pressione, pre-infusione, acqua di bloom, TDS e una valutazione da 1 a 5**. Col tempo costruisci una cronologia consultabile di ciò che funziona, così puoi replicare le tue tazze migliori ed evitare quelle meno riuscite. Una nuova preparazione parte dall'ultima preparazione con lo stesso metodo, dose, rapporto e acqua (o resa) si calcolano a vicenda, e il cronometro continua a girare mentre scorri e salva il tempo di bloom o di pre-infusione con un tocco.
 
 ### Quali metodi di preparazione sono supportati?
 
@@ -112,6 +112,12 @@ Al primo avvio (iOS 18+), Mindful Coffee mette a disposizione di Siri un **coman
 Siri registrerà subito la tua **Bevanda predefinita** senza aprire l'app: perfetto quando sei alla guida, ti stai allenando o hai già la tazza in mano.
 
 Puoi anche assegnare il comando rapido al **tasto Azione** (iPhone 15 Pro e modelli successivi) o a un widget della schermata Home tramite l'app Comandi Rapidi.
+
+### Come registro un caffè dal Centro di Controllo?
+
+Da iOS 18 Mindful Coffee offre il controllo **Registra caffè**. Apri il Centro di Controllo, tocca **+** in alto a sinistra, poi **Aggiungi un controllo**, e scegli **Registra caffè** di Mindful Coffee. Puoi anche metterlo nella schermata di blocco o, sugli iPhone con tasto Azione, assegnarlo a quel tasto.
+
+Toccando il controllo registri la tua **Bevanda predefinita** (se non ne hai scelta una, un caffè da 95 mg). Mindful Coffee si apre per salvare la voce e, se la scrittura in Apple Salute è attiva, la salva anche lì.
 
 ### Dove trovo le finestre della caffeina di oggi?
 
@@ -335,12 +341,20 @@ Capita! Ecco come fare:
 Registrala appena te ne ricordi. L'app usa l'orario attuale, che di solito è abbastanza vicino per le bevande della stessa giornata.
 
 **Opzione 2: aggiungila con un orario personalizzato**
-Vai in **Cronologia** → **Aggiungi voce** e imposta l'orario esatto. Perfetto per i casi come «ho dimenticato di registrare il caffè del mattino e ora sono le 15:00».
+Tocca **+** in **Cronologia** (oppure apri la scheda **Registra**), scegli la bevanda e imposta l'orario in **Quando l'hai bevuta?**. Perfetto per i casi come «ho dimenticato di registrare il caffè del mattino e ora sono le 15:00». Per correggere l'orario di una bevanda già registrata, toccala in **Cronologia**.
 
 **Opzione 3: lascia perdere (ogni tanto)**
 Se salti una bevanda ogni tanto, non è la fine del mondo. Un singolo dato mancante non rovinerà i tuoi schemi complessivi. Cerca solo di essere costante d'ora in poi.
 
 **Per la massima precisione:** registra entro 30 minuti dal consumo. L'app presuppone un assorbimento immediato, quindi l'orario conta per la curva di decadimento.
+
+### Come modifico o annullo una bevanda registrata?
+
+**Modifica:** Nella scheda **Cronologia**, tocca una voce, oppure scorrila verso destra e tocca **Modifica**. In **Modifica bevanda** puoi cambiare la bevanda, la quantità di caffeina e l'ora (non oltre il momento attuale), oppure rimuovere la voce con **Elimina bevanda**. Tocca **Salva** per applicare le modifiche.
+
+Se la bevanda è stata salvata in Apple Salute e cambi l'ora o la quantità di caffeina, l'app sostituisce il vecchio campione in Apple Salute con uno nuovo. Eliminando una voce viene eliminato anche il suo campione in Apple Salute. Le voci importate da altre app cambiano solo in Mindful Coffee.
+
+**Annulla:** Subito dopo aver registrato una bevanda nell'app, in basso compare un messaggio come «Espresso registrato» con il pulsante **Annulla** per circa 5 secondi (10 secondi con VoiceOver). Toccalo per rimuovere la voce, compreso il suo campione in Apple Salute.
 
 ---
 
@@ -1182,6 +1196,10 @@ Questa app è particolarmente utile per te. Gli energy drink contengono spesso 2
 **Personalizza il tuo elenco di bevande:**
 
 Aggiungi le tue bevande specifiche con valori di caffeina accurati. L'app include le bevande più comuni come predefinite, ma le TUE bevande abituali potrebbero essere diverse.
+
+### Come ripristino il mio acquisto?
+
+Apri la scheda **Io** e tocca **Ripristina acquisti** nella prima sezione, sotto **Collega abbonamento aziendale**. L'app chiede all'App Store gli acquisti precedenti del tuo Apple Account e poi mostra **Acquisti ripristinati**, **Niente da ripristinare** o **Ripristino non riuscito**. Assicurati di aver effettuato l'accesso con l'Apple Account usato per l'acquisto.
 
 ### In che modo questa app rispetta la mia privacy?
 

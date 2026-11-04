@@ -12,7 +12,7 @@ Welkom! Deze gids helpt je de fascinerende wetenschap achter cafeïne te begrijp
 
 ### Wat is het Brouwjournaal?
 
-Het **Brouwjournaal** is een Pro-functie waarmee je elke kop logt die je thuis zet of buiten de deur bestelt: espresso, V60, AeroPress, Chemex, French press, moka pot, cold brew, plus thee-, matcha- en Gong Fu-sessies. Per brouwsel kun je **maalgrootte, dosis, waterverhouding, brouwtijd, temperatuur, druk, pre-infusie, bloeiwater, TDS en een beoordeling van 1-5** vastleggen. Zo bouw je na verloop van tijd een doorzoekbare geschiedenis op van wat werkt, zodat je je beste koppen kunt herhalen en de mislukte kunt overslaan.
+Het **Brouwjournaal** is een Pro-functie waarmee je elke kop logt die je thuis zet of buiten de deur bestelt: espresso, V60, AeroPress, Chemex, French press, moka pot, cold brew, plus thee-, matcha- en Gong Fu-sessies. Per brouwsel kun je **maalgrootte, dosis, waterverhouding, brouwtijd, temperatuur, druk, pre-infusie, bloeiwater, TDS en een beoordeling van 1-5** vastleggen. Zo bouw je na verloop van tijd een doorzoekbare geschiedenis op van wat werkt, zodat je je beste koppen kunt herhalen en de mislukte kunt overslaan. Een nieuwe brouwsessie begint met de waarden van je laatste brouwsessie met dezelfde methode, dosis, verhouding en water (of yield) rekenen elkaar uit, en de stopwatch blijft lopen terwijl je scrolt en slaat de bloei- of pre-infusietijd met één tik op.
 
 ### Welke zetmethoden worden ondersteund?
 
@@ -112,6 +112,12 @@ Mindful Coffee stelt bij de eerste keer openen (iOS 18+) een **App Shortcut** be
 Siri logt meteen je **Standaarddrankje** zonder de app te openen: ideaal als je aan het rijden of sporten bent of al met je kop in de hand zit.
 
 Je kunt de shortcut via de Opdrachten-app ook toewijzen aan de **Actieknop** (iPhone 15 Pro en nieuwer) of aan een widget op je beginscherm.
+
+### Hoe log ik koffie vanuit het bedieningspaneel?
+
+Vanaf iOS 18 biedt Mindful Coffee de regelaar **Koffie loggen**. Open het bedieningspaneel, tik linksboven op **+**, tik op **Voeg een regelaar toe** en kies **Koffie loggen** van Mindful Coffee. Je kunt de regelaar ook op het toegangsscherm zetten of, op iPhones met een actieknop, aan die knop toewijzen.
+
+Een tik op de regelaar logt je **Standaarddrankje** (heb je er geen gekozen, dan een koffie van 95 mg). Mindful Coffee gaat open om het item op te slaan en schrijft het ook naar Apple Gezondheid als dat aanstaat.
 
 ### Waar vind ik de cafeïnevensters van vandaag?
 
@@ -335,12 +341,20 @@ Zo gaat het nu eenmaal soms! Zo pak je het aan:
 Log het gewoon zodra je eraan denkt. De app gebruikt het huidige tijdstip, en voor drankjes van dezelfde dag is dat meestal nauwkeurig genoeg.
 
 **Optie 2: toevoegen met een eigen tijdstip**
-Ga naar **Geschiedenis** → **Item toevoegen** en stel het exacte tijdstip in. Perfect voor "ik ben vergeten mijn ochtendkoffie te loggen en het is nu al 15:00".
+Tik in **Geschiedenis** op **+** (of open het tabblad **Log**), kies het drankje en stel bij **Wanneer heb je het gedronken?** het exacte tijdstip in. Perfect voor "ik ben vergeten mijn ochtendkoffie te loggen en het is nu al 15:00". Wil je het tijdstip van een al gelogd drankje aanpassen, tik het dan aan in **Geschiedenis**.
 
 **Optie 3: laat het gaan (af en toe)**
 Mis je af en toe een drankje, dan is dat geen ramp. Eén ontbrekend datapunt verpest je algemene patronen niet. Probeer vanaf nu gewoon consistent te zijn.
 
 **Voor de beste nauwkeurigheid:** log binnen 30 minuten na het drinken. De app gaat uit van directe opname, dus de timing is belangrijk voor de afbraakcurve.
+
+### Hoe bewerk ik een gelogd drankje of maak ik het ongedaan?
+
+**Bewerken:** Tik op het tabblad **Geschiedenis** op een item, of veeg het naar rechts en tik op **Bewerk**. In **Drankje bewerken** wijzig je het drankje, de hoeveelheid cafeïne en het tijdstip (niet later dan nu), of verwijder je het item met **Drankje verwijderen**. Tik op **Opslaan** om de wijziging toe te passen.
+
+Als het drankje in Apple Gezondheid is opgeslagen en je het tijdstip of de hoeveelheid cafeïne wijzigt, vervangt de app het oude Gezondheid-item door een nieuw. Verwijder je een item, dan verdwijnt het ook uit Apple Gezondheid. Items die uit andere apps zijn geïmporteerd, veranderen alleen in Mindful Coffee.
+
+**Ongedaan maken:** Direct nadat je in de app een drankje hebt gelogd, verschijnt onderaan een melding zoals "Espresso vastgelegd" met de knop **Herstel**, ongeveer 5 seconden lang (10 seconden met VoiceOver). Tik erop om het item te verwijderen, ook uit Apple Gezondheid.
 
 ---
 
@@ -1182,6 +1196,10 @@ Voor jou is deze app extra waardevol. Energiedrankjes bevatten vaak 2-3x zoveel 
 **Pas je lijst met drankjes aan:**
 
 Voeg je eigen dranken toe met nauwkeurige cafeïnewaarden. De app wordt geleverd met veelgebruikte standaarddranken, maar JOUW vaste drankjes kunnen daarvan afwijken.
+
+### Hoe herstel ik mijn aankoop?
+
+Open het tabblad **Ik** en tik in het eerste gedeelte, onder **Organisatie-abonnement koppelen**, op **Aankopen herstellen**. De app vraagt de App Store naar eerdere aankopen van je Apple-account en toont daarna **Aankopen hersteld**, **Niets om te herstellen** of **Herstellen mislukt**. Zorg dat je bent ingelogd met de Apple-account waarmee je de aankoop hebt gedaan.
 
 ### Hoe respecteert deze app mijn privacy?
 

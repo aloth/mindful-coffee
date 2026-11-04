@@ -20,7 +20,7 @@ Mindful Coffee är den enda iOS-appen som förenar en komplett **Bryggdagbok** m
 ## Höjdpunkter
 
 ### ☕ Bryggdagbok
-Espresso, V60, AeroPress, Chemex, French press, moka-kanna, cold brew samt te, matcha och Gong Fu. Registrera malningsgrad, dos, ratio, tid, temperatur och betyg i ett och samma eleganta flöde. Inbyggda recept, smarta förslag som hjälper dig att hitta rätt inställning snabbare och brygganalys som leder dig till din bästa kopp.
+Espresso, V60, AeroPress, Chemex, French press, moka-kanna, cold brew samt te, matcha och Gong Fu. Registrera malningsgrad, dos, ratio, tid, temperatur och betyg i ett och samma eleganta flöde. Inbyggda recept, smarta förslag som hjälper dig att hitta rätt inställning snabbare och brygganalys som leder dig till din bästa kopp. En ny bryggning utgår från din senaste bryggning med samma metod, dos, ratio och vatten (eller yield) räknas ut från varandra, och stoppuret fortsätter att gå medan du scrollar och sparar bloom- eller förinfusionstiden med ett tryck.
 
 ### 🧬 Kortisol- och koffeinmodell
 En personlig halveringstidsmodell förutsäger när koffeinet har lämnat kroppen och när du är redo att sova. Kortisolrytmvyn visar din naturliga energikurva, så att du kan tajma kaffet till de fönster där det verkligen gör nytta. Din vanliga vakningstid räknas fram automatiskt ur sömndata i Apple Hälsa (ett medianvärde över upp till 14 nätter, inte en enda morgon), så att tajmingråden passar din verkliga rytm utan att du behöver ställa in något.
@@ -28,8 +28,8 @@ En personlig halveringstidsmodell förutsäger när koffeinet har lämnat kroppe
 ### ❤️ Body Insights från Apple Hälsa
 Jämför ditt koffeinintag med hur kroppen faktiskt reagerar. Sömnkorrelation visar hur olika dagliga intagsnivåer påverkar hur länge du sover. Vilopulskorrelation (Pro) visar om mer kaffe flyttar upp din kardiovaskulära baslinje.
 
-### ⌚ Apple Watch och Siri
-Komplikationerna Koffein nu och Läggtidsprognos på alla moderna urtavlor. Tryck på en komplikation för att logga din standarddryck på en enda skärm. ”Hej Siri, log a coffee” fungerar utan att du öppnar appen. Kortisolfönster-aviseringar påminner dig vid rätt tillfällen.
+### ⌚ Apple Watch, Siri och Kontrollcenter
+Komplikationerna Koffein nu och Läggtidsprognos på alla moderna urtavlor. Tryck på en komplikation för att logga din standarddryck på en enda skärm. ”Hej Siri, log a coffee” fungerar utan att du öppnar appen. Kortisolfönster-aviseringar påminner dig vid rätt tillfällen. Från iOS 18 loggar reglaget Logga kaffe i Kontrollcenter din standarddryck med ett tryck.
 
 ### 🤖 AI-insikter, helt på enheten
 Apple Intelligence står bakom personliga koffeinkommentarer som anpassas efter din energinivå, tid på dygnet och dina sömnmönster. Den AI-forskning som ligger till grund är [JudgeGPT-projektet](https://github.com/aloth/JudgeGPT). Ingenting lämnar din enhet.
@@ -75,7 +75,7 @@ Se hur ditt koffeinintag hänger ihop med sömnlängd och vilopuls från Apple H
 <td width="50%">
 
 ### Snabb loggning med smarta prognoser
-Logga kaffe, te eller energidrycker direkt. Se i realtid hur varje dryck kommer att påverka din sömn.
+Logga kaffe, te eller energidrycker direkt. Se i realtid hur varje dryck kommer att påverka din sömn. Tryck på en post i Historik för att redigera den, eller ångra en loggning direkt efteråt.
 
 <img src="screenshots/coffee-tea-caffeine-logging-interface-smart-predictions.png" alt="Gränssnitt för snabb koffeinloggning med dryckesikoner, koffeinmängder och smarta prognoser för sömnpåverkan" width="400"/>
 

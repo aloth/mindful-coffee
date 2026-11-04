@@ -20,7 +20,7 @@ Mindful Coffee is de enige iOS-app die een volledig **Brouwjournaal** combineert
 ## Hoogtepunten
 
 ### ☕ Brouwjournaal
-Espresso, V60, AeroPress, Chemex, French press, moka, cold brew, plus thee, matcha en Gong Fu. Leg maalgrootte, dosis, verhouding, tijd, temperatuur en beoordeling vast in één elegante flow. Ingebouwde recepten, slimme suggesties om je instellingen sneller goed te krijgen en brouwanalyse om je beste kop te vinden.
+Espresso, V60, AeroPress, Chemex, French press, moka, cold brew, plus thee, matcha en Gong Fu. Leg maalgrootte, dosis, verhouding, tijd, temperatuur en beoordeling vast in één elegante flow. Ingebouwde recepten, slimme suggesties om je instellingen sneller goed te krijgen en brouwanalyse om je beste kop te vinden. Een nieuwe brouwsessie begint met de waarden van je laatste brouwsessie met dezelfde methode, dosis, verhouding en water (of yield) rekenen elkaar uit, en de stopwatch blijft lopen terwijl je scrolt en slaat de bloei- of pre-infusietijd met één tik op.
 
 ### 🧬 Cortisol- en cafeïnemodel
 Een persoonlijk halfwaardetijdmodel voorspelt wanneer de cafeïne uit je lichaam verdwenen is en wanneer je lichaam klaar is om te slapen. De cortisolritme-weergave toont je natuurlijke energiecurve, zodat je je koffie kunt plannen in de vensters waarin hij echt helpt. Je gebruikelijke opstaantijd wordt automatisch afgeleid uit de slaapgegevens in Apple Gezondheid (een mediaan over maximaal 14 nachten, niet één enkele ochtend), zodat het timingadvies past bij je echte ritme, zonder dat je iets hoeft in te stellen.
@@ -28,8 +28,8 @@ Een persoonlijk halfwaardetijdmodel voorspelt wanneer de cafeïne uit je lichaam
 ### ❤️ Body Insights uit Apple Gezondheid
 Leg je cafeïne-inname naast hoe je lichaam er echt op reageert. Slaapcorrelatie laat zien welk effect verschillende dagelijkse innameniveaus hebben op je slaapduur. De correlatie met je rusthartslag (Pro) laat zien of meer koffie je cardiovasculaire basislijn omhoog duwt.
 
-### ⌚ Apple Watch en Siri
-Complicaties voor Cafeïne nu en Bedtijdprognose op elke moderne wijzerplaat. Tik op een complicatie om je standaarddrankje op één scherm te loggen. "Hé Siri, log a coffee" werkt zonder de app te openen. Meldingen voor het cortisolvenster geven je op het juiste moment een seintje.
+### ⌚ Apple Watch, Siri en bedieningspaneel
+Complicaties voor Cafeïne nu en Bedtijdprognose op elke moderne wijzerplaat. Tik op een complicatie om je standaarddrankje op één scherm te loggen. "Hé Siri, log a coffee" werkt zonder de app te openen. Meldingen voor het cortisolvenster geven je op het juiste moment een seintje. Vanaf iOS 18 logt de regelaar Koffie loggen in het bedieningspaneel je standaarddrankje met één tik.
 
 ### 🤖 AI-inzichten, volledig op je apparaat
 Apple Intelligence levert persoonlijk commentaar op je cafeïnegebruik dat zich aanpast aan je energieniveau, het tijdstip van de dag en je slaappatroon. De onderzoeksbasis voor de AI is het [JudgeGPT-project](https://github.com/aloth/JudgeGPT). Niets verlaat je apparaat.
@@ -75,7 +75,7 @@ Zie hoe je cafeïne-inname samenhangt met je slaapduur en rusthartslag uit Apple
 <td width="50%">
 
 ### Snel loggen met slimme voorspellingen
-Log koffie, thee of energiedrankjes in een handomdraai. Zie in realtime hoe elk drankje je slaap zal beïnvloeden.
+Log koffie, thee of energiedrankjes in een handomdraai. Zie in realtime hoe elk drankje je slaap zal beïnvloeden. Tik op een item in Geschiedenis om het te bewerken, of maak een log direct daarna ongedaan.
 
 <img src="screenshots/coffee-tea-caffeine-logging-interface-smart-predictions.png" alt="Interface voor snel cafeïne loggen met drankiconen, cafeïnehoeveelheden en slimme voorspellingen van het effect op je slaap" width="400"/>
 
