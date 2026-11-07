@@ -5,7 +5,6 @@
 [![App Store](https://img.shields.io/badge/App_Store-Baixar-blue?logo=apple&logoColor=white)](https://apps.apple.com/br/app/mindful-coffee-tracks-caffeine/id6742878005)
 [![Swift](https://img.shields.io/badge/Swift-6.0-orange?logo=swift&logoColor=white)](https://swift.org)
 [![Plataforma](https://img.shields.io/badge/Plataforma-iOS_17+-lightgrey?logo=apple)](https://developer.apple.com/ios/)
-[![GitHub stars](https://img.shields.io/github/stars/aloth/mindful-coffee?style=social)](https://github.com/aloth/mindful-coffee/stargazers)
 
 <p align="center">
   <img src="assets/images/mindful-coffee-caffeine-tracker-sleep-optimization-hero.png" alt="Mindful Coffee - monitoramento inteligente de cafeína com previsão de sono e otimização do ritmo de cortisol" width="700">
